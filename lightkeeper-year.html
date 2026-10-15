@@ -27,6 +27,14 @@ ul{padding-left:20px;margin:8px 0}
 .faq-item b{display:block;color:#f1f5f9;font-size:14px;margin-bottom:4px}
 .faq-item p{font-size:13px}
 .note{text-align:center;font-size:12px;color:#64748b;margin-top:14px}
+.tiers{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-top:12px}
+.tier{background:#0b1226;border:1px solid #334155;border-radius:10px;padding:16px}
+.tier.featured{border-color:#e8b923}
+.tier h3{font-size:14px;color:#e8b923;margin-bottom:2px}
+.tier .price{font-size:22px;font-weight:800;color:#f1f5f9;margin-bottom:8px}
+.tier ul{margin:0;padding-left:16px}
+.tier li{font-size:12px;margin-bottom:5px}
+.btn-outline{background:transparent;border:2px solid #e8b923;color:#e8b923;display:block;width:100%;margin-top:20px;padding:14px;border-radius:10px;font-size:16px;font-weight:800;cursor:pointer}
 </style>
 </head>
 <body>
@@ -66,6 +74,45 @@ ul{padding-left:20px;margin:8px 0}
 <h2>The Night</h2>
 <p>Red-carpet arrivals. Dinner. Each finalist's story on the big screen. And one crowning moment as the Coast's brightest light takes home the title of <b style="color:#e8b923">Lightkeeper of the Year</b> &mdash; with an on-air feature, a commemorative award, and a place in GulfX TV history.</p>
 <p class="note" style="margin-top:12px">The inaugural Lightkeeper of the Year celebration takes place <b style="color:#e8b923">Friday, November 5th, 2027</b> &mdash; following a full year of weekly honorees. Email info@gulfxtv.com for updates.</p>
+</div>
+
+<div class="card">
+<h2>Become a Sponsor</h2>
+<p>Three tiers, all under $800. Put your business beside the Coast&rsquo;s most inspiring night of the year.</p>
+<div class="tiers">
+<div class="tier">
+<h3>HARBOR</h3><div class="price">$250</div>
+<ul>
+<li>Quarter-page program ad</li>
+<li>Social media spotlight</li>
+<li>Logo on event signage</li>
+<li>2 celebration tickets</li>
+</ul>
+</div>
+<div class="tier featured">
+<h3>BEACON</h3><div class="price">$500</div>
+<ul>
+<li>Everything in Harbor, plus:</li>
+<li>Half-page program ad</li>
+<li>Present a finalist spotlight</li>
+<li>Red-carpet backdrop logo</li>
+<li>30-sec spotlight video at event</li>
+<li>4 celebration tickets</li>
+</ul>
+</div>
+<div class="tier">
+<h3>LIGHTHOUSE</h3><div class="price">$750</div>
+<ul>
+<li>Everything in Beacon, plus:</li>
+<li>&ldquo;Presented by&rdquo; billing everywhere</li>
+<li>Back-cover program ad</li>
+<li>On-air interview (airs 4x)</li>
+<li>Year-long website logo</li>
+<li>Front-row table for 8</li>
+</ul>
+</div>
+</div>
+<button class="btn-outline" onclick="location.href='mailto:info@gulfxtv.com?subject='+encodeURIComponent('Lightkeeper of the Year Sponsorship Inquiry')">Become a Sponsor</button>
 </div>
 
 <div class="card">
