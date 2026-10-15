@@ -12,6 +12,10 @@ body{background:#0b1226;color:#f1f5f9;font-family:-apple-system,BlinkMacSystemFo
 .logo{display:block;width:150px;margin:0 auto 12px}
 h1{text-align:center;font-size:30px;color:#e8b923;margin-bottom:6px}
 .sub{text-align:center;color:#94a3b8;font-size:14px;margin-bottom:20px}
+.countdown{display:flex;justify-content:center;gap:14px;margin:16px 0 4px}
+.cd{text-align:center}
+.cd b{display:block;font-size:32px;color:#e8b923}
+.cd span{font-size:11px;color:#94a3b8;text-transform:uppercase;letter-spacing:1px}
 h2{font-size:17px;color:#e8b923;margin:0 0 10px}
 p,li{font-size:14px;line-height:1.65;color:#cbd5e1}
 ul{padding-left:20px;margin:8px 0}
@@ -32,6 +36,13 @@ ul{padding-left:20px;margin:8px 0}
 <img class="logo" src="https://gulfxtv.github.io/gulfx-ticker/lightkeeper-year-logo.png" alt="Lightkeeper of the Year">
 <h1>Lightkeeper of the Year</h1>
 <p class="sub">One night. Fifty-two honorees. One Lightkeeper of the Year.</p>
+<div class="countdown" id="countdown">
+<div class="cd"><b id="cd-d">--</b><span>days</span></div>
+<div class="cd"><b id="cd-h">--</b><span>hours</span></div>
+<div class="cd"><b id="cd-m">--</b><span>min</span></div>
+<div class="cd"><b id="cd-s">--</b><span>sec</span></div>
+</div>
+<p class="sub" id="cd-label" style="margin-bottom:0">until the crowning</p>
 <p>Every week, GulfX TV honors a Lightkeeper of the Week &mdash; a Coast neighbor whose kindness lights the way for others. Once a year, we bring all 52 weekly honorees together for one unforgettable evening of red carpet, dinner, and celebration &mdash; and crown one of them <b style="color:#e8b923">Lightkeeper of the Year</b>.</p>
 <p style="margin-top:10px">It's the finale the weekly segment builds toward all year: every story told, every life touched, every light kept burning &mdash; honored together in one room.</p>
 <div class="timeline">
@@ -78,5 +89,25 @@ ul{padding-left:20px;margin:8px 0}
 </div>
 
 </div>
+<script>
+// countdown to Lightkeeper of the Year (Nov 5, 2027)
+(function(){
+  var target = new Date('2027-11-05T19:00:00-06:00').getTime();
+  function tick(){
+    var now = Date.now(), diff = target - now;
+    if (diff <= 0) {
+      document.getElementById('cd-label').textContent = 'the night is here!';
+      return;
+    }
+    var d = Math.floor(diff/864e5), h = Math.floor(diff%864e5/36e5),
+        m = Math.floor(diff%36e5/6e4), s = Math.floor(diff%6e4/1e3);
+    document.getElementById('cd-d').textContent = d;
+    document.getElementById('cd-h').textContent = h;
+    document.getElementById('cd-m').textContent = m;
+    document.getElementById('cd-s').textContent = s;
+  }
+  tick(); setInterval(tick, 1000);
+})();
+</script>
 </body>
 </html>
