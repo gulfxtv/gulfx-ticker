@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Beacon Awards Nominations — GulfX TV</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#0b1226;color:#f1f5f9;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;padding:20px}
+.wrap{max-width:720px;margin:0 auto}
+.card{background:#111c36;border:1px solid rgba(232,185,35,.25);border-radius:14px;padding:28px;margin-bottom:18px}
+.logo{display:block;width:150px;margin:0 auto 12px}
+h1{text-align:center;font-size:30px;color:#e8b923;margin-bottom:6px}
+.sub{text-align:center;color:#94a3b8;font-size:14px;margin-bottom:20px}
+h2{font-size:17px;color:#e8b923;margin:0 0 10px}
+p,li{font-size:14px;line-height:1.65;color:#cbd5e1}
+ul{padding-left:20px;margin:8px 0}
+.cat{font-weight:700;color:#f1f5f9}
+label{display:block;font-size:13px;font-weight:700;color:#e8b923;margin:14px 0 5px}
+input,select,textarea{width:100%;padding:11px;border-radius:8px;border:1px solid #334155;background:#0b1226;color:#f1f5f9;font-size:14px;font-family:inherit}
+textarea{min-height:110px;resize:vertical}
+button{display:block;width:100%;margin-top:20px;padding:14px;border:0;border-radius:10px;background:#e8b923;color:#0b1226;font-size:16px;font-weight:800;cursor:pointer}
+button:hover{background:#f5c945}
+.note{text-align:center;font-size:12px;color:#64748b;margin-top:14px}
+.timeline{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+.step{flex:1;min-width:150px;background:#0b1226;border:1px solid #334155;border-radius:10px;padding:12px;text-align:center}
+.step b{display:block;color:#e8b923;font-size:13px;margin-bottom:4px}
+.step span{font-size:12px;color:#94a3b8}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="card">
+<img class="logo" src="https://gulfxtv.github.io/gulfx-ticker/beacon-logo.png" alt="Beacon Awards">
+<h1>Nominate a Beacon</h1>
+<p class="sub">The Beacon Awards honor the Mississippi Gulf Coast businesses that guide our community forward. Nominations for the inaugural awards are open January &ndash; February.</p>
+<div class="timeline">
+<div class="step"><b>Jan &ndash; Feb</b><span>Nominations open</span></div>
+<div class="step"><b>March</b><span>Finalists + public voting</span></div>
+<div class="step"><b>Late April</b><span>Awards night</span></div>
+</div>
+</div>
+
+<div class="card">
+<h2>Categories</h2>
+<ul>
+<li><span class="cat">Beacon Business of the Year</span> &mdash; excellence, integrity, community spirit</li>
+<li><span class="cat">Brightest Newcomer</span> &mdash; outstanding business under 3 years old</li>
+<li><span class="cat">Guiding Light</span> &mdash; exceptional customer service</li>
+<li><span class="cat">Harbor Spirit</span> &mdash; outstanding community giveback</li>
+<li><span class="cat">People&rsquo;s Choice</span> &mdash; most community votes</li>
+<li><span class="cat">Legacy Beacon</span> &mdash; a Coast institution, 25+ years</li>
+<li><span class="cat">Rising Tide</span> &mdash; fastest-growing Coast business</li>
+<li><span class="cat">Hometown Flavor</span> &mdash; food &amp; drink that tastes like the Coast</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Nomination Form</h2>
+<form id="nom">
+<label>Your name</label>
+<input id="fname" required placeholder="Jane Smith">
+<label>Your email</label>
+<input id="femail" type="email" required placeholder="you@email.com">
+<label>Business name</label>
+<input id="fbiz" required placeholder="Coast Coffee Co.">
+<label>Business town</label>
+<input id="ftown" placeholder="Biloxi">
+<label>Category</label>
+<select id="fcat">
+<option>Beacon Business of the Year</option>
+<option>Brightest Newcomer</option>
+<option>Guiding Light</option>
+<option>Harbor Spirit</option>
+<option>People's Choice</option>
+<option>Legacy Beacon</option>
+<option>Rising Tide</option>
+<option>Hometown Flavor</option>
+</select>
+<label>Why do they deserve it?</label>
+<textarea id="fwhy" required placeholder="Tell us what makes this business a beacon for the Coast..."></textarea>
+<button type="submit">Submit Nomination</button>
+</form>
+<p class="note">Submitting opens your email app with the nomination addressed to info@gulfxtv.com</p>
+</div>
+
+</div>
+<script>
+document.getElementById('nom').addEventListener('submit', function(e){
+  e.preventDefault();
+  var v = function(id){ return document.getElementById(id).value.trim(); };
+  var subject = 'Beacon Awards Nomination: ' + v('fbiz') + ' (' + v('fcat') + ')';
+  var body = 'Nominator: ' + v('fname') + ' <' + v('femail') + '>\n'
+    + 'Business: ' + v('fbiz') + '\n'
+    + 'Town: ' + v('ftown') + '\n'
+    + 'Category: ' + v('fcat') + '\n\n'
+    + 'Why they deserve it:\n' + v('fwhy');
+  location.href = 'mailto:info@gulfxtv.com?subject=' + encodeURIComponent(subject)
+    + '&body=' + encodeURIComponent(body);
+});
+</script>
+</body>
+</html>
