@@ -46,6 +46,7 @@ var NWS_POINT='https://api.weather.gov/alerts/active?point=30.3674,-89.0928';
 var WX_REFRESH_MIN=15;
 /*__WX_FALLBACK_START__*/
 var WX_FALLBACK=[
+ ['WX','Red Flag Warning in effect -- Pointe Coupee']
 ];
 /*__WX_FALLBACK_END__*/
 /*__LOCAL_ITEMS_START__*/
@@ -74,7 +75,7 @@ var TRAFFIC_ITEMS=[
  ['Minimal','US 90 between Beauvoir Rd and Oakmont Pl (Harrison Co.) -- On right shoulder Westbound, Turn Lane Construction']
 ];
 /*__TRAFFIC_ITEMS_END__*/
-var WX_EVENTS=['Tornado Warning','Extreme Wind Warning','Storm Surge Warning','Hurricane Warning','Tropical Storm Warning','Severe Thunderstorm Warning','Flash Flood Warning','Storm Surge Watch','Hurricane Watch','Tropical Storm Watch','Flood Warning','Tornado Watch','Severe Thunderstorm Watch','Coastal Flood Warning','Flash Flood Watch','High Wind Warning','Wind Advisory','Coastal Flood Advisory','Small Craft Advisory'];
+var WX_EVENTS=['Tornado Warning','Extreme Wind Warning','Storm Surge Warning','Hurricane Warning','Tropical Storm Warning','Severe Thunderstorm Warning','Flash Flood Warning','Storm Surge Watch','Hurricane Watch','Tropical Storm Watch','Flood Warning','Tornado Watch','Severe Thunderstorm Watch','Coastal Flood Warning','Flash Flood Watch','High Wind Warning','Wind Advisory','Coastal Flood Advisory','Small Craft Advisory','Red Flag Warning'];
 var COLORS={'Closed':'#dc2626','High':'#ea580c','Moderate':'#b8911a','Minimal':'#64748b','WX':'#2563eb','LOCAL':'#b8911a','ROAD':'#8b5cf6'};
 function esc(s){return String(s).replace(/[&<>"]/g,function(m){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m];});}
 function buildTrack(wxItems){
