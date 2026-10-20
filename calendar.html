@@ -118,11 +118,10 @@ var SHARED_EVENTS=[
 {title:'Peter Anderson Arts & Crafts Festival', date:'2026-11-07', time:'', location:'Downtown Ocean Springs', category:'Arts', desc:'48th annual, Nov 7\u20138. Mississippi\u2019s largest fine arts festival: 400+ artists, craft and food booths.', submitter:'GulfX TV'},
 {title:'Bud & Burgers in the Bay', date:'2026-11-08', time:'', location:'Historic Hancock County Courthouse, Bay St. Louis', category:'Food & Drink', desc:'Burger cook-off paired with Port Air Space Day. Proceeds benefit community causes.', submitter:'GulfX TV'},
 ];
-/* ---- Google Sheet auto-feed (needs Luke's Google storage fixed first) ----
-   Once the sheet exists, set this to its published CSV URL and events
-   with Approved=TRUE appear for everyone automatically:
-   var SHEET_CSV_URL='https://docs.google.com/spreadsheets/d/SHEET_ID/gviz/tq?tqx=out:csv&sheet=Events'; */
-var SHEET_CSV_URL='';
+/* ---- Google Sheet auto-feed ----
+   Live: "GulfX TV — Community Calendar Events" sheet, Events tab.
+   Rows with Approved=TRUE appear for everyone automatically. */
+var SHEET_CSV_URL='https://docs.google.com/spreadsheets/d/13GLmApxZn7oJ0tlPtMnDDr-AWH__uLCEFDb2hjR2VyM/gviz/tq?tqx=out:csv&sheet=Events';
 var sheetEvents=[],sheetLoading=false;
 function parseCSV(text){
   var rows=[],row=[],cur='',q=false;
