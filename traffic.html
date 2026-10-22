@@ -1,77 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GulfX TV &mdash; Coast Traffic</title>
-</head>
-<body style="margin:0;padding:20px;background:#0b1226;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif">
-<div style="max-width:720px;margin:0 auto">
-<style>
-.gx-traffic{box-sizing:border-box;max-width:100%;background:var(--hatch-widget-surface);border:1px solid var(--hatch-widget-border);border-radius:14px;padding:14px 16px;color:var(--hatch-widget-text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
-.gx-traffic *{box-sizing:border-box}
-.gx-traf-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
-.gx-traf-brand{font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--hatch-widget-accent)}
-.gx-traf-title{font-size:18px;font-weight:700}
-.gx-traf-src{font-size:11px;color:var(--hatch-widget-muted);text-align:right;line-height:1.5}
-.gx-traf-src a{color:var(--hatch-widget-accent);text-decoration:none}
-.gx-traf-mapwrap{border:1px solid var(--hatch-widget-border);border-radius:10px;overflow:hidden;margin-bottom:10px;background:var(--hatch-widget-surface-muted)}
-.gx-traf-mapwrap iframe{width:100%;height:420px;border:0;display:block}
-.gx-traf-mapbar{display:flex;justify-content:space-between;align-items:center;padding:8px 12px;border-top:1px solid var(--hatch-widget-border);font-size:12px;color:var(--hatch-widget-muted)}
-.gx-traf-mapbar a{color:var(--hatch-widget-accent);text-decoration:none;font-weight:600}
-.gx-traf-updated{font-size:11px;color:var(--hatch-widget-muted);margin:10px 0 6px}
-.gx-traf-updated a{color:var(--hatch-widget-accent);text-decoration:none}
-.gx-traf-alert{border:1px solid var(--hatch-widget-border);border-radius:10px;padding:10px 12px;margin-bottom:8px;background:var(--hatch-widget-surface)}
-.gx-traf-top{display:flex;align-items:center;gap:8px;margin-bottom:4px;flex-wrap:wrap}
-.gx-traf-impact{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:#fff;border-radius:6px;padding:2px 8px}
-.gx-traf-loc{font-size:14px;font-weight:700}
-.gx-traf-meta{font-size:12px;color:var(--hatch-widget-muted);line-height:1.5}
-.gx-traf-county{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--hatch-widget-muted);border:1px solid var(--hatch-widget-border);border-radius:6px;padding:2px 8px}
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head><body style="margin:0;padding:16px;background:#0b1226">
+<div style="max-width:1000px;margin:0 auto"><style>
+.gx-t{box-sizing:border-box;max-width:100%;background:#0b1226;color:#f1f5f9;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+.gx-t *{box-sizing:border-box}
+.gx-t-head{display:flex;align-items:center;gap:10px;padding:12px 16px;background:linear-gradient(90deg,#0b1226,#12203f);border-bottom:3px solid #e8b923}
+.gx-t-head h2{margin:0;font-size:16px;letter-spacing:.08em;text-transform:uppercase}
+.gx-t-live{font-size:10px;font-weight:800;color:#0b1226;background:#22c55e;border-radius:5px;padding:3px 8px;letter-spacing:.1em}
+.gx-t-clock{margin-left:auto;font-size:11px;color:#94a3b8}
+.gx-t-cams{display:flex;gap:12px;padding:16px;flex-wrap:wrap}
+.gx-t-cam{flex:1 1 44%;background:#111c36;border:1px solid rgba(232,185,35,.2);border-radius:10px;overflow:hidden}
+.gx-t-cam img{width:100%;display:block;aspect-ratio:4/3;object-fit:cover;background:#000}
+.gx-t-cam .cap{padding:8px 12px;font-size:12px;font-weight:700}
+.gx-t-cam .cap span{display:block;font-size:10px;font-weight:400;color:#94a3b8}
+.gx-t-sec{padding:0 16px 6px;font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#e8b923}
+.gx-t-alerts{padding:0 16px 16px;display:flex;flex-direction:column;gap:8px}
+.gx-t-alert{background:#111c36;border-left:4px solid #ef4444;border-radius:6px;padding:10px 12px;font-size:12px}
+.gx-t-alert .a-t{font-weight:800}
+.gx-t-alert .a-d{color:#94a3b8;font-size:11px;margin-top:2px}
+.gx-t-foot{padding:10px 16px;font-size:10px;color:#64748b;border-top:1px solid rgba(255,255,255,.07);text-align:center}
 </style>
-<div class="gx-traffic">
-  <div class="gx-traf-head">
-    <div><div class="gx-traf-brand">GulfX TV</div><div class="gx-traf-title">Coast Traffic</div></div>
-    <div class="gx-traf-src">Live data: Mississippi<br>Dept. of Transportation</div>
-  </div>
-  <div class="gx-traf-mapwrap">
-    <iframe src="https://www.mdottraffic.com/" title="MDOT live traffic map" loading="lazy"></iframe>
-    <div class="gx-traf-mapbar"><span>Live MDOT traffic map</span><a href="https://www.mdottraffic.com/" target="_blank" rel="noopener">Open full map &rarr;</a></div>
-  </div>
-  <div class="gx-traf-updated" id="gx-traf-updated"></div>
-  <div id="gx-traf-list"></div>
-</div>
+<div class="gx-t">
+<div class="gx-t-head"><h2>Coast Traffic</h2><span class="gx-t-live">LIVE</span><span class="gx-t-clock" id="t-clock"></span></div>
+<div class="gx-t-cams" id="t-cams"></div>
+<div class="gx-t-sec">Active Alerts</div>
+<div class="gx-t-alerts" id="t-alerts"></div>
+<div class="gx-t-foot">Camera images &amp; alert data: Mississippi Dept. of Transportation &middot; Updates every few minutes</div>
+</div></div>
 <script>
-(function(){
-/* Coast-county alerts scraped from MDOT on 2026-10-09.
-   To refresh: re-scrape https://www.mdottraffic.com/listView_alerts.aspx
-   and replace this array (Hancock, Harrison, Jackson, Pearl River, Stone, George). */
-var UPDATED='October 22, 2026'; /*__WIDGET_UPDATED__*/
-/*__WIDGET_ALERTS_START__*/
-var ALERTS=[
- {loc:'US 90 between MS 604 and Camp Rd',county:'Hancock',impact:'Closed',dir:'Westbound',lanes:'Road closed',why:'Bridge Repair / Inspection -- The US 90 drawbridge over the Pearl River will be closed for emergency repairs. Detour signage will be in plac',dates:'May 24, 10 AM - Dec 29, 4 PM'},
- {loc:'MS 57 between I-10 and Humphrey Rd',county:'Jackson',impact:'High',dir:'Northbound',lanes:'Expect delays',why:'Traffic Switch -- Northbound traffic will be placed on the newly constructed southbound side in a head-to-head configuration for',dates:'Jan 21, 7 AM - Mar 5, 5 PM'},
- {loc:'I-10 between Long Beach / County Farm Rd EX 28 and MS 43 / MS 603 / Bay St Louis EX 13',county:'Harrison',impact:'Moderate',dir:'Both Directions',lanes:'Expect delays',why:'Resurfacing or Paving -- Alternating lane closures. Motorists should use caution when approaching the area. Westbound commercial traffi',dates:'Mar 14, 2 PM - Mar 1, 3 PM'},
- {loc:'MS 26 between LA State Line and Grady Lewis Rd',county:'Pearl River',impact:'Moderate',dir:'Both Directions',lanes:'Expect delays',why:'Resurfacing or Paving -- Alternating lane closures. Flaggers will be present.',dates:'Aug 20, 7 AM - Oct 23, 4 PM'},
- {loc:'MS 53 at US 49',county:'Harrison',impact:'Moderate',dir:'Eastbound',lanes:'Expect delays',why:'Turn Lane Construction -- Crews will be staged in the median.',dates:'Aug 7, 7 AM - Oct 30, 5 PM'},
- {loc:'MS 67 between Sangani Blvd and US 49 N',county:'Harrison',impact:'Moderate',dir:'Both Directions',lanes:'Expect delays',why:'Safety Improvements -- Alternating lane closures. Motorists should be on high alert for roadside workers.',dates:'Jan 27, 4 PM - Dec 11, 5 PM'},
- {loc:'US 11 between Goodyear Blvd and MS 43',county:'Pearl River',impact:'Moderate',dir:'Northbound',lanes:'Expect delays',why:'Bridge Replacement -- 5th St. is currently closed to through traffic.',dates:'Oct 3, 4 PM - Nov 9, 3 PM'},
- {loc:'US 49 at South Swan Rd',county:'Harrison',impact:'Moderate',dir:'Northbound',lanes:'Expect delays',why:'Resurfacing or Paving -- There will be no eastbound access to South Swan Road, as crews complete work at the intersection. Detour signa',dates:'Aug 10, 7 AM - Oct 30, 4 PM'},
- {loc:'US 49 between Oneal Rd and School Rd',county:'Harrison',impact:'Moderate',dir:'Both Directions',lanes:'Expect delays',why:'Highway Widening -- Alternating  lane closures.',dates:'Aug 6, 11 AM - Jun 4, 4 PM'},
- {loc:'US 90 at MS 603 N / Nicholson Ave S',county:'Hancock',impact:'Moderate',dir:'Westbound',lanes:'Right lane closed',why:'Turn Lane Construction',dates:'Sep 8, 6 AM - Oct 30, 3 PM'}
-];
-/*__WIDGET_ALERTS_END__*/
-var COLORS={'Closed':'#dc2626','High':'#ea580c','Moderate':'#b8911a','Minimal':'#64748b','ROAD':'#8b5cf6'};
-function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(m){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m];});}
-document.getElementById('gx-traf-updated').innerHTML='Coast alerts updated '+esc(UPDATED)+' &middot; <a href="https://www.mdottraffic.com/listView_alerts.aspx" target="_blank" rel="noopener">View all statewide on MDOT</a>';
-document.getElementById('gx-traf-list').innerHTML=ALERTS.map(function(a){
-  return '<div class="gx-traf-alert"><div class="gx-traf-top">'+
-    '<span class="gx-traf-impact" style="background:'+(COLORS[a.impact]||'#64748b')+'">'+esc(a.impact)+'</span>'+
-    '<span class="gx-traf-loc">'+esc(a.loc)+'</span>'+
-    '<span class="gx-traf-county">'+esc(a.county)+' Co.</span></div>'+
-    '<div class="gx-traf-meta">'+esc(a.dir)+' &middot; '+esc(a.lanes)+'<br>'+esc(a.why)+'<br>'+esc(a.dates)+'</div></div>';
-}).join('');
-})();
-</script>
-</div>
-</body>
-</html>
+var T_DATA={"updated": "2026-10-22T02:48:54.820110+00:00", "alerts": [{"title": "US 90 between MS 604 and Camp Rd", "lat": 30.23908, "lon": -89.61474, "type": "closed-roads", "impact": "Closed", "lanes": "Road closed \u00a0 Westbound", "end": "12/29/28 04:00 PM", "detail": "The US 90 drawbridge over the Pearl River will be closed for emergency repairs. Detour signage will be in place to direct motorists. Motorists should use an alternate route."}, {"title": "I-10 between Long Beach / County Farm Rd EX 28 and MS 43 / MS 603 / Bay St Louis EX 13", "lat": 30.41708, "lon": -89.18858, "type": "construction", "impact": "Moderate", "lanes": "Expect delays \u00a0 Both Directions", "end": "03/01/27 03:36 PM", "detail": "Alternating lane closures. Motorists should use caution when approaching the area. Westbound commercial traffic is encouraged to use the left lane from Exit 20 to Exit 16. ."}, {"title": "US 49 between Oneal Rd and School Rd", "lat": 30.47042, "lon": -89.1027, "type": "construction", "impact": "Moderate", "lanes": "Expect delays \u00a0 Both Directions", "end": "06/04/27 04:30 PM", "detail": "Alternating  lane closures."}, {"title": "US 11 between Goodyear Blvd and MS 43", "lat": 30.53494, "lon": -89.67482, "type": "construction", "impact": "Moderate", "lanes": "Expect delays \u00a0 Northbound", "end": "11/09/26 03:00 PM", "detail": "5th St. is currently closed to through traffic."}, {"title": "MS 57 between I-10 and Humphrey Rd", "lat": 30.44384, "lon": -88.71757, "type": "construction", "impact": "High", "lanes": "Expect delays \u00a0 Northbound", "end": "03/05/27 05:00 PM", "detail": "Northbound traffic will be placed on the newly constructed southbound side in a head-to-head configuration for approximately 4 miles on MS 57 from I-10 to just north of Humphrey Rd. while crews work on the northbound lanes. Use extra caution when driving in head-to-head traffic. No wide loads permitted."}, {"title": "MS 67 between Sangani Blvd and US 49 N", "lat": 30.45863, "lon": -88.89945, "type": "construction", "impact": "Moderate", "lanes": "Expect delays \u00a0 Both Directions", "end": "12/11/26 05:32 PM", "detail": "Alternating lane closures. Motorists should be on high alert for roadside workers."}, {"title": "US 49 at South Swan Rd", "lat": 30.49319, "lon": -89.10523, "type": "construction", "impact": "Moderate", "lanes": "Expect delays \u00a0 Northbound", "end": "10/30/26 04:30 PM", "detail": "There will be no eastbound access to South Swan Road, as crews complete work at the intersection. Detour signage will be in place."}, {"title": "MS 53 at US 49", "lat": 30.50007, "lon": -89.10742, "type": "construction", "impact": "Moderate", "lanes": "Expect delays \u00a0 Eastbound", "end": "10/30/26 05:30 PM", "detail": "Crews will be staged in the median."}, {"title": "US 90 at MS 603 N / Nicholson Ave S", "lat": 30.30561, "lon": -89.38019, "type": "construction", "impact": "Moderate", "lanes": "Right lane closed \u00a0 Westbound", "end": "10/30/26 03:00 PM", "detail": "Road Work - Turn Lane Construction"}], "featured": [{"label": "US 90 at Main St \u2014 Bay St. Louis", "host": "streaminglym3.mdottraffic.com", "stream": "052618.stream"}, {"label": "US 49 at US 90 \u2014 Gulfport", "host": "streaminglym3.mdottraffic.com", "stream": "D6-0042.stream"}, {"label": "I-110 at US 90 \u2014 Biloxi", "host": "streaminglym2.mdottraffic.com", "stream": "050303.stream"}, {"label": "I-10 at MS 57 \u2014 Ocean Springs", "host": "streaminglym2.mdottraffic.com", "stream": "050901.stream"}]};
+var FEATURED=[{"label": "US 90 at Main St \u2014 Bay St. Louis", "host": "streaminglym3.mdottraffic.com", "stream": "052618.stream"}, {"label": "US 49 at US 90 \u2014 Gulfport", "host": "streaminglym3.mdottraffic.com", "stream": "D6-0042.stream"}, {"label": "I-110 at US 90 \u2014 Biloxi", "host": "streaminglym2.mdottraffic.com", "stream": "050303.stream"}, {"label": "I-10 at MS 57 \u2014 Ocean Springs", "host": "streaminglym2.mdottraffic.com", "stream": "050901.stream"}];
+function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function snapUrl(f){return 'https://'+f.host+'/thumbnail?application=rtplive&streamname='+f.stream+'&size=640x480&format=jpg&fitmode=stretch';}
+function renderCams(){
+  var h='';
+  for(var i=0;i<FEATURED.length;i++){var f=FEATURED[i];
+    h+='<div class="gx-t-cam"><img id="tcam'+i+'" src="'+snapUrl(f)+'&t='+Date.now()+'" alt="'+esc(f.label)+'">'+
+       '<div class="cap">'+esc(f.label)+'<span>MDOT live snapshot &middot; refreshes every minute</span></div></div>';}
+  document.getElementById('t-cams').innerHTML=h;
+}
+function refreshCams(){
+  for(var i=0;i<FEATURED.length;i++){var img=document.getElementById('tcam'+i);
+    if(img)img.src=snapUrl(FEATURED[i])+'&t='+Date.now();}
+}
+function renderAlerts(data){
+  var h='';
+  (data.alerts||[]).forEach(function(a){
+    var chip=a.type?'<span style="display:inline-block;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:#0b1226;background:'+(a.type==='closed-roads'?'#ef4444':'#f59e0b')+';border-radius:5px;padding:2px 7px;margin-left:8px">'+esc(a.type.replace(/-/g,' '))+'</span>':'';
+    var meta=[a.impact&&('Impact: '+a.impact),a.lanes&&('Lanes: '+a.lanes),a.end&&('Thru: '+a.end)].filter(Boolean).join(' · ');
+    h+='<div class="gx-t-alert" style="border-left-color:'+(a.type==='closed-roads'?'#ef4444':'#f59e0b')+'"><div class="a-t">'+esc(a.title)+chip+'</div>'+
+       (meta?'<div class="a-d">'+esc(meta)+'</div>':'')+(a.detail?'<div class="a-d">'+esc(a.detail)+'</div>':'')+'</div>';});
+  document.getElementById('t-alerts').innerHTML=h||'<div style="color:#94a3b8;font-size:13px">No active MDOT alerts on the Coast right now.</div>';
+}
+function renderAll(data){renderCams();renderAlerts(data);}
+function tickClock(){var d=new Date();document.getElementById('t-clock').textContent=d.toLocaleString('en-US',{weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});}
+renderAll(T_DATA); tickClock();
+setInterval(refreshCams,60000); setInterval(tickClock,30000);
+setInterval(function(){fetch('traffic-data.json').then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(j){T_DATA=j;renderAlerts(j);}).catch(function(){});},900000);
+</script></body>
