@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GulfX TV Election Night Dashboard — Mississippi 2026</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <style>
   :root{--navy:#0a1e3c;--gold:#c9a227;--ink:#1a1a1a;--muted:#5a6472;--line:#e2e6ec;--d:#2563eb;--r:#dc2626;--l:#b45309;--i:#7c3aed}
   *{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f2f4f7;color:var(--ink)}
@@ -22,6 +23,9 @@
   .tag{display:inline-block;font-size:12px;font-weight:bold;padding:2px 8px;border-radius:20px;background:#fff7d6;color:#7a5b00;border:1px solid var(--gold)}
   .tag.called{background:#e6f4ea;color:#137333;border-color:#a3d9a5}
   .foot{color:var(--muted);font-size:13px;text-align:center;padding:8px 0 24px;line-height:1.6}
+  #map{height:440px;border-radius:8px;border:1px solid var(--line);background:#f8f9fb;z-index:0}
+  .legend{font-size:13px;color:var(--muted);margin-top:8px}
+  .legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin:0 4px 0 12px;vertical-align:middle}
   .foot a{color:var(--navy)} .links{text-align:center;margin-bottom:8px}
   .links a{display:inline-block;margin:4px 6px;padding:8px 14px;background:var(--navy);color:#fff;text-decoration:none;border-radius:20px;font-size:14px}
   .nat{display:flex;gap:12px;flex-wrap:wrap} .nat div{flex:1;min-width:200px;background:#f8f9fb;border:1px solid var(--line);border-radius:8px;padding:12px}
@@ -35,6 +39,13 @@
 </header>
 <div class="wrap">
   <div class="status"><b id="statusLine">Loading latest results&hellip;</b><br><span id="updatedLine"></span></div>
+
+  <div class="race">
+    <h2>Mississippi Map — U.S. House Districts</h2>
+    <div class="meta">Boundaries: U.S. Census Bureau, 119th Congress districts. Each district colors by its current leader once votes are reported; grey means no votes yet. Tap a district for details. The U.S. Senate race is statewide, so it appears in the cards below, not on this map.</div>
+    <div id="map"></div>
+    <div class="legend"><i style="background:#2563eb"></i>Democrat leading<i style="background:#dc2626"></i>Republican leading<i style="background:#b45309"></i>Libertarian leading<i style="background:#7c3aed"></i>Independent leading<i style="background:#d7dce3"></i>No votes yet</div>
+  </div>
 
   <div class="race">
     <h2>Washington — Balance of Power</h2>
@@ -58,11 +69,49 @@
     Mississippi polls closed at 7:00 PM CST, November 3, 2026. GulfX TV &bull; info@gulfxtv.com
   </div>
 </div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 var PARTY_CLASS = {Dem:'d', GOP:'r', Republican:'r', Lib:'l', Ind:'i', Independent:'i'};
+var PARTY_COLOR = {Dem:'#2563eb', GOP:'#dc2626', Republican:'#dc2626', Lib:'#b45309', Ind:'#7c3aed', Independent:'#7c3aed'};
+var map = null, districtLayer = null, latestData = null;
+function leaderOf(race){
+  var total = race.candidates.reduce(function(s,c){ return s + (c.votes||0); }, 0);
+  if (!total) return null;
+  return race.candidates.slice().sort(function(a,b){ return (b.votes||0) - (a.votes||0); })[0];
+}
+function paintMap(){
+  if (!map || !latestData) return;
+  if (districtLayer) map.removeLayer(districtLayer);
+  districtLayer = L.geoJSON(window.MS_DISTRICTS, {style: function(f){
+    var n = parseInt(f.properties.district, 10);
+    var race = latestData.races.filter(function(r){ return r.title.indexOf('District ' + n) !== -1; })[0];
+    var lead = race ? leaderOf(race) : null;
+    return {color:'#ffffff', weight:2, fillColor: lead ? (PARTY_COLOR[lead.party] || '#7c3aed') : '#d7dce3', fillOpacity: lead ? 0.85 : 0.9};
+  }, onEachFeature: function(f, layer){
+    var n = parseInt(f.properties.district, 10);
+    var race = latestData.races.filter(function(r){ return r.title.indexOf('District ' + n) !== -1; })[0];
+    if (!race) return;
+    var total = race.candidates.reduce(function(s,c){ return s + (c.votes||0); }, 0);
+    var lead = leaderOf(race);
+    var html = '<b>' + race.title + '</b><br>' + (race.call || '') + '<br>Precincts: ' + race.precincts_reporting + ' of ' + race.precincts_total;
+    if (lead) html += '<br>Leading: ' + lead.name + ' (' + lead.party + ') — ' + lead.votes.toLocaleString('en-US') + ' votes (' + (100 * lead.votes / total).toFixed(1) + '%)';
+    else html += '<br>No votes reported yet.';
+    layer.bindPopup(html);
+    layer.bindTooltip('District ' + n, {sticky: true});
+  }}).addTo(map);
+  try { map.fitBounds(districtLayer.getBounds(), {padding: [10, 10]}); } catch(e) {}
+}
+function initMap(){
+  if (typeof L === 'undefined') return;
+  map = L.map('map', {scrollWheelZoom: false, attributionControl: false}).setView([32.7, -89.7], 7);
+  fetch('ms-congress-districts.geojson?ts=' + Date.now()).then(function(r){ return r.json(); }).then(function(g){
+    window.MS_DISTRICTS = g; paintMap();
+  }).catch(function(){});
+}
 var PARTY_LABEL = {Dem:'D', GOP:'R', Republican:'R', Lib:'L', Ind:'I', Independent:'I'};
 function fmt(n){ return n.toLocaleString('en-US'); }
 function render(data){
+  latestData = data; paintMap();
   document.getElementById('statusLine').textContent = data.status || '';
   document.getElementById('updatedLine').textContent = 'Last updated: ' + (data.updated_cst || '—') + '  •  Source: Associated Press  •  Page auto-refreshes every 60 seconds';
   if (data.national && data.national.house_called) {
@@ -95,7 +144,7 @@ function load(){
     document.getElementById('statusLine').textContent = 'Could not load the latest results — showing the last good data. Retrying…';
   });
 }
-load(); setInterval(load, 60000);
+load(); setInterval(load, 60000); initMap();
 </script>
 </body>
 </html>
