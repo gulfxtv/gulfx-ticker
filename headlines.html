@@ -37,7 +37,7 @@
 var FEEDS=["https://news.google.com/rss/search?q=Gulfport%20Mississippi&hl=en-US&gl=US&ceid=US:en", "https://news.google.com/rss/search?q=Biloxi%20Mississippi&hl=en-US&gl=US&ceid=US:en", "https://news.google.com/rss/search?q=%22Mississippi%20Gulf%20Coast%22&hl=en-US&gl=US&ceid=US:en", "https://news.google.com/rss/search?q=Pascagoula%20Mississippi&hl=en-US&gl=US&ceid=US:en", "https://news.google.com/rss/search?q=%22Ocean%20Springs%22%20Mississippi&hl=en-US&gl=US&ceid=US:en", "https://news.google.com/rss/search?q=%22Bay%20St.%20Louis%22%20Mississippi&hl=en-US&gl=US&ceid=US:en"];
 var REFRESH_MIN=30, MAX_ITEMS=12;
 var FALLBACK=[];
-var BUILT_AT="2026-11-03 12:59 UTC";
+var BUILT_AT="2026-11-03 14:59 UTC";
 function esc(s){return String(s).replace(/[&<>"]/g,function(m){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m];});}
 function timeAgo(ts){
   var s=Math.max(1,Math.floor(Date.now()/1000-ts));
