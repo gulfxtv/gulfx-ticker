@@ -117,10 +117,16 @@ function paintMap(){
   }}).addTo(map);
   try { map.fitBounds(districtLayer.getBounds(), {padding: [10, 10]}); } catch(e) {}
 }
+function fetchJSON(rel){
+  var abs = 'https://gulfxtv.github.io/gulfx-ticker/' + rel;
+  return fetch(rel + '?ts=' + Date.now()).then(function(r){ if (!r.ok) throw new Error('relative fetch failed'); return r.json(); }).catch(function(){
+    return fetch(abs + '?ts=' + Date.now()).then(function(r){ if (!r.ok) throw new Error('absolute fetch failed'); return r.json(); });
+  });
+}
 function initMap(){
   if (typeof L === 'undefined') return;
   map = L.map('map', {scrollWheelZoom: false, attributionControl: false}).setView([32.7, -89.7], 7);
-  fetch('ms-congress-districts.geojson?ts=' + Date.now()).then(function(r){ return r.json(); }).then(function(g){
+  fetchJSON('ms-congress-districts.geojson').then(function(g){
     window.MS_DISTRICTS = g; paintMap();
   }).catch(function(){});
 }
@@ -198,7 +204,7 @@ function setCountyMode(mode){
 function initCountyMap(){
   if (typeof L === 'undefined') return;
   countyMap = L.map('countyMap', {scrollWheelZoom: false, attributionControl: false}).setView([30.6, -89.0], 8);
-  fetch('ms-coast-counties.geojson?ts=' + Date.now()).then(function(r){ return r.json(); }).then(function(g){
+  fetchJSON('ms-coast-counties.geojson').then(function(g){
     window.MS_COUNTIES = g; paintCountyMap();
   }).catch(function(){});
 }
@@ -213,7 +219,7 @@ function renderCounties(data){
   host.innerHTML = html;
 }
 function load(){
-  fetch('election-data.json?ts=' + Date.now()).then(function(r){ return r.json(); }).then(render).catch(function(){
+  fetchJSON('election-data.json').then(render).catch(function(){
     document.getElementById('statusLine').textContent = 'Could not load the latest results — showing the last good data. Retrying…';
   });
 }
