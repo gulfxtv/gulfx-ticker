@@ -24,6 +24,9 @@
   .tag.called{background:#e6f4ea;color:#137333;border-color:#a3d9a5}
   .foot{color:var(--muted);font-size:13px;text-align:center;padding:8px 0 24px;line-height:1.6}
   #map{height:440px;border-radius:8px;border:1px solid var(--line);background:#f8f9fb;z-index:0}
+  #countyMap{height:420px;border-radius:8px;border:1px solid var(--line);background:#f8f9fb;z-index:0;margin-top:10px}
+  .cmtab{border:1px solid var(--line);background:#fff;color:var(--navy);padding:6px 14px;border-radius:20px;font-size:14px;cursor:pointer;margin-right:6px}
+  .cmtab.on{background:var(--navy);color:#fff}
   .legend{font-size:13px;color:var(--muted);margin-top:8px}
   .legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin:0 4px 0 12px;vertical-align:middle}
   .cty{width:100%;border-collapse:collapse;font-size:14px} .cty th,.cty td{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left} .cty th{color:var(--navy)} .cty .num{white-space:nowrap}
@@ -51,6 +54,12 @@
   <div class="race">
     <h2>Coast Counties — Local Results</h2>
     <div class="meta">Senate and House District 4 breakdowns for the six Coast counties, from the Associated Press. County-only races (judges, school boards) are not in the AP feed — official county results come from the Secretary of State around December 3.</div>
+    <div>
+      <button class="cmtab on" id="cmSenate" onclick="setCountyMode('senate')">U.S. Senate</button>
+      <button class="cmtab" id="cmHouse" onclick="setCountyMode('house4')">House District 4</button>
+    </div>
+    <div id="countyMap"></div>
+    <div class="legend">Counties color by the leader of the selected race; grey means no votes yet. Tap a county for both races.</div>
     <div id="counties"></div>
   </div>
 
@@ -118,7 +127,7 @@ function initMap(){
 var PARTY_LABEL = {Dem:'D', GOP:'R', Republican:'R', Lib:'L', Ind:'I', Independent:'I'};
 function fmt(n){ return n.toLocaleString('en-US'); }
 function render(data){
-  latestData = data; paintMap(); renderCounties(data);
+  latestData = data; paintMap(); renderCounties(data); paintCountyMap();
   document.getElementById('statusLine').textContent = data.status || '';
   document.getElementById('updatedLine').textContent = 'Last updated: ' + (data.updated_cst || '—') + '  •  Source: Associated Press  •  Page auto-refreshes every 60 seconds';
   if (data.national && data.national.house_called) {
@@ -152,6 +161,47 @@ function leaderText(cands){
   var lead = cands.slice().sort(function(a,b){ return (b.votes||0)-(a.votes||0); })[0];
   return lead.name + ' (' + (PARTY_LABEL[lead.party] || lead.party) + ') — ' + fmt(lead.votes) + ' (' + (100*lead.votes/total).toFixed(1) + '%)';
 }
+var countyMap = null, countyLayer = null, countyMode = 'senate';
+function countyLeader(ct, mode){
+  var race = ct[mode]; if (!race) return null;
+  var total = race.candidates.reduce(function(s,c){ return s + (c.votes||0); }, 0);
+  if (!total) return null;
+  return race.candidates.slice().sort(function(a,b){ return (b.votes||0)-(a.votes||0); })[0];
+}
+function paintCountyMap(){
+  if (!countyMap || !latestData || !window.MS_COUNTIES) return;
+  if (countyLayer) countyMap.removeLayer(countyLayer);
+  countyLayer = L.geoJSON(window.MS_COUNTIES, {style: function(f){
+    var ct = (latestData.counties || []).filter(function(c){ return c.name === f.properties.name; })[0];
+    var lead = ct ? countyLeader(ct, countyMode) : null;
+    return {color:'#ffffff', weight:2, fillColor: lead ? (PARTY_COLOR[lead.party] || '#7c3aed') : '#d7dce3', fillOpacity: lead ? 0.85 : 0.9};
+  }, onEachFeature: function(f, layer){
+    var ct = (latestData.counties || []).filter(function(c){ return c.name === f.properties.name; })[0];
+    if (!ct) return;
+    var sTot = ct.senate.candidates.reduce(function(s,c){ return s + (c.votes||0); }, 0);
+    var hTot = ct.house4.candidates.reduce(function(s,c){ return s + (c.votes||0); }, 0);
+    var sLead = countyLeader(ct, 'senate'), hLead = countyLeader(ct, 'house4');
+    var html = '<b>' + ct.name + ' County</b><br>Precincts: ' + ct.senate.precincts_reporting + ' of ' + ct.precincts_total;
+    html += '<br>Senate: ' + (sLead ? sLead.name + ' (' + (PARTY_LABEL[sLead.party] || sLead.party) + ') — ' + fmt(sLead.votes) + ' (' + (100*sLead.votes/sTot).toFixed(1) + '%)' : 'No votes yet');
+    html += '<br>House 4: ' + (hLead ? hLead.name + ' (' + (PARTY_LABEL[hLead.party] || hLead.party) + ') — ' + fmt(hLead.votes) + ' (' + (100*hLead.votes/hTot).toFixed(1) + '%)' : 'No votes yet');
+    layer.bindPopup(html);
+    layer.bindTooltip(ct.name, {sticky: true});
+  }}).addTo(countyMap);
+  try { countyMap.fitBounds(countyLayer.getBounds(), {padding: [10, 10]}); } catch(e) {}
+}
+function setCountyMode(mode){
+  countyMode = mode;
+  document.getElementById('cmSenate').className = 'cmtab' + (mode === 'senate' ? ' on' : '');
+  document.getElementById('cmHouse').className = 'cmtab' + (mode === 'house4' ? ' on' : '');
+  paintCountyMap();
+}
+function initCountyMap(){
+  if (typeof L === 'undefined') return;
+  countyMap = L.map('countyMap', {scrollWheelZoom: false, attributionControl: false}).setView([30.6, -89.0], 8);
+  fetch('ms-coast-counties.geojson?ts=' + Date.now()).then(function(r){ return r.json(); }).then(function(g){
+    window.MS_COUNTIES = g; paintCountyMap();
+  }).catch(function(){});
+}
 function renderCounties(data){
   var host = document.getElementById('counties'); if (!host) return;
   if (!data.counties || !data.counties.length){ host.innerHTML = '<p style="color:var(--muted)">County results will appear here once precincts start reporting.</p>'; return; }
@@ -167,7 +217,7 @@ function load(){
     document.getElementById('statusLine').textContent = 'Could not load the latest results — showing the last good data. Retrying…';
   });
 }
-load(); setInterval(load, 60000); initMap();
+load(); setInterval(load, 60000); initMap(); initCountyMap();
 </script>
 </body>
 </html>
