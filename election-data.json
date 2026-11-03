@@ -1,7 +1,14 @@
 {
  "national": {
   "house_called": null,
-  "senate_called": null
+  "senate_called": null,
+  "house_votes": {
+   "dem": 0,
+   "gop": 0,
+   "other": 0,
+   "precincts_reporting": 0,
+   "precincts_total": 172484
+  }
  },
  "races": [
   {
@@ -402,6 +409,393 @@
      }
     ]
    }
+  }
+ ],
+ "senate_map": [
+  {
+   "state": "AK",
+   "name": "Alaska",
+   "race_id": 3079,
+   "seat": "Class II",
+   "holder": "GOP",
+   "precincts_reporting": 0,
+   "precincts_total": 403,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "AL",
+   "name": "Alabama",
+   "race_id": 1755,
+   "seat": "Class II",
+   "holder": "GOP",
+   "precincts_reporting": 0,
+   "precincts_total": 2028,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "AR",
+   "name": "Arkansas",
+   "race_id": 6345,
+   "seat": "Class II",
+   "holder": "GOP",
+   "precincts_reporting": 0,
+   "precincts_total": 2768,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "CO",
+   "name": "Colorado",
+   "race_id": 7168,
+   "seat": "Class II",
+   "holder": "Dem",
+   "precincts_reporting": 0,
+   "precincts_total": 4230,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "DE",
+   "name": "Delaware",
+   "race_id": 8362,
+   "seat": "Class II",
+   "holder": "Dem",
+   "precincts_reporting": 0,
+   "precincts_total": 533,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "FL",
+   "name": "Florida",
+   "race_id": 84979,
+   "seat": "Class III special",
+   "holder": "GOP",
+   "precincts_reporting": 0,
+   "precincts_total": 5634,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "GA",
+   "name": "Georgia",
+   "race_id": 12301,
+   "seat": "Class II",
+   "holder": "Dem",
+   "precincts_reporting": 0,
+   "precincts_total": 2582,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "IA",
+   "name": "Iowa",
+   "race_id": 17247,
+   "seat": "Class II",
+   "holder": "GOP",
+   "precincts_reporting": 0,
+   "precincts_total": 1656,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "ID",
+   "name": "Idaho",
+   "race_id": 13252,
+   "seat": "Class II",
+   "holder": "GOP",
+   "precincts_reporting": 0,
+   "precincts_total": 986,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "IL",
+   "name": "Illinois",
+   "race_id": 16430,
+   "seat": "Class II",
+   "holder": "Dem",
+   "precincts_reporting": 0,
+   "precincts_total": 8496,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "KS",
+   "name": "Kansas",
+   "race_id": 17585,
+   "seat": "Class II",
+   "holder": "GOP",
+   "precincts_reporting": 0,
+   "precincts_total": 4168,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "KY",
+   "name": "Kentucky",
+   "race_id": 18783,
+   "seat": "Class II",
+   "holder": "GOP",
+   "precincts_reporting": 0,
+   "precincts_total": 3189,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "LA",
+   "name": "Louisiana",
+   "race_id": 20157,
+   "seat": "Class II",
+   "holder": "GOP",
+   "precincts_reporting": 0,
+   "precincts_total": 3722,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "MA",
+   "name": "Massachusetts",
+   "race_id": 24467,
+   "seat": "Class II",
+   "holder": "Dem",
+   "precincts_reporting": 0,
+   "precincts_total": 2384,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "ME",
+   "name": "Maine",
+   "race_id": 20643,
+   "seat": "Class II",
+   "holder": "GOP",
+   "precincts_reporting": 0,
+   "precincts_total": 644,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "MI",
+   "name": "Michigan",
+   "race_id": 24463,
+   "seat": "Class II",
+   "holder": "Dem",
+   "precincts_reporting": 0,
+   "precincts_total": 3896,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "MN",
+   "name": "Minnesota",
+   "race_id": 25151,
+   "seat": "Class II",
+   "holder": "Dem",
+   "precincts_reporting": 0,
+   "precincts_total": 4105,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "MS",
+   "name": "Mississippi",
+   "race_id": 26692,
+   "seat": "Class II",
+   "holder": "GOP",
+   "precincts_reporting": 0,
+   "precincts_total": 1736,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "MT",
+   "name": "Montana",
+   "race_id": 27607,
+   "seat": "Class II",
+   "holder": "GOP",
+   "precincts_reporting": 0,
+   "precincts_total": 732,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "NC",
+   "name": "North Carolina",
+   "race_id": 35984,
+   "seat": "Class II",
+   "holder": "GOP",
+   "precincts_reporting": 0,
+   "precincts_total": 2626,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "NE",
+   "name": "Nebraska",
+   "race_id": 28594,
+   "seat": "Class II",
+   "holder": "GOP",
+   "precincts_reporting": 0,
+   "precincts_total": 1322,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "NH",
+   "name": "New Hampshire",
+   "race_id": 30003,
+   "seat": "Class II",
+   "holder": "Dem",
+   "precincts_reporting": 0,
+   "precincts_total": 318,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "NJ",
+   "name": "New Jersey",
+   "race_id": 31296,
+   "seat": "Class II",
+   "holder": "Dem",
+   "precincts_reporting": 0,
+   "precincts_total": 6508,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "NM",
+   "name": "New Mexico",
+   "race_id": 33948,
+   "seat": "Class II",
+   "holder": "Dem",
+   "precincts_reporting": 0,
+   "precincts_total": 2204,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "OH",
+   "name": "Ohio",
+   "race_id": 84327,
+   "seat": "Class III special",
+   "holder": "GOP",
+   "precincts_reporting": 0,
+   "precincts_total": 8834,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "OK",
+   "name": "Oklahoma",
+   "race_id": 37960,
+   "seat": "Class II",
+   "holder": "GOP",
+   "precincts_reporting": 0,
+   "precincts_total": 1984,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "OR",
+   "name": "Oregon",
+   "race_id": 38952,
+   "seat": "Class II",
+   "holder": "Dem",
+   "precincts_reporting": 0,
+   "precincts_total": 1318,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "RI",
+   "name": "Rhode Island",
+   "race_id": 40003,
+   "seat": "Class II",
+   "holder": "Dem",
+   "precincts_reporting": 0,
+   "precincts_total": 458,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "SC",
+   "name": "South Carolina",
+   "race_id": 41938,
+   "seat": "Class II",
+   "holder": "GOP",
+   "precincts_reporting": 0,
+   "precincts_total": 2312,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "SD",
+   "name": "South Dakota",
+   "race_id": 42003,
+   "seat": "Class II",
+   "holder": "GOP",
+   "precincts_reporting": 0,
+   "precincts_total": 671,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "TN",
+   "name": "Tennessee",
+   "race_id": 43441,
+   "seat": "Class II",
+   "holder": "GOP",
+   "precincts_reporting": 0,
+   "precincts_total": 1817,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "TX",
+   "name": "Texas",
+   "race_id": 46643,
+   "seat": "Class II",
+   "holder": "GOP",
+   "precincts_reporting": 0,
+   "precincts_total": 9900,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "VA",
+   "name": "Virginia",
+   "race_id": 47917,
+   "seat": "Class II",
+   "holder": "Dem",
+   "precincts_reporting": 0,
+   "precincts_total": 2529,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "WV",
+   "name": "West Virginia",
+   "race_id": 49137,
+   "seat": "Class II",
+   "holder": "GOP",
+   "precincts_reporting": 0,
+   "precincts_total": 1642,
+   "call": "Too Early to Call",
+   "winner": null
+  },
+  {
+   "state": "WY",
+   "name": "Wyoming",
+   "race_id": 51677,
+   "seat": "Class II",
+   "holder": "GOP",
+   "precincts_reporting": 0,
+   "precincts_total": 432,
+   "call": "Too Early to Call",
+   "winner": null
   }
  ]
 }
