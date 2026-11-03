@@ -3,9 +3,9 @@
   "house_called": null,
   "senate_called": null,
   "house_votes": {
-   "dem": 32232,
-   "gop": 21053,
-   "other": 155,
+   "dem": 102105,
+   "gop": 78327,
+   "other": 439,
    "precincts_reporting": 0,
    "precincts_total": 172484
   }
@@ -35,7 +35,7 @@
    ],
    "precincts_reporting": 0,
    "precincts_total": 1736,
-   "title": "U.S. Senate \u2014 Mississippi"
+   "title": "U.S. Senate — Mississippi"
   },
   {
    "call": "Too Early to Call",
@@ -61,7 +61,7 @@
    ],
    "precincts_reporting": 0,
    "precincts_total": 404,
-   "title": "U.S. House \u2014 District 1"
+   "title": "U.S. House — District 1"
   },
   {
    "call": "Too Early to Call",
@@ -87,7 +87,7 @@
    ],
    "precincts_reporting": 0,
    "precincts_total": 568,
-   "title": "U.S. House \u2014 District 2"
+   "title": "U.S. House — District 2"
   },
   {
    "call": "Too Early to Call",
@@ -113,7 +113,7 @@
    ],
    "precincts_reporting": 0,
    "precincts_total": 455,
-   "title": "U.S. House \u2014 District 3"
+   "title": "U.S. House — District 3"
   },
   {
    "call": "Too Early to Call",
@@ -139,12 +139,12 @@
    ],
    "precincts_reporting": 0,
    "precincts_total": 312,
-   "title": "U.S. House \u2014 District 4 (Gulf Coast)"
+   "title": "U.S. House — District 4 (Gulf Coast)"
   }
  ],
  "source": "Associated Press",
- "status": "Polls open until 7:00 PM CST \u2014 no votes reported yet.",
- "updated_cst": "Nov 3, 2026, 5:14 PM CST",
+ "status": "Polls open until 7:00 PM CST — no votes reported yet.",
+ "updated_cst": "Nov 3, 2026, 5:35 PM CST",
  "counties": [
   {
    "name": "Hancock",
@@ -539,7 +539,7 @@
    "race_id": 18783,
    "seat": "Class II",
    "holder": "GOP",
-   "precincts_reporting": 8,
+   "precincts_reporting": 15,
    "precincts_total": 3189,
    "call": "Too Early to Call",
    "winner": null
