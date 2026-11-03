@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GulfX TV Election Night Dashboard — Mississippi 2026</title>
+<style>
+  :root{--navy:#0a1e3c;--gold:#c9a227;--ink:#1a1a1a;--muted:#5a6472;--line:#e2e6ec;--d:#2563eb;--r:#dc2626;--l:#b45309;--i:#7c3aed}
+  *{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f2f4f7;color:var(--ink)}
+  header{background:var(--navy);color:#fff;padding:22px 18px;text-align:center;border-bottom:5px solid var(--gold)}
+  header h1{margin:0;font-size:26px;letter-spacing:.5px} header p{margin:6px 0 0;color:#cfd8e6;font-size:14px}
+  .wrap{max-width:900px;margin:0 auto;padding:16px}
+  .status{background:#fff;border:1px solid var(--line);border-left:6px solid var(--gold);border-radius:8px;padding:12px 16px;margin-bottom:16px}
+  .status b{color:var(--navy)} .status span{color:var(--muted);font-size:13px}
+  .race{background:#fff;border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin-bottom:16px}
+  .race h2{margin:0 0 4px;font-size:19px;color:var(--navy)}
+  .meta{color:var(--muted);font-size:13px;margin-bottom:12px}
+  .cand{margin:10px 0} .row{display:flex;justify-content:space-between;font-size:15px;margin-bottom:4px}
+  .row .pct{font-weight:bold} .bar{height:14px;background:#eef1f5;border-radius:7px;overflow:hidden}
+  .bar i{display:block;height:100%;border-radius:7px}
+  .d{background:var(--d)} .r{background:var(--r)} .l{background:var(--l)} .i{background:var(--i)}
+  .tag{display:inline-block;font-size:12px;font-weight:bold;padding:2px 8px;border-radius:20px;background:#fff7d6;color:#7a5b00;border:1px solid var(--gold)}
+  .tag.called{background:#e6f4ea;color:#137333;border-color:#a3d9a5}
+  .foot{color:var(--muted);font-size:13px;text-align:center;padding:8px 0 24px;line-height:1.6}
+  .foot a{color:var(--navy)} .links{text-align:center;margin-bottom:8px}
+  .links a{display:inline-block;margin:4px 6px;padding:8px 14px;background:var(--navy);color:#fff;text-decoration:none;border-radius:20px;font-size:14px}
+  .nat{display:flex;gap:12px;flex-wrap:wrap} .nat div{flex:1;min-width:200px;background:#f8f9fb;border:1px solid var(--line);border-radius:8px;padding:12px}
+  .nat h3{margin:0 0 6px;font-size:15px;color:var(--navy)} .nat p{margin:0;font-size:14px;color:var(--muted)}
+</style>
+</head>
+<body>
+<header>
+  <h1>GULFX TV ELECTION NIGHT</h1>
+  <p>Mississippi 2026 — U.S. Senate &amp; U.S. House &bull; Results from the Associated Press</p>
+</header>
+<div class="wrap">
+  <div class="status"><b id="statusLine">Loading latest results&hellip;</b><br><span id="updatedLine"></span></div>
+
+  <div class="race">
+    <h2>Washington — Balance of Power</h2>
+    <div class="meta">What control of Congress looks like as races are called tonight. 218 House seats and 51 Senate seats make a majority.</div>
+    <div class="nat">
+      <div><h3>U.S. House</h3><p id="natHouse">Before tonight: 218 Republican, 214 Democrat, 1 Independent, 2 vacant.</p></div>
+      <div><h3>U.S. Senate</h3><p id="natSenate">Before tonight: 53 Republican, 45 Democrat, 2 Independents caucusing with Democrats.</p></div>
+    </div>
+  </div>
+
+  <div id="races"></div>
+
+  <div class="links">
+    <a href="https://apnews.com/projects/elections-2026/" target="_blank" rel="noopener">AP National Results</a>
+    <a href="https://www.poliwave.com/us/live/midterms-2026" target="_blank" rel="noopener">Live National Board</a>
+    <a href="https://strawpoll.com/wAg3QNpjWy8" target="_blank" rel="noopener">GulfX Senate Poll</a>
+    <a href="https://strawpoll.com/Dwyo3Q2ENyA" target="_blank" rel="noopener">GulfX Turnout Poll</a>
+  </div>
+  <div class="foot">
+    Unofficial results until certified. Vote totals and calls are the Associated Press's, refreshed about every 15 minutes on election night.<br>
+    Mississippi polls closed at 7:00 PM CST, November 3, 2026. GulfX TV &bull; info@gulfxtv.com
+  </div>
+</div>
+<script>
+var PARTY_CLASS = {Dem:'d', GOP:'r', Republican:'r', Lib:'l', Ind:'i', Independent:'i'};
+var PARTY_LABEL = {Dem:'D', GOP:'R', Republican:'R', Lib:'L', Ind:'I', Independent:'I'};
+function fmt(n){ return n.toLocaleString('en-US'); }
+function render(data){
+  document.getElementById('statusLine').textContent = data.status || '';
+  document.getElementById('updatedLine').textContent = 'Last updated: ' + (data.updated_cst || '—') + '  •  Source: Associated Press  •  Page auto-refreshes every 60 seconds';
+  if (data.national && data.national.house_called) {
+    document.getElementById('natHouse').textContent = 'Called so far: ' + data.national.house_called.dem + ' Democrat, ' + data.national.house_called.gop + ' Republican.';
+  }
+  if (data.national && data.national.senate_called) {
+    document.getElementById('natSenate').textContent = 'Called so far: ' + data.national.senate_called.dem + ' Democrat, ' + data.national.senate_called.gop + ' Republican.';
+  }
+  var host = document.getElementById('races'); host.innerHTML = '';
+  (data.races || []).forEach(function(race){
+    var total = race.candidates.reduce(function(s,c){ return s + (c.votes||0); }, 0);
+    var cands = race.candidates.slice();
+    if (total > 0) cands.sort(function(a,b){ return (b.votes||0) - (a.votes||0); });
+    var el = document.createElement('div'); el.className = 'race';
+    var pctRep = race.precincts_total ? Math.round(100 * race.precincts_reporting / race.precincts_total) : 0;
+    var callTag = race.call && race.call !== 'Too Early to Call'
+      ? '<span class="tag called">' + race.call + '</span>'
+      : '<span class="tag">' + (race.call || 'Too Early to Call') + '</span>';
+    var html = '<h2>' + race.title + '</h2><div class="meta">' + callTag + ' &nbsp; Precincts reporting: ' + fmt(race.precincts_reporting) + ' of ' + fmt(race.precincts_total) + ' (' + pctRep + '%) &nbsp;•&nbsp; Total votes: ' + fmt(total) + '</div>';
+    cands.forEach(function(c){
+      var pct = total > 0 ? (100 * c.votes / total) : 0;
+      var cls = PARTY_CLASS[c.party] || 'i';
+      html += '<div class="cand"><div class="row"><span>' + c.name + ' (' + (PARTY_LABEL[c.party] || c.party) + ')' + (c.incumbent ? ' — incumbent' : '') + '</span><span class="pct">' + fmt(c.votes) + ' &nbsp; ' + pct.toFixed(1) + '%</span></div><div class="bar"><i class="' + cls + '" style="width:' + pct.toFixed(1) + '%"></i></div></div>';
+    });
+    el.innerHTML = html; host.appendChild(el);
+  });
+}
+function load(){
+  fetch('election-data.json?ts=' + Date.now()).then(function(r){ return r.json(); }).then(render).catch(function(){
+    document.getElementById('statusLine').textContent = 'Could not load the latest results — showing the last good data. Retrying…';
+  });
+}
+load(); setInterval(load, 60000);
+</script>
+</body>
+</html>
