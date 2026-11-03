@@ -25,6 +25,7 @@
   .foot{color:var(--muted);font-size:13px;text-align:center;padding:8px 0 24px;line-height:1.6}
   #map{height:440px;border-radius:8px;border:1px solid var(--line);background:#f8f9fb;z-index:0}
   #countyMap{height:420px;border-radius:8px;border:1px solid var(--line);background:#f8f9fb;z-index:0;margin-top:10px}
+  #senateMap{height:460px;border-radius:8px;border:1px solid var(--line);background:#f8f9fb;z-index:0}
   .cmtab{border:1px solid var(--line);background:#fff;color:var(--navy);padding:6px 14px;border-radius:20px;font-size:14px;cursor:pointer;margin-right:6px}
   .cmtab.on{background:var(--navy);color:#fff}
   .legend{font-size:13px;color:var(--muted);margin-top:8px}
@@ -64,12 +65,20 @@
   </div>
 
   <div class="race">
+    <h2>National Map — U.S. Senate</h2>
+    <div class="meta">The 35 Senate seats on the ballot tonight, colored by the party holding the seat; a gold border means the AP has called that race, and called states recolor by the winner once confirmed. States in pale grey have no Senate race this year. Tap a state for details.</div>
+    <div id="senateMap"></div>
+    <div class="legend"><i style="background:#2563eb"></i>Democrat-held<i style="background:#dc2626"></i>Republican-held<i style="background:#c9a227"></i>AP called (gold border)<i style="background:#e8ebef"></i>No race this year</div>
+  </div>
+
+  <div class="race">
     <h2>Washington — Balance of Power</h2>
     <div class="meta">What control of Congress looks like as races are called tonight. 218 House seats and 51 Senate seats make a majority.</div>
     <div class="nat">
       <div><h3>U.S. House</h3><p id="natHouse">Before tonight: 218 Republican, 214 Democrat, 1 Independent, 2 vacant.</p></div>
       <div><h3>U.S. Senate</h3><p id="natSenate">Before tonight: 53 Republican, 45 Democrat, 2 Independents caucusing with Democrats.</p></div>
     </div>
+    <div id="natHouseVotes" style="margin-top:12px"></div>
   </div>
 
   <div id="races"></div>
@@ -133,7 +142,7 @@ function initMap(){
 var PARTY_LABEL = {Dem:'D', GOP:'R', Republican:'R', Lib:'L', Ind:'I', Independent:'I'};
 function fmt(n){ return n.toLocaleString('en-US'); }
 function render(data){
-  latestData = data; paintMap(); renderCounties(data); paintCountyMap();
+  latestData = data; paintMap(); renderCounties(data); paintCountyMap(); paintSenateMap(); renderNationalHouse(data);
   document.getElementById('statusLine').textContent = data.status || '';
   document.getElementById('updatedLine').textContent = 'Last updated: ' + (data.updated_cst || '—') + '  •  Source: Associated Press  •  Page auto-refreshes every 60 seconds';
   if (data.national && data.national.house_called) {
@@ -208,6 +217,50 @@ function initCountyMap(){
     window.MS_COUNTIES = g; paintCountyMap();
   }).catch(function(){});
 }
+var senateMap = null, senateLayer = null;
+function paintSenateMap(){
+  if (!senateMap || !latestData || !window.US_STATES) return;
+  if (senateLayer) senateMap.removeLayer(senateLayer);
+  senateLayer = L.geoJSON(window.US_STATES, {style: function(f){
+    var e = (latestData.senate_map || []).filter(function(s){ return s.state === f.properties.abbr; })[0];
+    if (!e) return {color:'#ffffff', weight:1, fillColor:'#e8ebef', fillOpacity:1};
+    var called = e.call && e.call !== 'Too Early to Call';
+    var fill = e.winner ? (PARTY_COLOR[e.winner] || '#7c3aed') : (PARTY_COLOR[e.holder] || '#7c3aed');
+    return {color: called ? '#c9a227' : '#ffffff', weight: called ? 3 : 1.5, fillColor: fill, fillOpacity: e.winner ? 0.85 : 0.55};
+  }, onEachFeature: function(f, layer){
+    var e = (latestData.senate_map || []).filter(function(s){ return s.state === f.properties.abbr; })[0];
+    if (!e){ layer.bindPopup('<b>' + f.properties.name + '</b><br>No Senate race this year.'); }
+    else {
+      var h = '<b>' + e.name + '</b> — ' + e.seat + ' seat<br>Seat held by: ' + e.holder + '<br>' + (e.call || '') + '<br>Precincts: ' + fmt(e.precincts_reporting) + ' of ' + fmt(e.precincts_total);
+      if (e.winner) h += '<br>Winner: ' + e.winner;
+      layer.bindPopup(h);
+    }
+    layer.bindTooltip(f.properties.abbr, {sticky: true});
+  }}).addTo(senateMap);
+  try { senateMap.fitBounds(senateLayer.getBounds(), {padding: [10, 10]}); } catch(e) {}
+}
+function initSenateMap(){
+  if (typeof L === 'undefined') return;
+  senateMap = L.map('senateMap', {scrollWheelZoom: false, attributionControl: false}).setView([39.8, -98.6], 4);
+  fetchJSON('us-states.geojson').then(function(g){
+    window.US_STATES = g; paintSenateMap();
+  }).catch(function(){});
+}
+function renderNationalHouse(data){
+  var host = document.getElementById('natHouseVotes'); if (!host) return;
+  var v = data.national && data.national.house_votes;
+  if (!v){ host.innerHTML = ''; return; }
+  var total = (v.dem || 0) + (v.gop || 0) + (v.other || 0);
+  function row(label, votes, color){
+    var pct = total > 0 ? (100 * votes / total) : 0;
+    return '<div class="cand"><div class="row"><span>' + label + '</span><span class="pct">' + fmt(votes) + ' &nbsp; ' + pct.toFixed(1) + '%</span></div><div class="bar"><i style="background:' + color + ';width:' + pct.toFixed(1) + '%"></i></div></div>';
+  }
+  var h = '<h3 style="margin:0 0 6px;font-size:15px;color:var(--navy)">National House popular vote — all districts combined</h3>';
+  h += '<div class="meta" style="margin-bottom:4px">AP vote totals, not seats. Precincts reporting: ' + fmt(v.precincts_reporting) + ' of ' + fmt(v.precincts_total) + '.</div>';
+  if (!total) h += '<p style="color:var(--muted);font-size:14px;margin:6px 0">No votes reported yet.</p>';
+  else h += row('Democrat', v.dem, '#2563eb') + row('Republican', v.gop, '#dc2626') + row('Other', v.other, '#9aa3ad');
+  host.innerHTML = h;
+}
 function renderCounties(data){
   var host = document.getElementById('counties'); if (!host) return;
   if (!data.counties || !data.counties.length){ host.innerHTML = '<p style="color:var(--muted)">County results will appear here once precincts start reporting.</p>'; return; }
@@ -223,7 +276,7 @@ function load(){
     document.getElementById('statusLine').textContent = 'Could not load the latest results — showing the last good data. Retrying…';
   });
 }
-load(); setInterval(load, 60000); initMap(); initCountyMap();
+load(); setInterval(load, 60000); initMap(); initCountyMap(); initSenateMap();
 </script>
 </body>
 </html>
