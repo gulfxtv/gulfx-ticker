@@ -26,6 +26,7 @@
   #map{height:440px;border-radius:8px;border:1px solid var(--line);background:#f8f9fb;z-index:0}
   .legend{font-size:13px;color:var(--muted);margin-top:8px}
   .legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin:0 4px 0 12px;vertical-align:middle}
+  .cty{width:100%;border-collapse:collapse;font-size:14px} .cty th,.cty td{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left} .cty th{color:var(--navy)} .cty .num{white-space:nowrap}
   .foot a{color:var(--navy)} .links{text-align:center;margin-bottom:8px}
   .links a{display:inline-block;margin:4px 6px;padding:8px 14px;background:var(--navy);color:#fff;text-decoration:none;border-radius:20px;font-size:14px}
   .nat{display:flex;gap:12px;flex-wrap:wrap} .nat div{flex:1;min-width:200px;background:#f8f9fb;border:1px solid var(--line);border-radius:8px;padding:12px}
@@ -48,6 +49,12 @@
   </div>
 
   <div class="race">
+    <h2>Coast Counties — Local Results</h2>
+    <div class="meta">Senate and House District 4 breakdowns for the six Coast counties, from the Associated Press. County-only races (judges, school boards) are not in the AP feed — official county results come from the Secretary of State around December 3.</div>
+    <div id="counties"></div>
+  </div>
+
+  <div class="race">
     <h2>Washington — Balance of Power</h2>
     <div class="meta">What control of Congress looks like as races are called tonight. 218 House seats and 51 Senate seats make a majority.</div>
     <div class="nat">
@@ -66,7 +73,7 @@
   </div>
   <div class="foot">
     Unofficial results until certified. Vote totals and calls are the Associated Press's, refreshed about every 15 minutes on election night.<br>
-    Mississippi polls closed at 7:00 PM CST, November 3, 2026. GulfX TV &bull; info@gulfxtv.com
+    Mississippi polls close at 7:00 PM CST, November 3, 2026. GulfX TV &bull; info@gulfxtv.com
   </div>
 </div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -111,7 +118,7 @@ function initMap(){
 var PARTY_LABEL = {Dem:'D', GOP:'R', Republican:'R', Lib:'L', Ind:'I', Independent:'I'};
 function fmt(n){ return n.toLocaleString('en-US'); }
 function render(data){
-  latestData = data; paintMap();
+  latestData = data; paintMap(); renderCounties(data);
   document.getElementById('statusLine').textContent = data.status || '';
   document.getElementById('updatedLine').textContent = 'Last updated: ' + (data.updated_cst || '—') + '  •  Source: Associated Press  •  Page auto-refreshes every 60 seconds';
   if (data.national && data.national.house_called) {
@@ -138,6 +145,22 @@ function render(data){
     });
     el.innerHTML = html; host.appendChild(el);
   });
+}
+function leaderText(cands){
+  var total = cands.reduce(function(s,c){ return s + (c.votes||0); }, 0);
+  if (!total) return 'No votes yet';
+  var lead = cands.slice().sort(function(a,b){ return (b.votes||0)-(a.votes||0); })[0];
+  return lead.name + ' (' + (PARTY_LABEL[lead.party] || lead.party) + ') — ' + fmt(lead.votes) + ' (' + (100*lead.votes/total).toFixed(1) + '%)';
+}
+function renderCounties(data){
+  var host = document.getElementById('counties'); if (!host) return;
+  if (!data.counties || !data.counties.length){ host.innerHTML = '<p style="color:var(--muted)">County results will appear here once precincts start reporting.</p>'; return; }
+  var html = '<table class="cty"><tr><th>County</th><th>Senate leader</th><th>House 4 leader</th><th>Precincts</th></tr>';
+  data.counties.forEach(function(ct){
+    html += '<tr><td><b>' + ct.name + '</b></td><td>' + leaderText(ct.senate.candidates) + '</td><td>' + leaderText(ct.house4.candidates) + '</td><td class="num">' + fmt(ct.senate.precincts_reporting) + ' of ' + fmt(ct.precincts_total) + '</td></tr>';
+  });
+  html += '</table>';
+  host.innerHTML = html;
 }
 function load(){
   fetch('election-data.json?ts=' + Date.now()).then(function(r){ return r.json(); }).then(render).catch(function(){
