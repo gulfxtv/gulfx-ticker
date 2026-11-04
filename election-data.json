@@ -3,10 +3,10 @@
   "house_called": null,
   "senate_called": null,
   "house_votes": {
-   "dem": 57755409,
-   "gop": 45990727,
-   "other": 1515021,
-   "precincts_reporting": 123413,
+   "dem": 57842293,
+   "gop": 46056016,
+   "other": 1522394,
+   "precincts_reporting": 123718,
    "precincts_total": 172484
   }
  },
@@ -35,10 +35,10 @@
    ],
    "precincts_reporting": 1733,
    "precincts_total": 1736,
-   "title": "U.S. Senate \u2014 Mississippi"
+   "title": "U.S. Senate — Mississippi"
   },
   {
-   "call": "Trent Kelly \u2014 AP call",
+   "call": "Trent Kelly — AP call",
    "candidates": [
     {
      "incumbent": false,
@@ -61,10 +61,10 @@
    ],
    "precincts_reporting": 403,
    "precincts_total": 404,
-   "title": "U.S. House \u2014 District 1"
+   "title": "U.S. House — District 1"
   },
   {
-   "call": "Bennie Thompson \u2014 AP call",
+   "call": "Bennie Thompson — AP call",
    "candidates": [
     {
      "incumbent": false,
@@ -87,7 +87,7 @@
    ],
    "precincts_reporting": 568,
    "precincts_total": 568,
-   "title": "U.S. House \u2014 District 2"
+   "title": "U.S. House — District 2"
   },
   {
    "call": "Too Early to Call",
@@ -113,10 +113,10 @@
    ],
    "precincts_reporting": 0,
    "precincts_total": 455,
-   "title": "U.S. House \u2014 District 3"
+   "title": "U.S. House — District 3"
   },
   {
-   "call": "Mike Ezell \u2014 AP call",
+   "call": "Mike Ezell — AP call",
    "candidates": [
     {
      "incumbent": false,
@@ -139,12 +139,12 @@
    ],
    "precincts_reporting": 311,
    "precincts_total": 312,
-   "title": "U.S. House \u2014 District 4 (Gulf Coast)"
+   "title": "U.S. House — District 4 (Gulf Coast)"
   }
  ],
  "source": "Associated Press",
- "status": "Results reporting \u2014 precincts still coming in.",
- "updated_cst": "Nov 4, 2026, 2:14 AM CST",
+ "status": "Results reporting — precincts still coming in.",
+ "updated_cst": "Nov 4, 2026, 2:23 AM CST",
  "counties": [
   {
    "name": "Hancock",
@@ -451,7 +451,7 @@
    "race_id": 7168,
    "seat": "Class II",
    "holder": "Dem",
-   "precincts_reporting": 3233,
+   "precincts_reporting": 3237,
    "precincts_total": 4230,
    "call": "Called",
    "winner": "Dem"
@@ -561,7 +561,7 @@
    "race_id": 24467,
    "seat": "Class II",
    "holder": "Dem",
-   "precincts_reporting": 1775,
+   "precincts_reporting": 1818,
    "precincts_total": 2384,
    "call": "Called",
    "winner": "Dem"
@@ -583,7 +583,7 @@
    "race_id": 24463,
    "seat": "Class II",
    "holder": "Dem",
-   "precincts_reporting": 3195,
+   "precincts_reporting": 3300,
    "precincts_total": 3896,
    "call": "Called",
    "winner": "Dem"
@@ -638,7 +638,7 @@
    "race_id": 28594,
    "seat": "Class II",
    "holder": "GOP",
-   "precincts_reporting": 1077,
+   "precincts_reporting": 1137,
    "precincts_total": 1322,
    "call": "Too Early to Call",
    "winner": null
@@ -704,7 +704,7 @@
    "race_id": 38952,
    "seat": "Class II",
    "holder": "Dem",
-   "precincts_reporting": 967,
+   "precincts_reporting": 975,
    "precincts_total": 1318,
    "call": "Called",
    "winner": "Dem"
@@ -737,7 +737,7 @@
    "race_id": 42003,
    "seat": "Class II",
    "holder": "GOP",
-   "precincts_reporting": 652,
+   "precincts_reporting": 658,
    "precincts_total": 671,
    "call": "Called",
    "winner": "GOP"
