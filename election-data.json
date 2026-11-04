@@ -3,10 +3,10 @@
   "house_called": null,
   "senate_called": null,
   "house_votes": {
-   "dem": 15032434,
-   "gop": 12183191,
-   "other": 276545,
-   "precincts_reporting": 14758,
+   "dem": 15958471,
+   "gop": 12835172,
+   "other": 292909,
+   "precincts_reporting": 17065,
    "precincts_total": 172484
   }
  },
@@ -18,24 +18,24 @@
      "incumbent": false,
      "name": "Scott Colom",
      "party": "Dem",
-     "votes": 2452
+     "votes": 3308
     },
     {
      "incumbent": true,
      "name": "Cindy Hyde-Smith",
      "party": "GOP",
-     "votes": 1877
+     "votes": 2484
     },
     {
      "incumbent": false,
      "name": "Ty Pinkins",
      "party": "Ind",
-     "votes": 91
+     "votes": 109
     }
    ],
-   "precincts_reporting": 8,
+   "precincts_reporting": 14,
    "precincts_total": 1736,
-   "title": "U.S. Senate \u2014 Mississippi"
+   "title": "U.S. Senate — Mississippi"
   },
   {
    "call": "Too Early to Call",
@@ -50,18 +50,18 @@
      "incumbent": false,
      "name": "Cliff Johnson",
      "party": "Dem",
-     "votes": 0
+     "votes": 76
     },
     {
      "incumbent": true,
      "name": "Trent Kelly",
      "party": "GOP",
-     "votes": 0
+     "votes": 19
     }
    ],
-   "precincts_reporting": 0,
+   "precincts_reporting": 1,
    "precincts_total": 404,
-   "title": "U.S. House \u2014 District 1"
+   "title": "U.S. House — District 1"
   },
   {
    "call": "Too Early to Call",
@@ -70,24 +70,24 @@
      "incumbent": false,
      "name": "Ron Eller",
      "party": "GOP",
-     "votes": 0
+     "votes": 227
     },
     {
      "incumbent": false,
      "name": "Bennie Foster",
      "party": "Ind",
-     "votes": 0
+     "votes": 8
     },
     {
      "incumbent": true,
      "name": "Bennie G. Thompson",
      "party": "Dem",
-     "votes": 0
+     "votes": 358
     }
    ],
    "precincts_reporting": 0,
    "precincts_total": 568,
-   "title": "U.S. House \u2014 District 2"
+   "title": "U.S. House — District 2"
   },
   {
    "call": "Too Early to Call",
@@ -113,7 +113,7 @@
    ],
    "precincts_reporting": 0,
    "precincts_total": 455,
-   "title": "U.S. House \u2014 District 3"
+   "title": "U.S. House — District 3"
   },
   {
    "call": "Too Early to Call",
@@ -139,12 +139,12 @@
    ],
    "precincts_reporting": 4,
    "precincts_total": 312,
-   "title": "U.S. House \u2014 District 4 (Gulf Coast)"
+   "title": "U.S. House — District 4 (Gulf Coast)"
   }
  ],
  "source": "Associated Press",
- "status": "Results reporting \u2014 precincts still coming in.",
- "updated_cst": "Nov 3, 2026, 7:47 PM CST",
+ "status": "Results reporting — precincts still coming in.",
+ "updated_cst": "Nov 3, 2026, 7:59 PM CST",
  "counties": [
   {
    "name": "Hancock",
