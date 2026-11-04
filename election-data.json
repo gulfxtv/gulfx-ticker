@@ -18,22 +18,22 @@
      "incumbent": false,
      "name": "Scott Colom",
      "party": "Dem",
-     "votes": 381781
+     "votes": 410448
     },
     {
      "incumbent": true,
      "name": "Cindy Hyde-Smith",
      "party": "GOP",
-     "votes": 406988
+     "votes": 420608
     },
     {
      "incumbent": false,
      "name": "Ty Pinkins",
      "party": "Ind",
-     "votes": 17623
+     "votes": 18303
     }
    ],
-   "precincts_reporting": 1521,
+   "precincts_reporting": 1566,
    "precincts_total": 1736,
    "title": "U.S. Senate — Mississippi"
   },
@@ -44,22 +44,22 @@
      "incumbent": false,
      "name": "Johnny Baucom",
      "party": "Lib",
-     "votes": 2619
+     "votes": 2743
     },
     {
      "incumbent": false,
      "name": "Cliff Johnson",
      "party": "Dem",
-     "votes": 68226
+     "votes": 72091
     },
     {
      "incumbent": true,
      "name": "Trent Kelly",
      "party": "GOP",
-     "votes": 110716
+     "votes": 114917
     }
    ],
-   "precincts_reporting": 339,
+   "precincts_reporting": 350,
    "precincts_total": 404,
    "title": "U.S. House — District 1"
   },
@@ -70,22 +70,22 @@
      "incumbent": false,
      "name": "Ron Eller",
      "party": "GOP",
-     "votes": 59917
+     "votes": 66059
     },
     {
      "incumbent": false,
      "name": "Bennie Foster",
      "party": "Ind",
-     "votes": 4385
+     "votes": 5280
     },
     {
      "incumbent": true,
      "name": "Bennie G. Thompson",
      "party": "Dem",
-     "votes": 122491
+     "votes": 142602
     }
    ],
-   "precincts_reporting": 455,
+   "precincts_reporting": 484,
    "precincts_total": 568,
    "title": "U.S. House — District 2"
   },
@@ -122,29 +122,29 @@
      "incumbent": false,
      "name": "Carl Boyanton",
      "party": "Ind",
-     "votes": 6099
+     "votes": 6261
     },
     {
      "incumbent": true,
      "name": "Mike Ezell",
      "party": "GOP",
-     "votes": 122557
+     "votes": 125274
     },
     {
      "incumbent": false,
      "name": "Jeffrey Hulum III",
      "party": "Dem",
-     "votes": 71642
+     "votes": 73590
     }
    ],
-   "precincts_reporting": 302,
+   "precincts_reporting": 305,
    "precincts_total": 312,
    "title": "U.S. House — District 4 (Gulf Coast)"
   }
  ],
  "source": "Associated Press",
  "status": "Results reporting — precincts still coming in.",
- "updated_cst": "Nov 3, 2026, 10:35 PM CST",
+ "updated_cst": "Nov 3, 2026, 10:49 PM CST",
  "counties": [
   {
    "name": "Hancock",
