@@ -1,14 +1,280 @@
 {
+ "counties": [
+  {
+   "house4": {
+    "candidates": [
+     {
+      "name": "Carl Boyanton",
+      "party": "Ind",
+      "votes": 897
+     },
+     {
+      "name": "Mike Ezell",
+      "party": "GOP",
+      "votes": 11961
+     },
+     {
+      "name": "Jeffrey Hulum III",
+      "party": "Dem",
+      "votes": 3834
+     }
+    ],
+    "precincts_reporting": 26
+   },
+   "name": "Hancock",
+   "precincts_total": 26,
+   "senate": {
+    "candidates": [
+     {
+      "name": "Scott Colom",
+      "party": "Dem",
+      "votes": 4538
+     },
+     {
+      "name": "Cindy Hyde-Smith",
+      "party": "GOP",
+      "votes": 11441
+     },
+     {
+      "name": "Ty Pinkins",
+      "party": "Ind",
+      "votes": 753
+     }
+    ],
+    "precincts_reporting": 26
+   }
+  },
+  {
+   "house4": {
+    "candidates": [
+     {
+      "name": "Carl Boyanton",
+      "party": "Ind",
+      "votes": 1675
+     },
+     {
+      "name": "Mike Ezell",
+      "party": "GOP",
+      "votes": 31313
+     },
+     {
+      "name": "Jeffrey Hulum III",
+      "party": "Dem",
+      "votes": 25792
+     }
+    ],
+    "precincts_reporting": 49
+   },
+   "name": "Harrison",
+   "precincts_total": 49,
+   "senate": {
+    "candidates": [
+     {
+      "name": "Scott Colom",
+      "party": "Dem",
+      "votes": 27470
+     },
+     {
+      "name": "Cindy Hyde-Smith",
+      "party": "GOP",
+      "votes": 29638
+     },
+     {
+      "name": "Ty Pinkins",
+      "party": "Ind",
+      "votes": 1742
+     }
+    ],
+    "precincts_reporting": 49
+   }
+  },
+  {
+   "house4": {
+    "candidates": [
+     {
+      "name": "Carl Boyanton",
+      "party": "Ind",
+      "votes": 1104
+     },
+     {
+      "name": "Mike Ezell",
+      "party": "GOP",
+      "votes": 21089
+     },
+     {
+      "name": "Jeffrey Hulum III",
+      "party": "Dem",
+      "votes": 13145
+     }
+    ],
+    "precincts_reporting": 30
+   },
+   "name": "Jackson",
+   "precincts_total": 31,
+   "senate": {
+    "candidates": [
+     {
+      "name": "Scott Colom",
+      "party": "Dem",
+      "votes": 14639
+     },
+     {
+      "name": "Cindy Hyde-Smith",
+      "party": "GOP",
+      "votes": 19830
+     },
+     {
+      "name": "Ty Pinkins",
+      "party": "Ind",
+      "votes": 963
+     }
+    ],
+    "precincts_reporting": 30
+   }
+  },
+  {
+   "house4": {
+    "candidates": [
+     {
+      "name": "Carl Boyanton",
+      "party": "Ind",
+      "votes": 660
+     },
+     {
+      "name": "Mike Ezell",
+      "party": "GOP",
+      "votes": 12251
+     },
+     {
+      "name": "Jeffrey Hulum III",
+      "party": "Dem",
+      "votes": 3606
+     }
+    ],
+    "precincts_reporting": 27
+   },
+   "name": "Pearl River",
+   "precincts_total": 27,
+   "senate": {
+    "candidates": [
+     {
+      "name": "Scott Colom",
+      "party": "Dem",
+      "votes": 4008
+     },
+     {
+      "name": "Cindy Hyde-Smith",
+      "party": "GOP",
+      "votes": 11850
+     },
+     {
+      "name": "Ty Pinkins",
+      "party": "Ind",
+      "votes": 668
+     }
+    ],
+    "precincts_reporting": 27
+   }
+  },
+  {
+   "house4": {
+    "candidates": [
+     {
+      "name": "Carl Boyanton",
+      "party": "Ind",
+      "votes": 189
+     },
+     {
+      "name": "Mike Ezell",
+      "party": "GOP",
+      "votes": 3933
+     },
+     {
+      "name": "Jeffrey Hulum III",
+      "party": "Dem",
+      "votes": 1388
+     }
+    ],
+    "precincts_reporting": 15
+   },
+   "name": "Stone",
+   "precincts_total": 15,
+   "senate": {
+    "candidates": [
+     {
+      "name": "Scott Colom",
+      "party": "Dem",
+      "votes": 1574
+     },
+     {
+      "name": "Cindy Hyde-Smith",
+      "party": "GOP",
+      "votes": 3748
+     },
+     {
+      "name": "Ty Pinkins",
+      "party": "Ind",
+      "votes": 186
+     }
+    ],
+    "precincts_reporting": 15
+   }
+  },
+  {
+   "house4": {
+    "candidates": [
+     {
+      "name": "Carl Boyanton",
+      "party": "Ind",
+      "votes": 156
+     },
+     {
+      "name": "Mike Ezell",
+      "party": "GOP",
+      "votes": 5669
+     },
+     {
+      "name": "Jeffrey Hulum III",
+      "party": "Dem",
+      "votes": 946
+     }
+    ],
+    "precincts_reporting": 21
+   },
+   "name": "George",
+   "precincts_total": 21,
+   "senate": {
+    "candidates": [
+     {
+      "name": "Scott Colom",
+      "party": "Dem",
+      "votes": 1107
+     },
+     {
+      "name": "Cindy Hyde-Smith",
+      "party": "GOP",
+      "votes": 5406
+     },
+     {
+      "name": "Ty Pinkins",
+      "party": "Ind",
+      "votes": 246
+     }
+    ],
+    "precincts_reporting": 21
+   }
+  }
+ ],
  "national": {
   "house_called": null,
-  "senate_called": null,
   "house_votes": {
-   "dem": 58518084,
-   "gop": 46462324,
-   "other": 1540739,
-   "precincts_reporting": 127244,
+   "dem": 58658479,
+   "gop": 46546303,
+   "other": 1544966,
+   "precincts_reporting": 128410,
    "precincts_total": 172484
-  }
+  },
+  "senate_called": null
  },
  "races": [
   {
@@ -35,10 +301,10 @@
    ],
    "precincts_reporting": 1733,
    "precincts_total": 1736,
-   "title": "U.S. Senate — Mississippi"
+   "title": "U.S. Senate \u2014 Mississippi"
   },
   {
-   "call": "Trent Kelly — AP call",
+   "call": "Trent Kelly \u2014 AP call",
    "candidates": [
     {
      "incumbent": false,
@@ -61,10 +327,10 @@
    ],
    "precincts_reporting": 403,
    "precincts_total": 404,
-   "title": "U.S. House — District 1"
+   "title": "U.S. House \u2014 District 1"
   },
   {
-   "call": "Bennie Thompson — AP call",
+   "call": "Bennie Thompson \u2014 AP call",
    "candidates": [
     {
      "incumbent": false,
@@ -87,7 +353,7 @@
    ],
    "precincts_reporting": 568,
    "precincts_total": 568,
-   "title": "U.S. House — District 2"
+   "title": "U.S. House \u2014 District 2"
   },
   {
    "call": "Too Early to Call",
@@ -113,10 +379,10 @@
    ],
    "precincts_reporting": 0,
    "precincts_total": 455,
-   "title": "U.S. House — District 3"
+   "title": "U.S. House \u2014 District 3"
   },
   {
-   "call": "Mike Ezell — AP call",
+   "call": "Mike Ezell \u2014 AP call",
    "candidates": [
     {
      "incumbent": false,
@@ -139,663 +405,397 @@
    ],
    "precincts_reporting": 311,
    "precincts_total": 312,
-   "title": "U.S. House — District 4 (Gulf Coast)"
-  }
- ],
- "source": "Associated Press",
- "status": "Results reporting — precincts still coming in.",
- "updated_cst": "Nov 4, 2026, 3:56 AM CST",
- "counties": [
-  {
-   "name": "Hancock",
-   "precincts_total": 26,
-   "senate": {
-    "precincts_reporting": 26,
-    "candidates": [
-     {
-      "name": "Scott Colom",
-      "party": "Dem",
-      "votes": 4538
-     },
-     {
-      "name": "Cindy Hyde-Smith",
-      "party": "GOP",
-      "votes": 11441
-     },
-     {
-      "name": "Ty Pinkins",
-      "party": "Ind",
-      "votes": 753
-     }
-    ]
-   },
-   "house4": {
-    "precincts_reporting": 26,
-    "candidates": [
-     {
-      "name": "Carl Boyanton",
-      "party": "Ind",
-      "votes": 897
-     },
-     {
-      "name": "Mike Ezell",
-      "party": "GOP",
-      "votes": 11961
-     },
-     {
-      "name": "Jeffrey Hulum III",
-      "party": "Dem",
-      "votes": 3834
-     }
-    ]
-   }
-  },
-  {
-   "name": "Harrison",
-   "precincts_total": 49,
-   "senate": {
-    "precincts_reporting": 49,
-    "candidates": [
-     {
-      "name": "Scott Colom",
-      "party": "Dem",
-      "votes": 27470
-     },
-     {
-      "name": "Cindy Hyde-Smith",
-      "party": "GOP",
-      "votes": 29638
-     },
-     {
-      "name": "Ty Pinkins",
-      "party": "Ind",
-      "votes": 1742
-     }
-    ]
-   },
-   "house4": {
-    "precincts_reporting": 49,
-    "candidates": [
-     {
-      "name": "Carl Boyanton",
-      "party": "Ind",
-      "votes": 1675
-     },
-     {
-      "name": "Mike Ezell",
-      "party": "GOP",
-      "votes": 31313
-     },
-     {
-      "name": "Jeffrey Hulum III",
-      "party": "Dem",
-      "votes": 25792
-     }
-    ]
-   }
-  },
-  {
-   "name": "Jackson",
-   "precincts_total": 31,
-   "senate": {
-    "precincts_reporting": 30,
-    "candidates": [
-     {
-      "name": "Scott Colom",
-      "party": "Dem",
-      "votes": 14639
-     },
-     {
-      "name": "Cindy Hyde-Smith",
-      "party": "GOP",
-      "votes": 19830
-     },
-     {
-      "name": "Ty Pinkins",
-      "party": "Ind",
-      "votes": 963
-     }
-    ]
-   },
-   "house4": {
-    "precincts_reporting": 30,
-    "candidates": [
-     {
-      "name": "Carl Boyanton",
-      "party": "Ind",
-      "votes": 1104
-     },
-     {
-      "name": "Mike Ezell",
-      "party": "GOP",
-      "votes": 21089
-     },
-     {
-      "name": "Jeffrey Hulum III",
-      "party": "Dem",
-      "votes": 13145
-     }
-    ]
-   }
-  },
-  {
-   "name": "Pearl River",
-   "precincts_total": 27,
-   "senate": {
-    "precincts_reporting": 27,
-    "candidates": [
-     {
-      "name": "Scott Colom",
-      "party": "Dem",
-      "votes": 4008
-     },
-     {
-      "name": "Cindy Hyde-Smith",
-      "party": "GOP",
-      "votes": 11850
-     },
-     {
-      "name": "Ty Pinkins",
-      "party": "Ind",
-      "votes": 668
-     }
-    ]
-   },
-   "house4": {
-    "precincts_reporting": 27,
-    "candidates": [
-     {
-      "name": "Carl Boyanton",
-      "party": "Ind",
-      "votes": 660
-     },
-     {
-      "name": "Mike Ezell",
-      "party": "GOP",
-      "votes": 12251
-     },
-     {
-      "name": "Jeffrey Hulum III",
-      "party": "Dem",
-      "votes": 3606
-     }
-    ]
-   }
-  },
-  {
-   "name": "Stone",
-   "precincts_total": 15,
-   "senate": {
-    "precincts_reporting": 15,
-    "candidates": [
-     {
-      "name": "Scott Colom",
-      "party": "Dem",
-      "votes": 1574
-     },
-     {
-      "name": "Cindy Hyde-Smith",
-      "party": "GOP",
-      "votes": 3748
-     },
-     {
-      "name": "Ty Pinkins",
-      "party": "Ind",
-      "votes": 186
-     }
-    ]
-   },
-   "house4": {
-    "precincts_reporting": 15,
-    "candidates": [
-     {
-      "name": "Carl Boyanton",
-      "party": "Ind",
-      "votes": 189
-     },
-     {
-      "name": "Mike Ezell",
-      "party": "GOP",
-      "votes": 3933
-     },
-     {
-      "name": "Jeffrey Hulum III",
-      "party": "Dem",
-      "votes": 1388
-     }
-    ]
-   }
-  },
-  {
-   "name": "George",
-   "precincts_total": 21,
-   "senate": {
-    "precincts_reporting": 21,
-    "candidates": [
-     {
-      "name": "Scott Colom",
-      "party": "Dem",
-      "votes": 1107
-     },
-     {
-      "name": "Cindy Hyde-Smith",
-      "party": "GOP",
-      "votes": 5406
-     },
-     {
-      "name": "Ty Pinkins",
-      "party": "Ind",
-      "votes": 246
-     }
-    ]
-   },
-   "house4": {
-    "precincts_reporting": 21,
-    "candidates": [
-     {
-      "name": "Carl Boyanton",
-      "party": "Ind",
-      "votes": 156
-     },
-     {
-      "name": "Mike Ezell",
-      "party": "GOP",
-      "votes": 5669
-     },
-     {
-      "name": "Jeffrey Hulum III",
-      "party": "Dem",
-      "votes": 946
-     }
-    ]
-   }
+   "title": "U.S. House \u2014 District 4 (Gulf Coast)"
   }
  ],
  "senate_map": [
   {
-   "state": "AK",
-   "name": "Alaska",
-   "race_id": 3079,
-   "seat": "Class II",
+   "call": "Too Early to Call",
    "holder": "GOP",
+   "name": "Alaska",
    "precincts_reporting": 291,
    "precincts_total": 403,
-   "call": "Too Early to Call",
+   "race_id": 3079,
+   "seat": "Class II",
+   "state": "AK",
    "winner": null
   },
   {
-   "state": "AL",
-   "name": "Alabama",
-   "race_id": 1755,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "GOP",
+   "name": "Alabama",
    "precincts_reporting": 2000,
    "precincts_total": 2028,
-   "call": "Called",
+   "race_id": 1755,
+   "seat": "Class II",
+   "state": "AL",
    "winner": "GOP"
   },
   {
-   "state": "AR",
-   "name": "Arkansas",
-   "race_id": 6345,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "GOP",
+   "name": "Arkansas",
    "precincts_reporting": 2740,
    "precincts_total": 2768,
-   "call": "Called",
+   "race_id": 6345,
+   "seat": "Class II",
+   "state": "AR",
    "winner": "GOP"
   },
   {
-   "state": "CO",
-   "name": "Colorado",
-   "race_id": 7168,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "Dem",
+   "name": "Colorado",
    "precincts_reporting": 3269,
    "precincts_total": 4230,
-   "call": "Called",
+   "race_id": 7168,
+   "seat": "Class II",
+   "state": "CO",
    "winner": "Dem"
   },
   {
-   "state": "DE",
-   "name": "Delaware",
-   "race_id": 8362,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "Dem",
+   "name": "Delaware",
    "precincts_reporting": 525,
    "precincts_total": 533,
-   "call": "Called",
+   "race_id": 8362,
+   "seat": "Class II",
+   "state": "DE",
    "winner": "Dem"
   },
   {
-   "state": "FL",
-   "name": "Florida",
-   "race_id": 84979,
-   "seat": "Class III special",
+   "call": "Called",
    "holder": "GOP",
+   "name": "Florida",
    "precincts_reporting": 5577,
    "precincts_total": 5634,
-   "call": "Called",
+   "race_id": 84979,
+   "seat": "Class III special",
+   "state": "FL",
    "winner": "GOP"
   },
   {
-   "state": "GA",
-   "name": "Georgia",
-   "race_id": 12301,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "Dem",
+   "name": "Georgia",
    "precincts_reporting": 2581,
    "precincts_total": 2582,
-   "call": "Called",
+   "race_id": 12301,
+   "seat": "Class II",
+   "state": "GA",
    "winner": "Dem"
   },
   {
-   "state": "IA",
-   "name": "Iowa",
-   "race_id": 17247,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "GOP",
+   "name": "Iowa",
    "precincts_reporting": 1656,
    "precincts_total": 1656,
-   "call": "Called",
+   "race_id": 17247,
+   "seat": "Class II",
+   "state": "IA",
    "winner": "Dem"
   },
   {
-   "state": "ID",
+   "call": "Called",
+   "holder": "GOP",
    "name": "Idaho",
+   "precincts_reporting": 911,
+   "precincts_total": 986,
    "race_id": 13252,
    "seat": "Class II",
-   "holder": "GOP",
-   "precincts_reporting": 891,
-   "precincts_total": 986,
-   "call": "Called",
+   "state": "ID",
    "winner": "GOP"
   },
   {
-   "state": "IL",
-   "name": "Illinois",
-   "race_id": 16430,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "Dem",
+   "name": "Illinois",
    "precincts_reporting": 7576,
    "precincts_total": 8496,
-   "call": "Called",
+   "race_id": 16430,
+   "seat": "Class II",
+   "state": "IL",
    "winner": "Dem"
   },
   {
-   "state": "KS",
-   "name": "Kansas",
-   "race_id": 17585,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "GOP",
+   "name": "Kansas",
    "precincts_reporting": 4168,
    "precincts_total": 4168,
-   "call": "Called",
+   "race_id": 17585,
+   "seat": "Class II",
+   "state": "KS",
    "winner": "Dem"
   },
   {
-   "state": "KY",
-   "name": "Kentucky",
-   "race_id": 18783,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "GOP",
+   "name": "Kentucky",
    "precincts_reporting": 3157,
    "precincts_total": 3189,
-   "call": "Called",
+   "race_id": 18783,
+   "seat": "Class II",
+   "state": "KY",
    "winner": "GOP"
   },
   {
-   "state": "LA",
-   "name": "Louisiana",
-   "race_id": 20157,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "GOP",
+   "name": "Louisiana",
    "precincts_reporting": 3722,
    "precincts_total": 3722,
-   "call": "Called",
+   "race_id": 20157,
+   "seat": "Class II",
+   "state": "LA",
    "winner": "GOP"
   },
   {
-   "state": "MA",
-   "name": "Massachusetts",
-   "race_id": 24467,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "Dem",
+   "name": "Massachusetts",
    "precincts_reporting": 1851,
    "precincts_total": 2384,
-   "call": "Called",
+   "race_id": 24467,
+   "seat": "Class II",
+   "state": "MA",
    "winner": "Dem"
   },
   {
-   "state": "ME",
-   "name": "Maine",
-   "race_id": 20643,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "GOP",
+   "name": "Maine",
    "precincts_reporting": 448,
    "precincts_total": 644,
-   "call": "Called",
+   "race_id": 20643,
+   "seat": "Class II",
+   "state": "ME",
    "winner": "Dem"
   },
   {
-   "state": "MI",
+   "call": "Called",
+   "holder": "Dem",
    "name": "Michigan",
+   "precincts_reporting": 3534,
+   "precincts_total": 3896,
    "race_id": 24463,
    "seat": "Class II",
-   "holder": "Dem",
-   "precincts_reporting": 3512,
-   "precincts_total": 3896,
-   "call": "Called",
+   "state": "MI",
    "winner": "Dem"
   },
   {
-   "state": "MN",
-   "name": "Minnesota",
-   "race_id": 25151,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "Dem",
+   "name": "Minnesota",
    "precincts_reporting": 4105,
    "precincts_total": 4105,
-   "call": "Called",
+   "race_id": 25151,
+   "seat": "Class II",
+   "state": "MN",
    "winner": "Dem"
   },
   {
-   "state": "MS",
-   "name": "Mississippi",
-   "race_id": 26692,
-   "seat": "Class II",
+   "call": "Too Early to Call",
    "holder": "GOP",
+   "name": "Mississippi",
    "precincts_reporting": 1733,
    "precincts_total": 1736,
-   "call": "Too Early to Call",
+   "race_id": 26692,
+   "seat": "Class II",
+   "state": "MS",
    "winner": null
   },
   {
-   "state": "MT",
-   "name": "Montana",
-   "race_id": 27607,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "GOP",
+   "name": "Montana",
    "precincts_reporting": 610,
    "precincts_total": 732,
-   "call": "Called",
+   "race_id": 27607,
+   "seat": "Class II",
+   "state": "MT",
    "winner": "GOP"
   },
   {
-   "state": "NC",
-   "name": "North Carolina",
-   "race_id": 35984,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "GOP",
+   "name": "North Carolina",
    "precincts_reporting": 2626,
    "precincts_total": 2626,
-   "call": "Called",
+   "race_id": 35984,
+   "seat": "Class II",
+   "state": "NC",
    "winner": "Dem"
   },
   {
-   "state": "NE",
+   "call": "Called",
+   "holder": "GOP",
    "name": "Nebraska",
+   "precincts_reporting": 1188,
+   "precincts_total": 1322,
    "race_id": 28594,
    "seat": "Class II",
-   "holder": "GOP",
-   "precincts_reporting": 1191,
-   "precincts_total": 1322,
-   "call": "Called",
+   "state": "NE",
    "winner": "GOP"
   },
   {
-   "state": "NH",
-   "name": "New Hampshire",
-   "race_id": 30003,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "Dem",
+   "name": "New Hampshire",
    "precincts_reporting": 276,
    "precincts_total": 318,
-   "call": "Called",
+   "race_id": 30003,
+   "seat": "Class II",
+   "state": "NH",
    "winner": "Dem"
   },
   {
-   "state": "NJ",
-   "name": "New Jersey",
-   "race_id": 31296,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "Dem",
+   "name": "New Jersey",
    "precincts_reporting": 6009,
    "precincts_total": 6508,
-   "call": "Called",
+   "race_id": 31296,
+   "seat": "Class II",
+   "state": "NJ",
    "winner": "Dem"
   },
   {
-   "state": "NM",
-   "name": "New Mexico",
-   "race_id": 33948,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "Dem",
+   "name": "New Mexico",
    "precincts_reporting": 2159,
    "precincts_total": 2204,
-   "call": "Called",
+   "race_id": 33948,
+   "seat": "Class II",
+   "state": "NM",
    "winner": "Dem"
   },
   {
-   "state": "OH",
-   "name": "Ohio",
-   "race_id": 84327,
-   "seat": "Class III special",
+   "call": "Called",
    "holder": "GOP",
+   "name": "Ohio",
    "precincts_reporting": 8591,
    "precincts_total": 8834,
-   "call": "Called",
+   "race_id": 84327,
+   "seat": "Class III special",
+   "state": "OH",
    "winner": "Dem"
   },
   {
-   "state": "OK",
-   "name": "Oklahoma",
-   "race_id": 37960,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "GOP",
+   "name": "Oklahoma",
    "precincts_reporting": 1951,
    "precincts_total": 1984,
-   "call": "Called",
+   "race_id": 37960,
+   "seat": "Class II",
+   "state": "OK",
    "winner": "GOP"
   },
   {
-   "state": "OR",
+   "call": "Called",
+   "holder": "Dem",
    "name": "Oregon",
+   "precincts_reporting": 991,
+   "precincts_total": 1318,
    "race_id": 38952,
    "seat": "Class II",
-   "holder": "Dem",
-   "precincts_reporting": 994,
-   "precincts_total": 1318,
-   "call": "Called",
+   "state": "OR",
    "winner": "Dem"
   },
   {
-   "state": "RI",
+   "call": "Called",
+   "holder": "Dem",
    "name": "Rhode Island",
+   "precincts_reporting": 446,
+   "precincts_total": 458,
    "race_id": 40003,
    "seat": "Class II",
-   "holder": "Dem",
-   "precincts_reporting": 415,
-   "precincts_total": 458,
-   "call": "Called",
+   "state": "RI",
    "winner": "Dem"
   },
   {
-   "state": "SC",
-   "name": "South Carolina",
-   "race_id": 41938,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "GOP",
+   "name": "South Carolina",
    "precincts_reporting": 2312,
    "precincts_total": 2312,
-   "call": "Called",
+   "race_id": 41938,
+   "seat": "Class II",
+   "state": "SC",
    "winner": "Dem"
   },
   {
-   "state": "SD",
-   "name": "South Dakota",
-   "race_id": 42003,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "GOP",
+   "name": "South Dakota",
    "precincts_reporting": 670,
    "precincts_total": 671,
-   "call": "Called",
+   "race_id": 42003,
+   "seat": "Class II",
+   "state": "SD",
    "winner": "GOP"
   },
   {
-   "state": "TN",
-   "name": "Tennessee",
-   "race_id": 43441,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "GOP",
+   "name": "Tennessee",
    "precincts_reporting": 1798,
    "precincts_total": 1817,
-   "call": "Called",
+   "race_id": 43441,
+   "seat": "Class II",
+   "state": "TN",
    "winner": "GOP"
   },
   {
-   "state": "TX",
+   "call": "Called",
+   "holder": "GOP",
    "name": "Texas",
+   "precincts_reporting": 9286,
+   "precincts_total": 9900,
    "race_id": 46643,
    "seat": "Class II",
-   "holder": "GOP",
-   "precincts_reporting": 9248,
-   "precincts_total": 9900,
-   "call": "Called",
+   "state": "TX",
    "winner": "Dem"
   },
   {
-   "state": "VA",
-   "name": "Virginia",
-   "race_id": 47917,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "Dem",
+   "name": "Virginia",
    "precincts_reporting": 2235,
    "precincts_total": 2529,
-   "call": "Called",
+   "race_id": 47917,
+   "seat": "Class II",
+   "state": "VA",
    "winner": "Dem"
   },
   {
-   "state": "WV",
-   "name": "West Virginia",
-   "race_id": 49137,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "GOP",
+   "name": "West Virginia",
    "precincts_reporting": 1239,
    "precincts_total": 1642,
-   "call": "Called",
+   "race_id": 49137,
+   "seat": "Class II",
+   "state": "WV",
    "winner": "GOP"
   },
   {
-   "state": "WY",
-   "name": "Wyoming",
-   "race_id": 51677,
-   "seat": "Class II",
+   "call": "Called",
    "holder": "GOP",
+   "name": "Wyoming",
    "precincts_reporting": 231,
    "precincts_total": 432,
-   "call": "Called",
+   "race_id": 51677,
+   "seat": "Class II",
+   "state": "WY",
    "winner": "GOP"
   }
- ]
+ ],
+ "source": "Associated Press",
+ "status": "Results reporting \u2014 precincts still coming in.",
+ "updated_cst": "Nov 4, 2026, 4:17 AM CST"
 }
