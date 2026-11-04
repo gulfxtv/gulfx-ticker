@@ -268,10 +268,10 @@
  "national": {
   "house_called": null,
   "house_votes": {
-   "dem": 59570274,
-   "gop": 47184112,
-   "other": 1581907,
-   "precincts_reporting": 133896,
+   "dem": 59573923,
+   "gop": 47185518,
+   "other": 1582183,
+   "precincts_reporting": 133737,
    "precincts_total": 172484
   },
   "senate_called": null
@@ -301,10 +301,10 @@
    ],
    "precincts_reporting": 1733,
    "precincts_total": 1736,
-   "title": "U.S. Senate \u2014 Mississippi"
+   "title": "U.S. Senate — Mississippi"
   },
   {
-   "call": "Trent Kelly \u2014 AP call",
+   "call": "Trent Kelly — AP call",
    "candidates": [
     {
      "incumbent": false,
@@ -327,10 +327,10 @@
    ],
    "precincts_reporting": 403,
    "precincts_total": 404,
-   "title": "U.S. House \u2014 District 1"
+   "title": "U.S. House — District 1"
   },
   {
-   "call": "Bennie Thompson \u2014 AP call",
+   "call": "Bennie Thompson — AP call",
    "candidates": [
     {
      "incumbent": false,
@@ -353,7 +353,7 @@
    ],
    "precincts_reporting": 568,
    "precincts_total": 568,
-   "title": "U.S. House \u2014 District 2"
+   "title": "U.S. House — District 2"
   },
   {
    "call": "Too Early to Call",
@@ -379,10 +379,10 @@
    ],
    "precincts_reporting": 0,
    "precincts_total": 455,
-   "title": "U.S. House \u2014 District 3"
+   "title": "U.S. House — District 3"
   },
   {
-   "call": "Mike Ezell \u2014 AP call",
+   "call": "Mike Ezell — AP call",
    "candidates": [
     {
      "incumbent": false,
@@ -405,7 +405,7 @@
    ],
    "precincts_reporting": 311,
    "precincts_total": 312,
-   "title": "U.S. House \u2014 District 4 (Gulf Coast)"
+   "title": "U.S. House — District 4 (Gulf Coast)"
   }
  ],
  "senate_map": [
@@ -567,7 +567,7 @@
    "call": "Called",
    "holder": "GOP",
    "name": "Maine",
-   "precincts_reporting": 507,
+   "precincts_reporting": 511,
    "precincts_total": 644,
    "race_id": 20643,
    "seat": "Class II",
@@ -655,7 +655,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "New Jersey",
-   "precincts_reporting": 6129,
+   "precincts_reporting": 6136,
    "precincts_total": 6508,
    "race_id": 31296,
    "seat": "Class II",
@@ -796,6 +796,6 @@
   }
  ],
  "source": "Associated Press",
- "status": "Results reporting \u2014 precincts still coming in.",
- "updated_cst": "Nov 4, 2026, 3:10 PM CST"
+ "status": "Results reporting — precincts still coming in.",
+ "updated_cst": "Nov 4, 2026, 3:29 PM CST"
 }
