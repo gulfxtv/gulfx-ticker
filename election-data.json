@@ -3,10 +3,10 @@
   "house_called": null,
   "senate_called": null,
   "house_votes": {
-   "dem": 23943040,
-   "gop": 18955300,
-   "other": 476918,
-   "precincts_reporting": 35681,
+   "dem": 26114056,
+   "gop": 20769987,
+   "other": 539921,
+   "precincts_reporting": 40344,
    "precincts_total": 172484
   }
  },
@@ -18,24 +18,24 @@
      "incumbent": false,
      "name": "Scott Colom",
      "party": "Dem",
-     "votes": 74645
+     "votes": 111624
     },
     {
      "incumbent": true,
      "name": "Cindy Hyde-Smith",
      "party": "GOP",
-     "votes": 96152
+     "votes": 133511
     },
     {
      "incumbent": false,
      "name": "Ty Pinkins",
      "party": "Ind",
-     "votes": 3649
+     "votes": 5364
     }
    ],
-   "precincts_reporting": 408,
+   "precincts_reporting": 545,
    "precincts_total": 1736,
-   "title": "U.S. Senate — Mississippi"
+   "title": "U.S. Senate \u2014 Mississippi"
   },
   {
    "call": "Too Early to Call",
@@ -44,24 +44,24 @@
      "incumbent": false,
      "name": "Johnny Baucom",
      "party": "Lib",
-     "votes": 708
+     "votes": 832
     },
     {
      "incumbent": false,
      "name": "Cliff Johnson",
      "party": "Dem",
-     "votes": 16858
+     "votes": 21941
     },
     {
      "incumbent": true,
      "name": "Trent Kelly",
      "party": "GOP",
-     "votes": 33930
+     "votes": 39175
     }
    ],
-   "precincts_reporting": 102,
+   "precincts_reporting": 116,
    "precincts_total": 404,
-   "title": "U.S. House — District 1"
+   "title": "U.S. House \u2014 District 1"
   },
   {
    "call": "Too Early to Call",
@@ -70,24 +70,24 @@
      "incumbent": false,
      "name": "Ron Eller",
      "party": "GOP",
-     "votes": 11022
+     "votes": 17588
     },
     {
      "incumbent": false,
      "name": "Bennie Foster",
      "party": "Ind",
-     "votes": 511
+     "votes": 812
     },
     {
      "incumbent": true,
      "name": "Bennie G. Thompson",
      "party": "Dem",
-     "votes": 12748
+     "votes": 19982
     }
    ],
-   "precincts_reporting": 70,
+   "precincts_reporting": 119,
    "precincts_total": 568,
-   "title": "U.S. House — District 2"
+   "title": "U.S. House \u2014 District 2"
   },
   {
    "call": "Too Early to Call",
@@ -113,7 +113,7 @@
    ],
    "precincts_reporting": 0,
    "precincts_total": 455,
-   "title": "U.S. House — District 3"
+   "title": "U.S. House \u2014 District 3"
   },
   {
    "call": "Too Early to Call",
@@ -122,29 +122,29 @@
      "incumbent": false,
      "name": "Carl Boyanton",
      "party": "Ind",
-     "votes": 614
+     "votes": 1615
     },
     {
      "incumbent": true,
      "name": "Mike Ezell",
      "party": "GOP",
-     "votes": 15542
+     "votes": 34021
     },
     {
      "incumbent": false,
      "name": "Jeffrey Hulum III",
      "party": "Dem",
-     "votes": 8617
+     "votes": 26006
     }
    ],
-   "precincts_reporting": 66,
+   "precincts_reporting": 112,
    "precincts_total": 312,
-   "title": "U.S. House — District 4 (Gulf Coast)"
+   "title": "U.S. House \u2014 District 4 (Gulf Coast)"
   }
  ],
  "source": "Associated Press",
- "status": "Results reporting — precincts still coming in.",
- "updated_cst": "Nov 3, 2026, 8:32 PM CST",
+ "status": "Results reporting \u2014 precincts still coming in.",
+ "updated_cst": "Nov 3, 2026, 8:39 PM CST",
  "counties": [
   {
    "name": "Hancock",
@@ -194,42 +194,42 @@
    "name": "Harrison",
    "precincts_total": 49,
    "senate": {
-    "precincts_reporting": 0,
+    "precincts_reporting": 27,
     "candidates": [
      {
       "name": "Scott Colom",
       "party": "Dem",
-      "votes": 0
+      "votes": 14545
      },
      {
       "name": "Cindy Hyde-Smith",
       "party": "GOP",
-      "votes": 0
+      "votes": 13500
      },
      {
       "name": "Ty Pinkins",
       "party": "Ind",
-      "votes": 0
+      "votes": 788
      }
     ]
    },
    "house4": {
-    "precincts_reporting": 0,
+    "precincts_reporting": 27,
     "candidates": [
      {
       "name": "Carl Boyanton",
       "party": "Ind",
-      "votes": 0
+      "votes": 779
      },
      {
       "name": "Mike Ezell",
       "party": "GOP",
-      "votes": 0
+      "votes": 14266
      },
      {
       "name": "Jeffrey Hulum III",
       "party": "Dem",
-      "votes": 0
+      "votes": 13754
      }
     ]
    }
@@ -429,7 +429,7 @@
    "race_id": 1755,
    "seat": "Class II",
    "holder": "GOP",
-   "precincts_reporting": 289,
+   "precincts_reporting": 382,
    "precincts_total": 2028,
    "call": "Too Early to Call",
    "winner": null
@@ -440,7 +440,7 @@
    "race_id": 6345,
    "seat": "Class II",
    "holder": "GOP",
-   "precincts_reporting": 1070,
+   "precincts_reporting": 1430,
    "precincts_total": 2768,
    "call": "Too Early to Call",
    "winner": null
@@ -451,7 +451,7 @@
    "race_id": 7168,
    "seat": "Class II",
    "holder": "Dem",
-   "precincts_reporting": 1362,
+   "precincts_reporting": 2549,
    "precincts_total": 4230,
    "call": "Called",
    "winner": "Dem"
@@ -462,7 +462,7 @@
    "race_id": 8362,
    "seat": "Class II",
    "holder": "Dem",
-   "precincts_reporting": 277,
+   "precincts_reporting": 320,
    "precincts_total": 533,
    "call": "Called",
    "winner": "Dem"
@@ -473,7 +473,7 @@
    "race_id": 84979,
    "seat": "Class III special",
    "holder": "GOP",
-   "precincts_reporting": 5561,
+   "precincts_reporting": 5568,
    "precincts_total": 5634,
    "call": "Called",
    "winner": "GOP"
@@ -484,7 +484,7 @@
    "race_id": 12301,
    "seat": "Class II",
    "holder": "Dem",
-   "precincts_reporting": 1186,
+   "precincts_reporting": 1204,
    "precincts_total": 2582,
    "call": "Called",
    "winner": "Dem"
@@ -495,7 +495,7 @@
    "race_id": 17247,
    "seat": "Class II",
    "holder": "GOP",
-   "precincts_reporting": 148,
+   "precincts_reporting": 165,
    "precincts_total": 1656,
    "call": "Too Early to Call",
    "winner": null
@@ -517,7 +517,7 @@
    "race_id": 16430,
    "seat": "Class II",
    "holder": "Dem",
-   "precincts_reporting": 2353,
+   "precincts_reporting": 2972,
    "precincts_total": 8496,
    "call": "Called",
    "winner": "Dem"
@@ -528,7 +528,7 @@
    "race_id": 17585,
    "seat": "Class II",
    "holder": "GOP",
-   "precincts_reporting": 531,
+   "precincts_reporting": 1141,
    "precincts_total": 4168,
    "call": "Too Early to Call",
    "winner": null
@@ -539,7 +539,7 @@
    "race_id": 18783,
    "seat": "Class II",
    "holder": "GOP",
-   "precincts_reporting": 2373,
+   "precincts_reporting": 2554,
    "precincts_total": 3189,
    "call": "Called",
    "winner": "GOP"
@@ -550,7 +550,7 @@
    "race_id": 20157,
    "seat": "Class II",
    "holder": "GOP",
-   "precincts_reporting": 3,
+   "precincts_reporting": 46,
    "precincts_total": 3722,
    "call": "Too Early to Call",
    "winner": null
@@ -561,7 +561,7 @@
    "race_id": 24467,
    "seat": "Class II",
    "holder": "Dem",
-   "precincts_reporting": 173,
+   "precincts_reporting": 213,
    "precincts_total": 2384,
    "call": "Called",
    "winner": "Dem"
@@ -572,7 +572,7 @@
    "race_id": 20643,
    "seat": "Class II",
    "holder": "GOP",
-   "precincts_reporting": 79,
+   "precincts_reporting": 92,
    "precincts_total": 644,
    "call": "Too Early to Call",
    "winner": null
@@ -583,7 +583,7 @@
    "race_id": 24463,
    "seat": "Class II",
    "holder": "Dem",
-   "precincts_reporting": 292,
+   "precincts_reporting": 341,
    "precincts_total": 3896,
    "call": "Too Early to Call",
    "winner": null
@@ -594,7 +594,7 @@
    "race_id": 25151,
    "seat": "Class II",
    "holder": "Dem",
-   "precincts_reporting": 10,
+   "precincts_reporting": 48,
    "precincts_total": 4105,
    "call": "Too Early to Call",
    "winner": null
@@ -605,7 +605,7 @@
    "race_id": 26692,
    "seat": "Class II",
    "holder": "GOP",
-   "precincts_reporting": 408,
+   "precincts_reporting": 545,
    "precincts_total": 1736,
    "call": "Too Early to Call",
    "winner": null
@@ -627,7 +627,7 @@
    "race_id": 35984,
    "seat": "Class II",
    "holder": "GOP",
-   "precincts_reporting": 1487,
+   "precincts_reporting": 1583,
    "precincts_total": 2626,
    "call": "Called",
    "winner": "Dem"
@@ -638,7 +638,7 @@
    "race_id": 28594,
    "seat": "Class II",
    "holder": "GOP",
-   "precincts_reporting": 319,
+   "precincts_reporting": 321,
    "precincts_total": 1322,
    "call": "Too Early to Call",
    "winner": null
@@ -649,7 +649,7 @@
    "race_id": 30003,
    "seat": "Class II",
    "holder": "Dem",
-   "precincts_reporting": 114,
+   "precincts_reporting": 123,
    "precincts_total": 318,
    "call": "Called",
    "winner": "Dem"
@@ -660,7 +660,7 @@
    "race_id": 31296,
    "seat": "Class II",
    "holder": "Dem",
-   "precincts_reporting": 3739,
+   "precincts_reporting": 3921,
    "precincts_total": 6508,
    "call": "Called",
    "winner": "Dem"
@@ -671,7 +671,7 @@
    "race_id": 33948,
    "seat": "Class II",
    "holder": "Dem",
-   "precincts_reporting": 50,
+   "precincts_reporting": 320,
    "precincts_total": 2204,
    "call": "Called",
    "winner": "Dem"
@@ -682,7 +682,7 @@
    "race_id": 84327,
    "seat": "Class III special",
    "holder": "GOP",
-   "precincts_reporting": 4906,
+   "precincts_reporting": 5336,
    "precincts_total": 8834,
    "call": "Too Early to Call",
    "winner": null
@@ -693,7 +693,7 @@
    "race_id": 37960,
    "seat": "Class II",
    "holder": "GOP",
-   "precincts_reporting": 1304,
+   "precincts_reporting": 1405,
    "precincts_total": 1984,
    "call": "Too Early to Call",
    "winner": null
@@ -715,7 +715,7 @@
    "race_id": 40003,
    "seat": "Class II",
    "holder": "Dem",
-   "precincts_reporting": 384,
+   "precincts_reporting": 385,
    "precincts_total": 458,
    "call": "Called",
    "winner": "Dem"
@@ -726,7 +726,7 @@
    "race_id": 41938,
    "seat": "Class II",
    "holder": "GOP",
-   "precincts_reporting": 1519,
+   "precincts_reporting": 1630,
    "precincts_total": 2312,
    "call": "Too Early to Call",
    "winner": null
@@ -737,7 +737,7 @@
    "race_id": 42003,
    "seat": "Class II",
    "holder": "GOP",
-   "precincts_reporting": 44,
+   "precincts_reporting": 54,
    "precincts_total": 671,
    "call": "Too Early to Call",
    "winner": null
@@ -748,7 +748,7 @@
    "race_id": 43441,
    "seat": "Class II",
    "holder": "GOP",
-   "precincts_reporting": 808,
+   "precincts_reporting": 992,
    "precincts_total": 1817,
    "call": "Too Early to Call",
    "winner": null
@@ -759,7 +759,7 @@
    "race_id": 46643,
    "seat": "Class II",
    "holder": "GOP",
-   "precincts_reporting": 5156,
+   "precincts_reporting": 5250,
    "precincts_total": 9900,
    "call": "Too Early to Call",
    "winner": null
@@ -770,7 +770,7 @@
    "race_id": 47917,
    "seat": "Class II",
    "holder": "Dem",
-   "precincts_reporting": 2239,
+   "precincts_reporting": 2255,
    "precincts_total": 2529,
    "call": "Called",
    "winner": "Dem"
@@ -781,7 +781,7 @@
    "race_id": 49137,
    "seat": "Class II",
    "holder": "GOP",
-   "precincts_reporting": 1017,
+   "precincts_reporting": 948,
    "precincts_total": 1642,
    "call": "Called",
    "winner": "GOP"
@@ -792,7 +792,7 @@
    "race_id": 51677,
    "seat": "Class II",
    "holder": "GOP",
-   "precincts_reporting": 0,
+   "precincts_reporting": 1,
    "precincts_total": 432,
    "call": "Called",
    "winner": "GOP"
