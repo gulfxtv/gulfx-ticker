@@ -268,10 +268,10 @@
  "national": {
   "house_called": null,
   "house_votes": {
-   "dem": 59478082,
-   "gop": 47126694,
-   "other": 1574897,
-   "precincts_reporting": 134218,
+   "dem": 59496704,
+   "gop": 47143061,
+   "other": 1577072,
+   "precincts_reporting": 134388,
    "precincts_total": 172484
   },
   "senate_called": null
@@ -301,10 +301,10 @@
    ],
    "precincts_reporting": 1733,
    "precincts_total": 1736,
-   "title": "U.S. Senate — Mississippi"
+   "title": "U.S. Senate \u2014 Mississippi"
   },
   {
-   "call": "Trent Kelly — AP call",
+   "call": "Trent Kelly \u2014 AP call",
    "candidates": [
     {
      "incumbent": false,
@@ -327,10 +327,10 @@
    ],
    "precincts_reporting": 403,
    "precincts_total": 404,
-   "title": "U.S. House — District 1"
+   "title": "U.S. House \u2014 District 1"
   },
   {
-   "call": "Bennie Thompson — AP call",
+   "call": "Bennie Thompson \u2014 AP call",
    "candidates": [
     {
      "incumbent": false,
@@ -353,7 +353,7 @@
    ],
    "precincts_reporting": 568,
    "precincts_total": 568,
-   "title": "U.S. House — District 2"
+   "title": "U.S. House \u2014 District 2"
   },
   {
    "call": "Too Early to Call",
@@ -379,10 +379,10 @@
    ],
    "precincts_reporting": 0,
    "precincts_total": 455,
-   "title": "U.S. House — District 3"
+   "title": "U.S. House \u2014 District 3"
   },
   {
-   "call": "Mike Ezell — AP call",
+   "call": "Mike Ezell \u2014 AP call",
    "candidates": [
     {
      "incumbent": false,
@@ -405,7 +405,7 @@
    ],
    "precincts_reporting": 311,
    "precincts_total": 312,
-   "title": "U.S. House — District 4 (Gulf Coast)"
+   "title": "U.S. House \u2014 District 4 (Gulf Coast)"
   }
  ],
  "senate_map": [
@@ -501,7 +501,7 @@
    "call": "Called",
    "holder": "GOP",
    "name": "Idaho",
-   "precincts_reporting": 947,
+   "precincts_reporting": 974,
    "precincts_total": 986,
    "race_id": 13252,
    "seat": "Class II",
@@ -512,7 +512,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "Illinois",
-   "precincts_reporting": 7576,
+   "precincts_reporting": 7585,
    "precincts_total": 8496,
    "race_id": 16430,
    "seat": "Class II",
@@ -556,7 +556,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "Massachusetts",
-   "precincts_reporting": 2140,
+   "precincts_reporting": 2145,
    "precincts_total": 2384,
    "race_id": 24467,
    "seat": "Class II",
@@ -567,7 +567,7 @@
    "call": "Called",
    "holder": "GOP",
    "name": "Maine",
-   "precincts_reporting": 489,
+   "precincts_reporting": 491,
    "precincts_total": 644,
    "race_id": 20643,
    "seat": "Class II",
@@ -578,7 +578,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "Michigan",
-   "precincts_reporting": 3595,
+   "precincts_reporting": 3575,
    "precincts_total": 3896,
    "race_id": 24463,
    "seat": "Class II",
@@ -611,7 +611,7 @@
    "call": "Called",
    "holder": "GOP",
    "name": "Montana",
-   "precincts_reporting": 667,
+   "precincts_reporting": 666,
    "precincts_total": 732,
    "race_id": 27607,
    "seat": "Class II",
@@ -633,7 +633,7 @@
    "call": "Called",
    "holder": "GOP",
    "name": "Nebraska",
-   "precincts_reporting": 1203,
+   "precincts_reporting": 1208,
    "precincts_total": 1322,
    "race_id": 28594,
    "seat": "Class II",
@@ -644,7 +644,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "New Hampshire",
-   "precincts_reporting": 285,
+   "precincts_reporting": 286,
    "precincts_total": 318,
    "race_id": 30003,
    "seat": "Class II",
@@ -754,7 +754,7 @@
    "call": "Called",
    "holder": "GOP",
    "name": "Texas",
-   "precincts_reporting": 9794,
+   "precincts_reporting": 9801,
    "precincts_total": 9900,
    "race_id": 46643,
    "seat": "Class II",
@@ -796,6 +796,6 @@
   }
  ],
  "source": "Associated Press",
- "status": "Results reporting — precincts still coming in.",
- "updated_cst": "Nov 4, 2026, 1:15 PM CST"
+ "status": "Results reporting \u2014 precincts still coming in.",
+ "updated_cst": "Nov 4, 2026, 1:20 PM CST"
 }
