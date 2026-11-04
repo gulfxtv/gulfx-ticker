@@ -268,10 +268,10 @@
  "national": {
   "house_called": null,
   "house_votes": {
-   "dem": 58658479,
-   "gop": 46546303,
-   "other": 1544966,
-   "precincts_reporting": 128410,
+   "dem": 58665104,
+   "gop": 46547923,
+   "other": 1545215,
+   "precincts_reporting": 128423,
    "precincts_total": 172484
   },
   "senate_called": null
@@ -567,7 +567,7 @@
    "call": "Called",
    "holder": "GOP",
    "name": "Maine",
-   "precincts_reporting": 448,
+   "precincts_reporting": 450,
    "precincts_total": 644,
    "race_id": 20643,
    "seat": "Class II",
@@ -578,7 +578,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "Michigan",
-   "precincts_reporting": 3534,
+   "precincts_reporting": 3546,
    "precincts_total": 3896,
    "race_id": 24463,
    "seat": "Class II",
@@ -710,7 +710,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "Rhode Island",
-   "precincts_reporting": 446,
+   "precincts_reporting": 447,
    "precincts_total": 458,
    "race_id": 40003,
    "seat": "Class II",
@@ -797,5 +797,5 @@
  ],
  "source": "Associated Press",
  "status": "Results reporting \u2014 precincts still coming in.",
- "updated_cst": "Nov 4, 2026, 4:17 AM CST"
+ "updated_cst": "Nov 4, 2026, 4:30 AM CST"
 }
