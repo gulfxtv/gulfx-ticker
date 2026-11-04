@@ -268,10 +268,10 @@
  "national": {
   "house_called": null,
   "house_votes": {
-   "dem": 59616817,
-   "gop": 47236324,
-   "other": 1585208,
-   "precincts_reporting": 135074,
+   "dem": 59641623,
+   "gop": 47249963,
+   "other": 1586274,
+   "precincts_reporting": 135103,
    "precincts_total": 172484
   },
   "senate_called": null
@@ -284,27 +284,27 @@
      "incumbent": false,
      "name": "Scott Colom",
      "party": "Dem",
-     "votes": 462857
+     "votes": 462901
     },
     {
      "incumbent": true,
      "name": "Cindy Hyde-Smith",
      "party": "GOP",
-     "votes": 462792
+     "votes": 462867
     },
     {
      "incumbent": false,
      "name": "Ty Pinkins",
      "party": "Ind",
-     "votes": 19938
+     "votes": 19943
     }
    ],
    "precincts_reporting": 1733,
    "precincts_total": 1736,
-   "title": "U.S. Senate — Mississippi"
+   "title": "U.S. Senate \u2014 Mississippi"
   },
   {
-   "call": "Trent Kelly — AP call",
+   "call": "Trent Kelly \u2014 AP call",
    "candidates": [
     {
      "incumbent": false,
@@ -316,21 +316,21 @@
      "incumbent": false,
      "name": "Cliff Johnson",
      "party": "Dem",
-     "votes": 94273
+     "votes": 94315
     },
     {
      "incumbent": true,
      "name": "Trent Kelly",
      "party": "GOP",
-     "votes": 138744
+     "votes": 138824
     }
    ],
    "precincts_reporting": 403,
    "precincts_total": 404,
-   "title": "U.S. House — District 1"
+   "title": "U.S. House \u2014 District 1"
   },
   {
-   "call": "Bennie Thompson — AP call",
+   "call": "Bennie Thompson \u2014 AP call",
    "candidates": [
     {
      "incumbent": false,
@@ -353,7 +353,7 @@
    ],
    "precincts_reporting": 568,
    "precincts_total": 568,
-   "title": "U.S. House — District 2"
+   "title": "U.S. House \u2014 District 2"
   },
   {
    "call": "Too Early to Call",
@@ -379,10 +379,10 @@
    ],
    "precincts_reporting": 0,
    "precincts_total": 455,
-   "title": "U.S. House — District 3"
+   "title": "U.S. House \u2014 District 3"
   },
   {
-   "call": "Mike Ezell — AP call",
+   "call": "Mike Ezell \u2014 AP call",
    "candidates": [
     {
      "incumbent": false,
@@ -405,7 +405,7 @@
    ],
    "precincts_reporting": 311,
    "precincts_total": 312,
-   "title": "U.S. House — District 4 (Gulf Coast)"
+   "title": "U.S. House \u2014 District 4 (Gulf Coast)"
   }
  ],
  "senate_map": [
@@ -446,7 +446,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "Colorado",
-   "precincts_reporting": 3324,
+   "precincts_reporting": 3353,
    "precincts_total": 4230,
    "race_id": 7168,
    "seat": "Class II",
@@ -567,7 +567,7 @@
    "call": "Called",
    "holder": "GOP",
    "name": "Maine",
-   "precincts_reporting": 546,
+   "precincts_reporting": 551,
    "precincts_total": 644,
    "race_id": 20643,
    "seat": "Class II",
@@ -796,6 +796,6 @@
   }
  ],
  "source": "Associated Press",
- "status": "Results reporting — precincts still coming in.",
- "updated_cst": "Nov 4, 2026, 5:20 PM CST"
+ "status": "Results reporting \u2014 precincts still coming in.",
+ "updated_cst": "Nov 4, 2026, 5:24 PM CST"
 }
