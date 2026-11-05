@@ -268,10 +268,10 @@
  "national": {
   "house_called": null,
   "house_votes": {
-   "dem": 60531378,
-   "gop": 47641477,
-   "other": 1610535,
-   "precincts_reporting": 134809,
+   "dem": 60584026,
+   "gop": 47642850,
+   "other": 1610656,
+   "precincts_reporting": 135225,
    "precincts_total": 172484
   },
   "senate_called": null
@@ -284,27 +284,27 @@
      "incumbent": false,
      "name": "Scott Colom",
      "party": "Dem",
-     "votes": 464933
+     "votes": 466226
     },
     {
      "incumbent": true,
      "name": "Cindy Hyde-Smith",
      "party": "GOP",
-     "votes": 463788
+     "votes": 464502
     },
     {
      "incumbent": false,
      "name": "Ty Pinkins",
      "party": "Ind",
-     "votes": 19934
+     "votes": 19978
     }
    ],
    "precincts_reporting": 1733,
    "precincts_total": 1736,
-   "title": "U.S. Senate — Mississippi"
+   "title": "U.S. Senate \u2014 Mississippi"
   },
   {
-   "call": "Trent Kelly — AP call",
+   "call": "Trent Kelly \u2014 AP call",
    "candidates": [
     {
      "incumbent": false,
@@ -327,33 +327,33 @@
    ],
    "precincts_reporting": 403,
    "precincts_total": 404,
-   "title": "U.S. House — District 1"
+   "title": "U.S. House \u2014 District 1"
   },
   {
-   "call": "Bennie Thompson — AP call",
+   "call": "Bennie Thompson \u2014 AP call",
    "candidates": [
     {
      "incumbent": false,
      "name": "Ron Eller",
      "party": "GOP",
-     "votes": 73109
+     "votes": 73115
     },
     {
      "incumbent": false,
      "name": "Bennie Foster",
      "party": "Ind",
-     "votes": 5825
+     "votes": 5880
     },
     {
      "incumbent": true,
      "name": "Bennie G. Thompson",
      "party": "Dem",
-     "votes": 164766
+     "votes": 164842
     }
    ],
    "precincts_reporting": 568,
    "precincts_total": 568,
-   "title": "U.S. House — District 2"
+   "title": "U.S. House \u2014 District 2"
   },
   {
    "call": "Too Early to Call",
@@ -379,10 +379,10 @@
    ],
    "precincts_reporting": 0,
    "precincts_total": 455,
-   "title": "U.S. House — District 3"
+   "title": "U.S. House \u2014 District 3"
   },
   {
-   "call": "Mike Ezell — AP call",
+   "call": "Mike Ezell \u2014 AP call",
    "candidates": [
     {
      "incumbent": false,
@@ -405,7 +405,7 @@
    ],
    "precincts_reporting": 311,
    "precincts_total": 312,
-   "title": "U.S. House — District 4 (Gulf Coast)"
+   "title": "U.S. House \u2014 District 4 (Gulf Coast)"
   }
  ],
  "senate_map": [
@@ -666,7 +666,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "New Mexico",
-   "precincts_reporting": 2159,
+   "precincts_reporting": 2165,
    "precincts_total": 2204,
    "race_id": 33948,
    "seat": "Class II",
@@ -796,6 +796,6 @@
   }
  ],
  "source": "Associated Press",
- "status": "Results reporting — precincts still coming in.",
- "updated_cst": "Nov 5, 2026, 10:52 AM CST"
+ "status": "Results reporting \u2014 precincts still coming in.",
+ "updated_cst": "Nov 5, 2026, 10:55 AM CST"
 }
