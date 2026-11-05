@@ -268,9 +268,9 @@
  "national": {
   "house_called": null,
   "house_votes": {
-   "dem": 60170116,
-   "gop": 47544103,
-   "other": 1599663,
+   "dem": 60178565,
+   "gop": 47555534,
+   "other": 1601308,
    "precincts_reporting": 134156,
    "precincts_total": 172484
   },
@@ -446,7 +446,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "Colorado",
-   "precincts_reporting": 3533,
+   "precincts_reporting": 3548,
    "precincts_total": 4230,
    "race_id": 7168,
    "seat": "Class II",
@@ -797,5 +797,5 @@
  ],
  "source": "Associated Press",
  "status": "Results reporting \u2014 precincts still coming in.",
- "updated_cst": "Nov 4, 2026, 8:31 PM CST"
+ "updated_cst": "Nov 4, 2026, 8:43 PM CST"
 }
