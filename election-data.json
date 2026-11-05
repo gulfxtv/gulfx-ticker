@@ -268,10 +268,10 @@
  "national": {
   "house_called": null,
   "house_votes": {
-   "dem": 60917680,
-   "gop": 47744661,
-   "other": 1619336,
-   "precincts_reporting": 135154,
+   "dem": 60920452,
+   "gop": 47746259,
+   "other": 1619384,
+   "precincts_reporting": 135162,
    "precincts_total": 172484
   },
   "senate_called": null
@@ -644,7 +644,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "New Hampshire",
-   "precincts_reporting": 302,
+   "precincts_reporting": 303,
    "precincts_total": 318,
    "race_id": 30003,
    "seat": "Class II",
@@ -797,5 +797,5 @@
  ],
  "source": "Associated Press",
  "status": "Results reporting \u2014 precincts still coming in.",
- "updated_cst": "Nov 5, 2026, 2:48 PM CST"
+ "updated_cst": "Nov 5, 2026, 3:01 PM CST"
 }
