@@ -268,10 +268,10 @@
  "national": {
   "house_called": null,
   "house_votes": {
-   "dem": 60350890,
-   "gop": 47610548,
+   "dem": 60350923,
+   "gop": 47610557,
    "other": 1608097,
-   "precincts_reporting": 134462,
+   "precincts_reporting": 134458,
    "precincts_total": 172484
   },
   "senate_called": null
@@ -655,7 +655,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "New Jersey",
-   "precincts_reporting": 6148,
+   "precincts_reporting": 6153,
    "precincts_total": 6508,
    "race_id": 31296,
    "seat": "Class II",
@@ -797,5 +797,5 @@
  ],
  "source": "Associated Press",
  "status": "Results reporting \u2014 precincts still coming in.",
- "updated_cst": "Nov 5, 2026, 8:28 AM CST"
+ "updated_cst": "Nov 5, 2026, 8:44 AM CST"
 }
