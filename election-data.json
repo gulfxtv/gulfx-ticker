@@ -268,10 +268,10 @@
  "national": {
   "house_called": null,
   "house_votes": {
-   "dem": 61007694,
-   "gop": 47750679,
-   "other": 1619532,
-   "precincts_reporting": 137039,
+   "dem": 61039081,
+   "gop": 47762976,
+   "other": 1621281,
+   "precincts_reporting": 137051,
    "precincts_total": 172484
   },
   "senate_called": null
@@ -284,76 +284,76 @@
      "incumbent": false,
      "name": "Scott Colom",
      "party": "Dem",
-     "votes": 466226
+     "votes": 466747
     },
     {
      "incumbent": true,
      "name": "Cindy Hyde-Smith",
      "party": "GOP",
-     "votes": 464502
+     "votes": 464925
     },
     {
      "incumbent": false,
      "name": "Ty Pinkins",
      "party": "Ind",
-     "votes": 19978
+     "votes": 20005
     }
    ],
    "precincts_reporting": 1733,
    "precincts_total": 1736,
-   "title": "U.S. Senate \u2014 Mississippi"
+   "title": "U.S. Senate — Mississippi"
   },
   {
-   "call": "Trent Kelly \u2014 AP call",
+   "call": "Trent Kelly — AP call",
    "candidates": [
     {
      "incumbent": false,
      "name": "Johnny Baucom",
      "party": "Lib",
-     "votes": 3325
+     "votes": 3340
     },
     {
      "incumbent": false,
      "name": "Cliff Johnson",
      "party": "Dem",
-     "votes": 96219
+     "votes": 96428
     },
     {
      "incumbent": true,
      "name": "Trent Kelly",
      "party": "GOP",
-     "votes": 139489
+     "votes": 139749
     }
    ],
    "precincts_reporting": 403,
    "precincts_total": 404,
-   "title": "U.S. House \u2014 District 1"
+   "title": "U.S. House — District 1"
   },
   {
-   "call": "Bennie Thompson \u2014 AP call",
+   "call": "Bennie Thompson — AP call",
    "candidates": [
     {
      "incumbent": false,
      "name": "Ron Eller",
      "party": "GOP",
-     "votes": 73115
+     "votes": 73164
     },
     {
      "incumbent": false,
      "name": "Bennie Foster",
      "party": "Ind",
-     "votes": 5880
+     "votes": 5883
     },
     {
      "incumbent": true,
      "name": "Bennie G. Thompson",
      "party": "Dem",
-     "votes": 164842
+     "votes": 164970
     }
    ],
    "precincts_reporting": 568,
    "precincts_total": 568,
-   "title": "U.S. House \u2014 District 2"
+   "title": "U.S. House — District 2"
   },
   {
    "call": "Too Early to Call",
@@ -379,33 +379,33 @@
    ],
    "precincts_reporting": 0,
    "precincts_total": 455,
-   "title": "U.S. House \u2014 District 3"
+   "title": "U.S. House — District 3"
   },
   {
-   "call": "Mike Ezell \u2014 AP call",
+   "call": "Mike Ezell — AP call",
    "candidates": [
     {
      "incumbent": false,
      "name": "Carl Boyanton",
      "party": "Ind",
-     "votes": 6588
+     "votes": 6591
     },
     {
      "incumbent": true,
      "name": "Mike Ezell",
      "party": "GOP",
-     "votes": 131074
+     "votes": 131097
     },
     {
      "incumbent": false,
      "name": "Jeffrey Hulum III",
      "party": "Dem",
-     "votes": 76856
+     "votes": 76888
     }
    ],
    "precincts_reporting": 311,
    "precincts_total": 312,
-   "title": "U.S. House \u2014 District 4 (Gulf Coast)"
+   "title": "U.S. House — District 4 (Gulf Coast)"
   }
  ],
  "senate_map": [
@@ -446,7 +446,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "Colorado",
-   "precincts_reporting": 3774,
+   "precincts_reporting": 3813,
    "precincts_total": 4230,
    "race_id": 7168,
    "seat": "Class II",
@@ -556,7 +556,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "Massachusetts",
-   "precincts_reporting": 2330,
+   "precincts_reporting": 2331,
    "precincts_total": 2384,
    "race_id": 24467,
    "seat": "Class II",
@@ -567,7 +567,7 @@
    "call": "Called",
    "holder": "GOP",
    "name": "Maine",
-   "precincts_reporting": 540,
+   "precincts_reporting": 541,
    "precincts_total": 644,
    "race_id": 20643,
    "seat": "Class II",
@@ -655,7 +655,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "New Jersey",
-   "precincts_reporting": 6189,
+   "precincts_reporting": 6203,
    "precincts_total": 6508,
    "race_id": 31296,
    "seat": "Class II",
@@ -796,6 +796,6 @@
   }
  ],
  "source": "Associated Press",
- "status": "Results reporting \u2014 precincts still coming in.",
- "updated_cst": "Nov 5, 2026, 3:45 PM CST"
+ "status": "Results reporting — precincts still coming in.",
+ "updated_cst": "Nov 5, 2026, 3:58 PM CST"
 }
