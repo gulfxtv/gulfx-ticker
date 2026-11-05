@@ -268,10 +268,10 @@
  "national": {
   "house_called": null,
   "house_votes": {
-   "dem": 59654194,
-   "gop": 47261668,
-   "other": 1587231,
-   "precincts_reporting": 135215,
+   "dem": 59703487,
+   "gop": 47282433,
+   "other": 1590625,
+   "precincts_reporting": 135239,
    "precincts_total": 172484
   },
   "senate_called": null
@@ -446,7 +446,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "Colorado",
-   "precincts_reporting": 3359,
+   "precincts_reporting": 3439,
    "precincts_total": 4230,
    "race_id": 7168,
    "seat": "Class II",
@@ -633,7 +633,7 @@
    "call": "Called",
    "holder": "GOP",
    "name": "Nebraska",
-   "precincts_reporting": 1220,
+   "precincts_reporting": 1221,
    "precincts_total": 1322,
    "race_id": 28594,
    "seat": "Class II",
@@ -699,7 +699,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "Oregon",
-   "precincts_reporting": 992,
+   "precincts_reporting": 1004,
    "precincts_total": 1318,
    "race_id": 38952,
    "seat": "Class II",
@@ -797,5 +797,5 @@
  ],
  "source": "Associated Press",
  "status": "Results reporting \u2014 precincts still coming in.",
- "updated_cst": "Nov 4, 2026, 6:06 PM CST"
+ "updated_cst": "Nov 4, 2026, 6:09 PM CST"
 }
