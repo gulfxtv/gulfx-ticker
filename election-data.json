@@ -268,10 +268,10 @@
  "national": {
   "house_called": null,
   "house_votes": {
-   "dem": 60482853,
-   "gop": 47627617,
-   "other": 1608690,
-   "precincts_reporting": 134448,
+   "dem": 60517630,
+   "gop": 47635204,
+   "other": 1608831,
+   "precincts_reporting": 134796,
    "precincts_total": 172484
   },
   "senate_called": null
@@ -284,7 +284,7 @@
      "incumbent": false,
      "name": "Scott Colom",
      "party": "Dem",
-     "votes": 464926
+     "votes": 464933
     },
     {
      "incumbent": true,
@@ -348,7 +348,7 @@
      "incumbent": true,
      "name": "Bennie G. Thompson",
      "party": "Dem",
-     "votes": 164759
+     "votes": 164766
     }
    ],
    "precincts_reporting": 568,
@@ -556,7 +556,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "Massachusetts",
-   "precincts_reporting": 2188,
+   "precincts_reporting": 2196,
    "precincts_total": 2384,
    "race_id": 24467,
    "seat": "Class II",
@@ -776,7 +776,7 @@
    "call": "Called",
    "holder": "GOP",
    "name": "West Virginia",
-   "precincts_reporting": 1248,
+   "precincts_reporting": 1566,
    "precincts_total": 1642,
    "race_id": 49137,
    "seat": "Class II",
@@ -797,5 +797,5 @@
  ],
  "source": "Associated Press",
  "status": "Results reporting \u2014 precincts still coming in.",
- "updated_cst": "Nov 5, 2026, 10:14 AM CST"
+ "updated_cst": "Nov 5, 2026, 10:37 AM CST"
 }
