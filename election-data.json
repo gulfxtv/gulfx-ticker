@@ -268,10 +268,10 @@
  "national": {
   "house_called": null,
   "house_votes": {
-   "dem": 61039081,
-   "gop": 47762976,
-   "other": 1621281,
-   "precincts_reporting": 137051,
+   "dem": 61080188,
+   "gop": 47775667,
+   "other": 1622383,
+   "precincts_reporting": 137073,
    "precincts_total": 172484
   },
   "senate_called": null
@@ -446,7 +446,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "Colorado",
-   "precincts_reporting": 3813,
+   "precincts_reporting": 3843,
    "precincts_total": 4230,
    "race_id": 7168,
    "seat": "Class II",
@@ -556,7 +556,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "Massachusetts",
-   "precincts_reporting": 2331,
+   "precincts_reporting": 2332,
    "precincts_total": 2384,
    "race_id": 24467,
    "seat": "Class II",
@@ -797,5 +797,5 @@
  ],
  "source": "Associated Press",
  "status": "Results reporting — precincts still coming in.",
- "updated_cst": "Nov 5, 2026, 3:58 PM CST"
+ "updated_cst": "Nov 5, 2026, 4:14 PM CST"
 }
