@@ -268,10 +268,10 @@
   "national": {
     "house_called": null,
     "house_votes": {
-      "dem": 62421178,
-      "gop": 48393520,
-      "other": 1652125,
-      "precincts_reporting": 136493,
+      "dem": 62423851,
+      "gop": 48396214,
+      "other": 1652180,
+      "precincts_reporting": 136448,
       "precincts_total": 172484
     },
     "senate_called": null
@@ -284,27 +284,27 @@
           "incumbent": false,
           "name": "Scott Colom",
           "party": "Dem",
-          "votes": 467312
+          "votes": 467829
         },
         {
           "incumbent": true,
           "name": "Cindy Hyde-Smith",
           "party": "GOP",
-          "votes": 465183
+          "votes": 465336
         },
         {
           "incumbent": false,
           "name": "Ty Pinkins",
           "party": "Ind",
-          "votes": 20017
+          "votes": 20025
         }
       ],
       "precincts_reporting": 1736,
       "precincts_total": 1736,
-      "title": "U.S. Senate \u2014 Mississippi"
+      "title": "U.S. Senate — Mississippi"
     },
     {
-      "call": "Trent Kelly \u2014 AP call",
+      "call": "Trent Kelly — AP call",
       "candidates": [
         {
           "incumbent": false,
@@ -316,21 +316,21 @@
           "incumbent": false,
           "name": "Cliff Johnson",
           "party": "Dem",
-          "votes": 96447
+          "votes": 96453
         },
         {
           "incumbent": true,
           "name": "Trent Kelly",
           "party": "GOP",
-          "votes": 139770
+          "votes": 139780
         }
       ],
       "precincts_reporting": 404,
       "precincts_total": 404,
-      "title": "U.S. House \u2014 District 1"
+      "title": "U.S. House — District 1"
     },
     {
-      "call": "Bennie Thompson \u2014 AP call",
+      "call": "Bennie Thompson — AP call",
       "candidates": [
         {
           "incumbent": false,
@@ -353,10 +353,10 @@
       ],
       "precincts_reporting": 568,
       "precincts_total": 568,
-      "title": "U.S. House \u2014 District 2"
+      "title": "U.S. House — District 2"
     },
     {
-      "call": "Michael Guest \u2014 AP call",
+      "call": "Michael Guest — AP call",
       "candidates": [
         {
           "incumbent": false,
@@ -379,33 +379,33 @@
       ],
       "precincts_reporting": 454,
       "precincts_total": 455,
-      "title": "U.S. House \u2014 District 3"
+      "title": "U.S. House — District 3"
     },
     {
-      "call": "Mike Ezell \u2014 AP call",
+      "call": "Mike Ezell — AP call",
       "candidates": [
         {
           "incumbent": false,
           "name": "Carl Boyanton",
           "party": "Ind",
-          "votes": 6592
+          "votes": 6593
         },
         {
           "incumbent": true,
           "name": "Mike Ezell",
           "party": "GOP",
-          "votes": 131137
+          "votes": 131171
         },
         {
           "incumbent": false,
           "name": "Jeffrey Hulum III",
           "party": "Dem",
-          "votes": 76914
+          "votes": 76941
         }
       ],
       "precincts_reporting": 312,
       "precincts_total": 312,
-      "title": "U.S. House \u2014 District 4 (Gulf Coast)"
+      "title": "U.S. House — District 4 (Gulf Coast)"
     }
   ],
   "senate_map": [
@@ -796,6 +796,6 @@
     }
   ],
   "source": "Associated Press",
-  "status": "Results reporting \u2014 precincts still coming in.",
-  "updated_cst": "Nov 6, 2026, 3:27 PM CST"
+  "status": "Results reporting — precincts still coming in.",
+  "updated_cst": "Nov 6, 2026, 3:30 PM CST"
 }
