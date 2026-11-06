@@ -268,10 +268,10 @@
  "national": {
   "house_called": null,
   "house_votes": {
-   "dem": 62223847,
-   "gop": 48319052,
-   "other": 1648894,
-   "precincts_reporting": 135513,
+   "dem": 62225775,
+   "gop": 48320883,
+   "other": 1648926,
+   "precincts_reporting": 135517,
    "precincts_total": 172484
   },
   "senate_called": null
@@ -446,7 +446,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "Colorado",
-   "precincts_reporting": 4064,
+   "precincts_reporting": 4054,
    "precincts_total": 4230,
    "race_id": 7168,
    "seat": "Class II",
@@ -578,7 +578,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "Michigan",
-   "precincts_reporting": 3567,
+   "precincts_reporting": 3571,
    "precincts_total": 3896,
    "race_id": 24463,
    "seat": "Class II",
@@ -797,5 +797,5 @@
  ],
  "source": "Associated Press",
  "status": "Results reporting \u2014 precincts still coming in.",
- "updated_cst": "Nov 6, 2026, 9:46 AM CST"
+ "updated_cst": "Nov 6, 2026, 10:02 AM CST"
 }
