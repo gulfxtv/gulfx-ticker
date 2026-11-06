@@ -268,10 +268,10 @@
   "national": {
     "house_called": null,
     "house_votes": {
-      "dem": 62423851,
-      "gop": 48396214,
-      "other": 1652180,
-      "precincts_reporting": 136448,
+      "dem": 62424813,
+      "gop": 48396571,
+      "other": 1652198,
+      "precincts_reporting": 136451,
       "precincts_total": 172484
     },
     "senate_called": null
@@ -284,19 +284,19 @@
           "incumbent": false,
           "name": "Scott Colom",
           "party": "Dem",
-          "votes": 467829
+          "votes": 467846
         },
         {
           "incumbent": true,
           "name": "Cindy Hyde-Smith",
           "party": "GOP",
-          "votes": 465336
+          "votes": 465348
         },
         {
           "incumbent": false,
           "name": "Ty Pinkins",
           "party": "Ind",
-          "votes": 20025
+          "votes": 20028
         }
       ],
       "precincts_reporting": 1736,
@@ -310,19 +310,19 @@
           "incumbent": false,
           "name": "Johnny Baucom",
           "party": "Lib",
-          "votes": 3342
+          "votes": 3343
         },
         {
           "incumbent": false,
           "name": "Cliff Johnson",
           "party": "Dem",
-          "votes": 96453
+          "votes": 96470
         },
         {
           "incumbent": true,
           "name": "Trent Kelly",
           "party": "GOP",
-          "votes": 139780
+          "votes": 139794
         }
       ],
       "precincts_reporting": 404,
@@ -655,7 +655,7 @@
       "call": "Called",
       "holder": "Dem",
       "name": "New Jersey",
-      "precincts_reporting": 6244,
+      "precincts_reporting": 6256,
       "precincts_total": 6508,
       "race_id": 31296,
       "seat": "Class II",
@@ -765,7 +765,7 @@
       "call": "Called",
       "holder": "Dem",
       "name": "Virginia",
-      "precincts_reporting": 2235,
+      "precincts_reporting": 2234,
       "precincts_total": 2529,
       "race_id": 47917,
       "seat": "Class II",
@@ -797,5 +797,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting — precincts still coming in.",
-  "updated_cst": "Nov 6, 2026, 3:30 PM CST"
+  "updated_cst": "Nov 6, 2026, 3:46 PM CST"
 }
