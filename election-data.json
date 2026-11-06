@@ -107,7 +107,7 @@
       "votes": 13145
      }
     ],
-    "precincts_reporting": 30
+    "precincts_reporting": 31
    },
    "name": "Jackson",
    "precincts_total": 31,
@@ -129,7 +129,7 @@
       "votes": 963
      }
     ],
-    "precincts_reporting": 30
+    "precincts_reporting": 31
    }
   },
   {
@@ -268,10 +268,10 @@
  "national": {
   "house_called": null,
   "house_votes": {
-   "dem": 62131959,
-   "gop": 48294436,
-   "other": 1647682,
-   "precincts_reporting": 135489,
+   "dem": 62144679,
+   "gop": 48300476,
+   "other": 1648355,
+   "precincts_reporting": 135493,
    "precincts_total": 172484
   },
   "senate_called": null
@@ -299,12 +299,12 @@
      "votes": 20007
     }
    ],
-   "precincts_reporting": 1733,
+   "precincts_reporting": 1736,
    "precincts_total": 1736,
-   "title": "U.S. Senate \u2014 Mississippi"
+   "title": "U.S. Senate — Mississippi"
   },
   {
-   "call": "Trent Kelly \u2014 AP call",
+   "call": "Trent Kelly — AP call",
    "candidates": [
     {
      "incumbent": false,
@@ -327,10 +327,10 @@
    ],
    "precincts_reporting": 403,
    "precincts_total": 404,
-   "title": "U.S. House \u2014 District 1"
+   "title": "U.S. House — District 1"
   },
   {
-   "call": "Bennie Thompson \u2014 AP call",
+   "call": "Bennie Thompson — AP call",
    "candidates": [
     {
      "incumbent": false,
@@ -353,10 +353,10 @@
    ],
    "precincts_reporting": 568,
    "precincts_total": 568,
-   "title": "U.S. House \u2014 District 2"
+   "title": "U.S. House — District 2"
   },
   {
-   "call": "Michael Guest \u2014 AP call",
+   "call": "Michael Guest — AP call",
    "candidates": [
     {
      "incumbent": false,
@@ -379,10 +379,10 @@
    ],
    "precincts_reporting": 454,
    "precincts_total": 455,
-   "title": "U.S. House \u2014 District 3"
+   "title": "U.S. House — District 3"
   },
   {
-   "call": "Mike Ezell \u2014 AP call",
+   "call": "Mike Ezell — AP call",
    "candidates": [
     {
      "incumbent": false,
@@ -405,7 +405,7 @@
    ],
    "precincts_reporting": 311,
    "precincts_total": 312,
-   "title": "U.S. House \u2014 District 4 (Gulf Coast)"
+   "title": "U.S. House — District 4 (Gulf Coast)"
   }
  ],
  "senate_map": [
@@ -446,7 +446,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "Colorado",
-   "precincts_reporting": 4076,
+   "precincts_reporting": 4066,
    "precincts_total": 4230,
    "race_id": 7168,
    "seat": "Class II",
@@ -600,7 +600,7 @@
    "call": "Too Early to Call",
    "holder": "GOP",
    "name": "Mississippi",
-   "precincts_reporting": 1733,
+   "precincts_reporting": 1736,
    "precincts_total": 1736,
    "race_id": 26692,
    "seat": "Class II",
@@ -644,7 +644,7 @@
    "call": "Called",
    "holder": "Dem",
    "name": "New Hampshire",
-   "precincts_reporting": 314,
+   "precincts_reporting": 315,
    "precincts_total": 318,
    "race_id": 30003,
    "seat": "Class II",
@@ -796,6 +796,6 @@
   }
  ],
  "source": "Associated Press",
- "status": "Results reporting \u2014 precincts still coming in.",
- "updated_cst": "Nov 6, 2026, 8:37 AM CST"
+ "status": "Results reporting — precincts still coming in.",
+ "updated_cst": "Nov 6, 2026, 9:00 AM CST"
 }
