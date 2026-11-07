@@ -268,9 +268,9 @@
   "national": {
     "house_called": null,
     "house_votes": {
-      "dem": 63743040,
-      "gop": 48924595,
-      "other": 1683224,
+      "dem": 63746107,
+      "gop": 48925151,
+      "other": 1683225,
       "precincts_reporting": 142333,
       "precincts_total": 172484
     },
@@ -797,5 +797,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting \u2014 precincts still coming in.",
-  "updated_cst": "Nov 7, 2026, 4:54 PM CST"
+  "updated_cst": "Nov 7, 2026, 5:08 PM CST"
 }
