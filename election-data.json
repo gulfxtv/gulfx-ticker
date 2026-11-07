@@ -362,19 +362,19 @@
           "incumbent": false,
           "name": "Michael A. Chiaradio",
           "party": "Dem",
-          "votes": 103164
+          "votes": 103823
         },
         {
           "incumbent": true,
           "name": "Michael Guest",
           "party": "GOP",
-          "votes": 144471
+          "votes": 144727
         },
         {
           "incumbent": false,
           "name": "Erik Kiehle",
           "party": "Lib",
-          "votes": 3146
+          "votes": 3157
         }
       ],
       "precincts_reporting": 454,
@@ -797,5 +797,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting \u2014 precincts still coming in.",
-  "updated_cst": "Nov 6, 2026, 8:37 PM CST"
+  "updated_cst": "Nov 6, 2026, 8:39 PM CST"
 }
