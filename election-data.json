@@ -699,7 +699,7 @@
       "call": "Called",
       "holder": "Dem",
       "name": "Oregon",
-      "precincts_reporting": 1214,
+      "precincts_reporting": 1215,
       "precincts_total": 1318,
       "race_id": 38952,
       "seat": "Class II",
@@ -797,5 +797,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting — precincts still coming in.",
-  "updated_cst": "Nov 8, 2026, 4:40 PM CST"
+  "updated_cst": "Nov 8, 2026, 4:56 PM CST"
 }
