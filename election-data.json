@@ -226,17 +226,17 @@
           {
             "name": "Carl Boyanton",
             "party": "Ind",
-            "votes": 156
+            "votes": 159
           },
           {
             "name": "Mike Ezell",
             "party": "GOP",
-            "votes": 5669
+            "votes": 5741
           },
           {
             "name": "Jeffrey Hulum III",
             "party": "Dem",
-            "votes": 946
+            "votes": 974
           }
         ],
         "precincts_reporting": 21
@@ -248,17 +248,17 @@
           {
             "name": "Scott Colom",
             "party": "Dem",
-            "votes": 1107
+            "votes": 1138
           },
           {
             "name": "Cindy Hyde-Smith",
             "party": "GOP",
-            "votes": 5406
+            "votes": 5475
           },
           {
             "name": "Ty Pinkins",
             "party": "Ind",
-            "votes": 246
+            "votes": 250
           }
         ],
         "precincts_reporting": 21
@@ -268,10 +268,10 @@
   "national": {
     "house_called": null,
     "house_votes": {
-      "dem": 64236991,
-      "gop": 49086700,
-      "other": 1686781,
-      "precincts_reporting": 137837,
+      "dem": 64238024,
+      "gop": 49087147,
+      "other": 1686789,
+      "precincts_reporting": 137845,
       "precincts_total": 172484
     },
     "senate_called": null
@@ -284,27 +284,27 @@
           "incumbent": false,
           "name": "Scott Colom",
           "party": "Dem",
-          "votes": 467930
+          "votes": 467961
         },
         {
           "incumbent": true,
           "name": "Cindy Hyde-Smith",
           "party": "GOP",
-          "votes": 465356
+          "votes": 465425
         },
         {
           "incumbent": false,
           "name": "Ty Pinkins",
           "party": "Ind",
-          "votes": 20028
+          "votes": 20032
         }
       ],
       "precincts_reporting": 1736,
       "precincts_total": 1736,
-      "title": "U.S. Senate \u2014 Mississippi"
+      "title": "U.S. Senate — Mississippi"
     },
     {
-      "call": "Trent Kelly \u2014 AP call",
+      "call": "Trent Kelly — AP call",
       "candidates": [
         {
           "incumbent": false,
@@ -327,10 +327,10 @@
       ],
       "precincts_reporting": 404,
       "precincts_total": 404,
-      "title": "U.S. House \u2014 District 1"
+      "title": "U.S. House — District 1"
     },
     {
-      "call": "Bennie Thompson \u2014 AP call",
+      "call": "Bennie Thompson — AP call",
       "candidates": [
         {
           "incumbent": false,
@@ -353,10 +353,10 @@
       ],
       "precincts_reporting": 568,
       "precincts_total": 568,
-      "title": "U.S. House \u2014 District 2"
+      "title": "U.S. House — District 2"
     },
     {
-      "call": "Michael Guest \u2014 AP call",
+      "call": "Michael Guest — AP call",
       "candidates": [
         {
           "incumbent": false,
@@ -379,33 +379,33 @@
       ],
       "precincts_reporting": 454,
       "precincts_total": 455,
-      "title": "U.S. House \u2014 District 3"
+      "title": "U.S. House — District 3"
     },
     {
-      "call": "Mike Ezell \u2014 AP call",
+      "call": "Mike Ezell — AP call",
       "candidates": [
         {
           "incumbent": false,
           "name": "Carl Boyanton",
           "party": "Ind",
-          "votes": 6593
+          "votes": 6596
         },
         {
           "incumbent": true,
           "name": "Mike Ezell",
           "party": "GOP",
-          "votes": 131171
+          "votes": 131243
         },
         {
           "incumbent": false,
           "name": "Jeffrey Hulum III",
           "party": "Dem",
-          "votes": 76941
+          "votes": 76969
         }
       ],
       "precincts_reporting": 312,
       "precincts_total": 312,
-      "title": "U.S. House \u2014 District 4 (Gulf Coast)"
+      "title": "U.S. House — District 4 (Gulf Coast)"
     }
   ],
   "senate_map": [
@@ -776,7 +776,7 @@
       "call": "Called",
       "holder": "GOP",
       "name": "West Virginia",
-      "precincts_reporting": 1575,
+      "precincts_reporting": 1583,
       "precincts_total": 1642,
       "race_id": 49137,
       "seat": "Class II",
@@ -796,6 +796,6 @@
     }
   ],
   "source": "Associated Press",
-  "status": "Results reporting \u2014 precincts still coming in.",
-  "updated_cst": "Nov 9, 2026, 2:24 PM CST"
+  "status": "Results reporting — precincts still coming in.",
+  "updated_cst": "Nov 9, 2026, 2:39 PM CST"
 }
