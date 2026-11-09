@@ -268,9 +268,9 @@
   "national": {
     "house_called": null,
     "house_votes": {
-      "dem": 64185054,
-      "gop": 49064502,
-      "other": 1684050,
+      "dem": 64199488,
+      "gop": 49074218,
+      "other": 1685723,
       "precincts_reporting": 139207,
       "precincts_total": 172484
     },
@@ -567,7 +567,7 @@
       "call": "Called",
       "holder": "GOP",
       "name": "Maine",
-      "precincts_reporting": 549,
+      "precincts_reporting": 552,
       "precincts_total": 644,
       "race_id": 20643,
       "seat": "Class II",
@@ -797,5 +797,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting \u2014 precincts still coming in.",
-  "updated_cst": "Nov 9, 2026, 9:41 AM CST"
+  "updated_cst": "Nov 9, 2026, 9:57 AM CST"
 }
