@@ -271,9 +271,9 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 65016559,
-      "gop": 49395743,
-      "other": 1692062,
+      "dem": 65018583,
+      "gop": 49397260,
+      "other": 1692070,
       "precincts_reporting": 137910,
       "precincts_total": 172484
     },
@@ -296,7 +296,7 @@
           "incumbent": true,
           "name": "Cindy Hyde-Smith",
           "party": "GOP",
-          "votes": 465425
+          "votes": 465426
         },
         {
           "incumbent": false,
@@ -328,7 +328,7 @@
           "incumbent": true,
           "name": "Trent Kelly",
           "party": "GOP",
-          "votes": 139794
+          "votes": 139795
         }
       ],
       "precincts_reporting": 404,
@@ -705,7 +705,7 @@
       "call": "Called",
       "holder": "Dem",
       "name": "Oregon",
-      "precincts_reporting": 1236,
+      "precincts_reporting": 1238,
       "precincts_total": 1318,
       "race_id": 38952,
       "seat": "Class II",
@@ -803,5 +803,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting \u2014 precincts still coming in.",
-  "updated_cst": "Nov 10, 2026, 11:22 AM CST"
+  "updated_cst": "Nov 10, 2026, 11:47 AM CST"
 }
