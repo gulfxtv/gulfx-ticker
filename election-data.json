@@ -271,9 +271,9 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 65066712,
-      "gop": 49411927,
-      "other": 1694109,
+      "dem": 65069523,
+      "gop": 49412820,
+      "other": 1694255,
       "precincts_reporting": 137947,
       "precincts_total": 172484
     },
@@ -290,19 +290,19 @@
           "incumbent": false,
           "name": "Scott Colom",
           "party": "Dem",
-          "votes": 468072
+          "votes": 468163
         },
         {
           "incumbent": true,
           "name": "Cindy Hyde-Smith",
           "party": "GOP",
-          "votes": 465468
+          "votes": 465530
         },
         {
           "incumbent": false,
           "name": "Ty Pinkins",
           "party": "Ind",
-          "votes": 20034
+          "votes": 20038
         }
       ],
       "precincts_reporting": 1736,
@@ -342,19 +342,19 @@
           "incumbent": false,
           "name": "Ron Eller",
           "party": "GOP",
-          "votes": 73274
+          "votes": 73334
         },
         {
           "incumbent": false,
           "name": "Bennie Foster",
           "party": "Ind",
-          "votes": 5891
+          "votes": 5896
         },
         {
           "incumbent": true,
           "name": "Bennie G. Thompson",
           "party": "Dem",
-          "votes": 165310
+          "votes": 165401
         }
       ],
       "precincts_reporting": 568,
@@ -803,5 +803,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting \u2014 precincts still coming in.",
-  "updated_cst": "Nov 10, 2026, 4:09 PM CST"
+  "updated_cst": "Nov 10, 2026, 4:24 PM CST"
 }
