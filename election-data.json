@@ -274,7 +274,7 @@
       "dem": 65000280,
       "gop": 49383170,
       "other": 1691605,
-      "precincts_reporting": 138286,
+      "precincts_reporting": 137898,
       "precincts_total": 172484
     },
     "senate_called": {
@@ -803,5 +803,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting \u2014 precincts still coming in.",
-  "updated_cst": "Nov 10, 2026, 7:08 AM CST"
+  "updated_cst": "Nov 10, 2026, 7:22 AM CST"
 }
