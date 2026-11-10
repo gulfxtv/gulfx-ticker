@@ -271,7 +271,7 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 65018583,
+      "dem": 65018584,
       "gop": 49397260,
       "other": 1692070,
       "precincts_reporting": 137910,
@@ -705,7 +705,7 @@
       "call": "Called",
       "holder": "Dem",
       "name": "Oregon",
-      "precincts_reporting": 1238,
+      "precincts_reporting": 1239,
       "precincts_total": 1318,
       "race_id": 38952,
       "seat": "Class II",
@@ -803,5 +803,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting \u2014 precincts still coming in.",
-  "updated_cst": "Nov 10, 2026, 11:47 AM CST"
+  "updated_cst": "Nov 10, 2026, 11:56 AM CST"
 }
