@@ -271,10 +271,10 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 65039908,
-      "gop": 49400036,
-      "other": 1692325,
-      "precincts_reporting": 137910,
+      "dem": 65041509,
+      "gop": 49400853,
+      "other": 1692398,
+      "precincts_reporting": 137894,
       "precincts_total": 172484
     },
     "senate_called": {
@@ -683,7 +683,7 @@
       "call": "Called",
       "holder": "GOP",
       "name": "Ohio",
-      "precincts_reporting": 8634,
+      "precincts_reporting": 8635,
       "precincts_total": 8834,
       "race_id": 84327,
       "seat": "Class III special",
@@ -782,7 +782,7 @@
       "call": "Called",
       "holder": "GOP",
       "name": "West Virginia",
-      "precincts_reporting": 1612,
+      "precincts_reporting": 1638,
       "precincts_total": 1642,
       "race_id": 49137,
       "seat": "Class II",
@@ -803,5 +803,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting \u2014 precincts still coming in.",
-  "updated_cst": "Nov 10, 2026, 12:23 PM CST"
+  "updated_cst": "Nov 10, 2026, 12:40 PM CST"
 }
