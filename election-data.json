@@ -290,13 +290,13 @@
           "incumbent": false,
           "name": "Scott Colom",
           "party": "Dem",
-          "votes": 471757
+          "votes": 471752
         },
         {
           "incumbent": true,
           "name": "Cindy Hyde-Smith",
           "party": "GOP",
-          "votes": 467353
+          "votes": 467352
         },
         {
           "incumbent": false,
@@ -322,13 +322,13 @@
           "incumbent": false,
           "name": "Cliff Johnson",
           "party": "Dem",
-          "votes": 96685
+          "votes": 96680
         },
         {
           "incumbent": true,
           "name": "Trent Kelly",
           "party": "GOP",
-          "votes": 139986
+          "votes": 139985
         }
       ],
       "precincts_reporting": 404,
@@ -803,5 +803,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting — precincts still coming in.",
-  "updated_cst": "Nov 11, 2026, 3:51 PM CST"
+  "updated_cst": "Nov 11, 2026, 3:57 PM CST"
 }
