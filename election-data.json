@@ -271,9 +271,9 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 65537012,
-      "gop": 49606206,
-      "other": 1716887,
+      "dem": 65564182,
+      "gop": 49634031,
+      "other": 1716916,
       "precincts_reporting": 138736,
       "precincts_total": 172484
     },
@@ -290,19 +290,19 @@
           "incumbent": false,
           "name": "Scott Colom",
           "party": "Dem",
-          "votes": 468286
+          "votes": 468658
         },
         {
           "incumbent": true,
           "name": "Cindy Hyde-Smith",
           "party": "GOP",
-          "votes": 465634
+          "votes": 465964
         },
         {
           "incumbent": false,
           "name": "Ty Pinkins",
           "party": "Ind",
-          "votes": 20044
+          "votes": 20059
         }
       ],
       "precincts_reporting": 1736,
@@ -316,19 +316,19 @@
           "incumbent": false,
           "name": "Johnny Baucom",
           "party": "Lib",
-          "votes": 3346
+          "votes": 3348
         },
         {
           "incumbent": false,
           "name": "Cliff Johnson",
           "party": "Dem",
-          "votes": 96537
+          "votes": 96575
         },
         {
           "incumbent": true,
           "name": "Trent Kelly",
           "party": "GOP",
-          "votes": 139905
+          "votes": 139940
         }
       ],
       "precincts_reporting": 404,
@@ -368,19 +368,19 @@
           "incumbent": false,
           "name": "Michael A. Chiaradio",
           "party": "Dem",
-          "votes": 103883
+          "votes": 104169
         },
         {
           "incumbent": true,
           "name": "Michael Guest",
           "party": "GOP",
-          "votes": 144746
+          "votes": 145083
         },
         {
           "incumbent": false,
           "name": "Erik Kiehle",
           "party": "Lib",
-          "votes": 3157
+          "votes": 3169
         }
       ],
       "precincts_reporting": 454,
@@ -803,5 +803,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting — precincts still coming in.",
-  "updated_cst": "Nov 10, 2026, 7:41 PM CST"
+  "updated_cst": "Nov 10, 2026, 7:53 PM CST"
 }
