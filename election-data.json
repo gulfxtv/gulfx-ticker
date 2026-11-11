@@ -94,17 +94,17 @@
           {
             "name": "Carl Boyanton",
             "party": "Ind",
-            "votes": 1104
+            "votes": 1157
           },
           {
             "name": "Mike Ezell",
             "party": "GOP",
-            "votes": 21089
+            "votes": 22209
           },
           {
             "name": "Jeffrey Hulum III",
             "party": "Dem",
-            "votes": 13145
+            "votes": 14140
           }
         ],
         "precincts_reporting": 31
@@ -116,17 +116,17 @@
           {
             "name": "Scott Colom",
             "party": "Dem",
-            "votes": 14639
+            "votes": 15702
           },
           {
             "name": "Cindy Hyde-Smith",
             "party": "GOP",
-            "votes": 19830
+            "votes": 20869
           },
           {
             "name": "Ty Pinkins",
             "party": "Ind",
-            "votes": 963
+            "votes": 1034
           }
         ],
         "precincts_reporting": 31
@@ -271,9 +271,9 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 65641761,
-      "gop": 49684917,
-      "other": 1729554,
+      "dem": 65643854,
+      "gop": 49686875,
+      "other": 1729622,
       "precincts_reporting": 138704,
       "precincts_total": 172484
     },
@@ -284,33 +284,33 @@
   },
   "races": [
     {
-      "call": "Too Early to Call",
+      "call": "Scott Colom \u2014 AP call",
       "candidates": [
         {
           "incumbent": false,
           "name": "Scott Colom",
           "party": "Dem",
-          "votes": 472273
+          "votes": 473336
         },
         {
           "incumbent": true,
           "name": "Cindy Hyde-Smith",
           "party": "GOP",
-          "votes": 467628
+          "votes": 468667
         },
         {
           "incumbent": false,
           "name": "Ty Pinkins",
           "party": "Ind",
-          "votes": 20163
+          "votes": 20234
         }
       ],
       "precincts_reporting": 1736,
       "precincts_total": 1736,
-      "title": "U.S. Senate — Mississippi"
+      "title": "U.S. Senate \u2014 Mississippi"
     },
     {
-      "call": "Trent Kelly — AP call",
+      "call": "Trent Kelly \u2014 AP call",
       "candidates": [
         {
           "incumbent": false,
@@ -333,10 +333,10 @@
       ],
       "precincts_reporting": 404,
       "precincts_total": 404,
-      "title": "U.S. House — District 1"
+      "title": "U.S. House \u2014 District 1"
     },
     {
-      "call": "Bennie Thompson — AP call",
+      "call": "Bennie Thompson \u2014 AP call",
       "candidates": [
         {
           "incumbent": false,
@@ -359,10 +359,10 @@
       ],
       "precincts_reporting": 568,
       "precincts_total": 568,
-      "title": "U.S. House — District 2"
+      "title": "U.S. House \u2014 District 2"
     },
     {
-      "call": "Michael Guest — AP call",
+      "call": "Michael Guest \u2014 AP call",
       "candidates": [
         {
           "incumbent": false,
@@ -385,33 +385,33 @@
       ],
       "precincts_reporting": 454,
       "precincts_total": 455,
-      "title": "U.S. House — District 3"
+      "title": "U.S. House \u2014 District 3"
     },
     {
-      "call": "Mike Ezell — AP call",
+      "call": "Mike Ezell \u2014 AP call",
       "candidates": [
         {
           "incumbent": false,
           "name": "Carl Boyanton",
           "party": "Ind",
-          "votes": 6615
+          "votes": 6668
         },
         {
           "incumbent": true,
           "name": "Mike Ezell",
           "party": "GOP",
-          "votes": 131554
+          "votes": 132674
         },
         {
           "incumbent": false,
           "name": "Jeffrey Hulum III",
           "party": "Dem",
-          "votes": 77194
+          "votes": 78189
         }
       ],
       "precincts_reporting": 312,
       "precincts_total": 312,
-      "title": "U.S. House — District 4 (Gulf Coast)"
+      "title": "U.S. House \u2014 District 4 (Gulf Coast)"
     }
   ],
   "senate_map": [
@@ -603,7 +603,7 @@
       "winner": "Dem"
     },
     {
-      "call": "Too Early to Call",
+      "call": "Called",
       "holder": "GOP",
       "name": "Mississippi",
       "precincts_reporting": 1736,
@@ -611,7 +611,7 @@
       "race_id": 26692,
       "seat": "Class II",
       "state": "MS",
-      "winner": null
+      "winner": "Dem"
     },
     {
       "call": "Called",
@@ -802,6 +802,6 @@
     }
   ],
   "source": "Associated Press",
-  "status": "Results reporting — precincts still coming in.",
-  "updated_cst": "Nov 11, 2026, 4:54 PM CST"
+  "status": "Results reporting \u2014 precincts still coming in.",
+  "updated_cst": "Nov 11, 2026, 5:11 PM CST"
 }
