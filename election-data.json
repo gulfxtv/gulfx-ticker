@@ -271,8 +271,8 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 65641684,
-      "gop": 49684884,
+      "dem": 65641761,
+      "gop": 49684917,
       "other": 1729554,
       "precincts_reporting": 138704,
       "precincts_total": 172484
@@ -290,19 +290,19 @@
           "incumbent": false,
           "name": "Scott Colom",
           "party": "Dem",
-          "votes": 472188
+          "votes": 472273
         },
         {
           "incumbent": true,
           "name": "Cindy Hyde-Smith",
           "party": "GOP",
-          "votes": 467603
+          "votes": 467628
         },
         {
           "incumbent": false,
           "name": "Ty Pinkins",
           "party": "Ind",
-          "votes": 20162
+          "votes": 20163
         }
       ],
       "precincts_reporting": 1736,
@@ -322,13 +322,13 @@
           "incumbent": false,
           "name": "Cliff Johnson",
           "party": "Dem",
-          "votes": 96680
+          "votes": 96757
         },
         {
           "incumbent": true,
           "name": "Trent Kelly",
           "party": "GOP",
-          "votes": 139985
+          "votes": 140018
         }
       ],
       "precincts_reporting": 404,
@@ -803,5 +803,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting — precincts still coming in.",
-  "updated_cst": "Nov 11, 2026, 4:28 PM CST"
+  "updated_cst": "Nov 11, 2026, 4:39 PM CST"
 }
