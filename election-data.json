@@ -138,17 +138,17 @@
           {
             "name": "Carl Boyanton",
             "party": "Ind",
-            "votes": 660
+            "votes": 677
           },
           {
             "name": "Mike Ezell",
             "party": "GOP",
-            "votes": 12251
+            "votes": 12485
           },
           {
             "name": "Jeffrey Hulum III",
             "party": "Dem",
-            "votes": 3606
+            "votes": 3713
           }
         ],
         "precincts_reporting": 27
@@ -271,9 +271,9 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 65620677,
-      "gop": 49673004,
-      "other": 1728169,
+      "dem": 65620784,
+      "gop": 49673238,
+      "other": 1728186,
       "precincts_reporting": 138736,
       "precincts_total": 172484
     },
@@ -394,19 +394,19 @@
           "incumbent": false,
           "name": "Carl Boyanton",
           "party": "Ind",
-          "votes": 6598
+          "votes": 6615
         },
         {
           "incumbent": true,
           "name": "Mike Ezell",
           "party": "GOP",
-          "votes": 131320
+          "votes": 131554
         },
         {
           "incumbent": false,
           "name": "Jeffrey Hulum III",
           "party": "Dem",
-          "votes": 77087
+          "votes": 77194
         }
       ],
       "precincts_reporting": 312,
@@ -803,5 +803,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting — precincts still coming in.",
-  "updated_cst": "Nov 11, 2026, 7:08 AM CST"
+  "updated_cst": "Nov 11, 2026, 7:24 AM CST"
 }
