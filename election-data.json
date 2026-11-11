@@ -271,9 +271,9 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 65621922,
-      "gop": 49673792,
-      "other": 1728233,
+      "dem": 65624541,
+      "gop": 49674853,
+      "other": 1728394,
       "precincts_reporting": 138736,
       "precincts_total": 172484
     },
@@ -661,7 +661,7 @@
       "call": "Called",
       "holder": "Dem",
       "name": "New Jersey",
-      "precincts_reporting": 6314,
+      "precincts_reporting": 6317,
       "precincts_total": 6508,
       "race_id": 31296,
       "seat": "Class II",
@@ -803,5 +803,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting \u2014 precincts still coming in.",
-  "updated_cst": "Nov 11, 2026, 9:13 AM CST"
+  "updated_cst": "Nov 11, 2026, 9:24 AM CST"
 }
