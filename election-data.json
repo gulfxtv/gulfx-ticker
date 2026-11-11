@@ -271,9 +271,9 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 65632857,
-      "gop": 49678000,
-      "other": 1729062,
+      "dem": 65635697,
+      "gop": 49680236,
+      "other": 1729326,
       "precincts_reporting": 138704,
       "precincts_total": 172484
     },
@@ -639,7 +639,7 @@
       "call": "Called",
       "holder": "GOP",
       "name": "Nebraska",
-      "precincts_reporting": 1284,
+      "precincts_reporting": 1289,
       "precincts_total": 1322,
       "race_id": 28594,
       "seat": "Class II",
@@ -803,5 +803,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting — precincts still coming in.",
-  "updated_cst": "Nov 11, 2026, 11:54 AM CST"
+  "updated_cst": "Nov 11, 2026, 12:10 PM CST"
 }
