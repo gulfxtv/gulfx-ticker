@@ -271,9 +271,9 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 65630668,
-      "gop": 49676800,
-      "other": 1728997,
+      "dem": 65632228,
+      "gop": 49677374,
+      "other": 1729001,
       "precincts_reporting": 138733,
       "precincts_total": 172484
     },
@@ -290,19 +290,19 @@
           "incumbent": false,
           "name": "Scott Colom",
           "party": "Dem",
-          "votes": 470133
+          "votes": 470206
         },
         {
           "incumbent": true,
           "name": "Cindy Hyde-Smith",
           "party": "GOP",
-          "votes": 467092
+          "votes": 467097
         },
         {
           "incumbent": false,
           "name": "Ty Pinkins",
           "party": "Ind",
-          "votes": 20118
+          "votes": 20120
         }
       ],
       "precincts_reporting": 1736,
@@ -322,13 +322,13 @@
           "incumbent": false,
           "name": "Cliff Johnson",
           "party": "Dem",
-          "votes": 96580
+          "votes": 96644
         },
         {
           "incumbent": true,
           "name": "Trent Kelly",
           "party": "GOP",
-          "votes": 139941
+          "votes": 139953
         }
       ],
       "precincts_reporting": 404,
@@ -661,7 +661,7 @@
       "call": "Called",
       "holder": "Dem",
       "name": "New Jersey",
-      "precincts_reporting": 6344,
+      "precincts_reporting": 6347,
       "precincts_total": 6508,
       "race_id": 31296,
       "seat": "Class II",
@@ -803,5 +803,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting \u2014 precincts still coming in.",
-  "updated_cst": "Nov 11, 2026, 10:53 AM CST"
+  "updated_cst": "Nov 11, 2026, 11:09 AM CST"
 }
