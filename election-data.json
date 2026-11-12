@@ -182,17 +182,17 @@
           {
             "name": "Carl Boyanton",
             "party": "Ind",
-            "votes": 189
+            "votes": 191
           },
           {
             "name": "Mike Ezell",
             "party": "GOP",
-            "votes": 3933
+            "votes": 3981
           },
           {
             "name": "Jeffrey Hulum III",
             "party": "Dem",
-            "votes": 1388
+            "votes": 1431
           }
         ],
         "precincts_reporting": 15
@@ -204,17 +204,17 @@
           {
             "name": "Scott Colom",
             "party": "Dem",
-            "votes": 1574
+            "votes": 1624
           },
           {
             "name": "Cindy Hyde-Smith",
             "party": "GOP",
-            "votes": 3748
+            "votes": 3790
           },
           {
             "name": "Ty Pinkins",
             "party": "Ind",
-            "votes": 186
+            "votes": 187
           }
         ],
         "precincts_reporting": 15
@@ -271,9 +271,9 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 65841517,
-      "gop": 49771850,
-      "other": 1732215,
+      "dem": 65841750,
+      "gop": 49772167,
+      "other": 1732217,
       "precincts_reporting": 139408,
       "precincts_total": 172484
     },
@@ -290,19 +290,19 @@
           "incumbent": false,
           "name": "Scott Colom",
           "party": "Dem",
-          "votes": 474754
+          "votes": 474804
         },
         {
           "incumbent": true,
           "name": "Cindy Hyde-Smith",
           "party": "GOP",
-          "votes": 469157
+          "votes": 469199
         },
         {
           "incumbent": false,
           "name": "Ty Pinkins",
           "party": "Ind",
-          "votes": 20275
+          "votes": 20276
         }
       ],
       "precincts_reporting": 1736,
@@ -394,19 +394,19 @@
           "incumbent": false,
           "name": "Carl Boyanton",
           "party": "Ind",
-          "votes": 6668
+          "votes": 6670
         },
         {
           "incumbent": true,
           "name": "Mike Ezell",
           "party": "GOP",
-          "votes": 132674
+          "votes": 132722
         },
         {
           "incumbent": false,
           "name": "Jeffrey Hulum III",
           "party": "Dem",
-          "votes": 78189
+          "votes": 78232
         }
       ],
       "precincts_reporting": 312,
@@ -803,5 +803,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting \u2014 precincts still coming in.",
-  "updated_cst": "Nov 12, 2026, 11:23 AM CST"
+  "updated_cst": "Nov 12, 2026, 11:41 AM CST"
 }
