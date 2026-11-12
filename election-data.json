@@ -6,17 +6,17 @@
           {
             "name": "Carl Boyanton",
             "party": "Ind",
-            "votes": 897
+            "votes": 899
           },
           {
             "name": "Mike Ezell",
             "party": "GOP",
-            "votes": 11961
+            "votes": 11979
           },
           {
             "name": "Jeffrey Hulum III",
             "party": "Dem",
-            "votes": 3834
+            "votes": 3845
           }
         ],
         "precincts_reporting": 26
@@ -28,17 +28,17 @@
           {
             "name": "Scott Colom",
             "party": "Dem",
-            "votes": 4538
+            "votes": 4553
           },
           {
             "name": "Cindy Hyde-Smith",
             "party": "GOP",
-            "votes": 11441
+            "votes": 11458
           },
           {
             "name": "Ty Pinkins",
             "party": "Ind",
-            "votes": 753
+            "votes": 754
           }
         ],
         "precincts_reporting": 26
@@ -50,17 +50,17 @@
           {
             "name": "Carl Boyanton",
             "party": "Ind",
-            "votes": 1675
+            "votes": 1704
           },
           {
             "name": "Mike Ezell",
             "party": "GOP",
-            "votes": 31313
+            "votes": 31746
           },
           {
             "name": "Jeffrey Hulum III",
             "party": "Dem",
-            "votes": 25792
+            "votes": 26426
           }
         ],
         "precincts_reporting": 49
@@ -72,17 +72,17 @@
           {
             "name": "Scott Colom",
             "party": "Dem",
-            "votes": 27470
+            "votes": 28135
           },
           {
             "name": "Cindy Hyde-Smith",
             "party": "GOP",
-            "votes": 29638
+            "votes": 30046
           },
           {
             "name": "Ty Pinkins",
             "party": "Ind",
-            "votes": 1742
+            "votes": 1774
           }
         ],
         "precincts_reporting": 49
@@ -271,10 +271,10 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 65908817,
-      "gop": 49794349,
-      "other": 1733812,
-      "precincts_reporting": 139495,
+      "dem": 65911221,
+      "gop": 49795636,
+      "other": 1733898,
+      "precincts_reporting": 139510,
       "precincts_total": 172484
     },
     "senate_called": {
@@ -290,19 +290,19 @@
           "incumbent": false,
           "name": "Scott Colom",
           "party": "Dem",
-          "votes": 475440
+          "votes": 476120
         },
         {
           "incumbent": true,
           "name": "Cindy Hyde-Smith",
           "party": "GOP",
-          "votes": 469754
+          "votes": 470179
         },
         {
           "incumbent": false,
           "name": "Ty Pinkins",
           "party": "Ind",
-          "votes": 20316
+          "votes": 20349
         }
       ],
       "precincts_reporting": 1736,
@@ -394,19 +394,19 @@
           "incumbent": false,
           "name": "Carl Boyanton",
           "party": "Ind",
-          "votes": 6671
+          "votes": 6702
         },
         {
           "incumbent": true,
           "name": "Mike Ezell",
           "party": "GOP",
-          "votes": 132725
+          "votes": 133176
         },
         {
           "incumbent": false,
           "name": "Jeffrey Hulum III",
           "party": "Dem",
-          "votes": 78241
+          "votes": 78886
         }
       ],
       "precincts_reporting": 312,
@@ -803,5 +803,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting \u2014 precincts still coming in.",
-  "updated_cst": "Nov 12, 2026, 4:54 PM CST"
+  "updated_cst": "Nov 12, 2026, 5:00 PM CST"
 }
