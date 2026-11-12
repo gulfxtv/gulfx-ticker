@@ -271,10 +271,10 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 65816188,
-      "gop": 49761119,
-      "other": 1731834,
-      "precincts_reporting": 139039,
+      "dem": 65823704,
+      "gop": 49767631,
+      "other": 1731835,
+      "precincts_reporting": 139427,
       "precincts_total": 172484
     },
     "senate_called": {
@@ -284,33 +284,33 @@
   },
   "races": [
     {
-      "call": "Scott Colom \u2014 AP call",
+      "call": "Scott Colom — AP call",
       "candidates": [
         {
           "incumbent": false,
           "name": "Scott Colom",
           "party": "Dem",
-          "votes": 474499
+          "votes": 474549
         },
         {
           "incumbent": true,
           "name": "Cindy Hyde-Smith",
           "party": "GOP",
-          "votes": 469015
+          "votes": 469039
         },
         {
           "incumbent": false,
           "name": "Ty Pinkins",
           "party": "Ind",
-          "votes": 20269
+          "votes": 20270
         }
       ],
       "precincts_reporting": 1736,
       "precincts_total": 1736,
-      "title": "U.S. Senate \u2014 Mississippi"
+      "title": "U.S. Senate — Mississippi"
     },
     {
-      "call": "Trent Kelly \u2014 AP call",
+      "call": "Trent Kelly — AP call",
       "candidates": [
         {
           "incumbent": false,
@@ -333,10 +333,10 @@
       ],
       "precincts_reporting": 404,
       "precincts_total": 404,
-      "title": "U.S. House \u2014 District 1"
+      "title": "U.S. House — District 1"
     },
     {
-      "call": "Bennie Thompson \u2014 AP call",
+      "call": "Bennie Thompson — AP call",
       "candidates": [
         {
           "incumbent": false,
@@ -359,36 +359,36 @@
       ],
       "precincts_reporting": 568,
       "precincts_total": 568,
-      "title": "U.S. House \u2014 District 2"
+      "title": "U.S. House — District 2"
     },
     {
-      "call": "Michael Guest \u2014 AP call",
+      "call": "Michael Guest — AP call",
       "candidates": [
         {
           "incumbent": false,
           "name": "Michael A. Chiaradio",
           "party": "Dem",
-          "votes": 104903
+          "votes": 104951
         },
         {
           "incumbent": true,
           "name": "Michael Guest",
           "party": "GOP",
-          "votes": 145910
+          "votes": 145935
         },
         {
           "incumbent": false,
           "name": "Erik Kiehle",
           "party": "Lib",
-          "votes": 3183
+          "votes": 3184
         }
       ],
       "precincts_reporting": 454,
       "precincts_total": 455,
-      "title": "U.S. House \u2014 District 3"
+      "title": "U.S. House — District 3"
     },
     {
-      "call": "Mike Ezell \u2014 AP call",
+      "call": "Mike Ezell — AP call",
       "candidates": [
         {
           "incumbent": false,
@@ -411,7 +411,7 @@
       ],
       "precincts_reporting": 312,
       "precincts_total": 312,
-      "title": "U.S. House \u2014 District 4 (Gulf Coast)"
+      "title": "U.S. House — District 4 (Gulf Coast)"
     }
   ],
   "senate_map": [
@@ -802,6 +802,6 @@
     }
   ],
   "source": "Associated Press",
-  "status": "Results reporting \u2014 precincts still coming in.",
-  "updated_cst": "Nov 12, 2026, 8:26 AM CST"
+  "status": "Results reporting — precincts still coming in.",
+  "updated_cst": "Nov 12, 2026, 8:39 AM CST"
 }
