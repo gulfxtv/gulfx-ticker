@@ -271,8 +271,8 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 65908784,
-      "gop": 49794300,
+      "dem": 65908809,
+      "gop": 49794311,
       "other": 1733808,
       "precincts_reporting": 139518,
       "precincts_total": 172484
@@ -284,33 +284,33 @@
   },
   "races": [
     {
-      "call": "Scott Colom — AP call",
+      "call": "Scott Colom \u2014 AP call",
       "candidates": [
         {
           "incumbent": false,
           "name": "Scott Colom",
           "party": "Dem",
-          "votes": 474841
+          "votes": 475440
         },
         {
           "incumbent": true,
           "name": "Cindy Hyde-Smith",
           "party": "GOP",
-          "votes": 469210
+          "votes": 469754
         },
         {
           "incumbent": false,
           "name": "Ty Pinkins",
           "party": "Ind",
-          "votes": 20277
+          "votes": 20316
         }
       ],
       "precincts_reporting": 1736,
       "precincts_total": 1736,
-      "title": "U.S. Senate — Mississippi"
+      "title": "U.S. Senate \u2014 Mississippi"
     },
     {
-      "call": "Trent Kelly — AP call",
+      "call": "Trent Kelly \u2014 AP call",
       "candidates": [
         {
           "incumbent": false,
@@ -322,27 +322,27 @@
           "incumbent": false,
           "name": "Cliff Johnson",
           "party": "Dem",
-          "votes": 97906
+          "votes": 97930
         },
         {
           "incumbent": true,
           "name": "Trent Kelly",
           "party": "GOP",
-          "votes": 140422
+          "votes": 140432
         }
       ],
       "precincts_reporting": 404,
       "precincts_total": 404,
-      "title": "U.S. House — District 1"
+      "title": "U.S. House \u2014 District 1"
     },
     {
-      "call": "Bennie Thompson — AP call",
+      "call": "Bennie Thompson \u2014 AP call",
       "candidates": [
         {
           "incumbent": false,
           "name": "Ron Eller",
           "party": "GOP",
-          "votes": 73543
+          "votes": 73544
         },
         {
           "incumbent": false,
@@ -359,36 +359,36 @@
       ],
       "precincts_reporting": 568,
       "precincts_total": 568,
-      "title": "U.S. House — District 2"
+      "title": "U.S. House \u2014 District 2"
     },
     {
-      "call": "Michael Guest — AP call",
+      "call": "Michael Guest \u2014 AP call",
       "candidates": [
         {
           "incumbent": false,
           "name": "Michael A. Chiaradio",
           "party": "Dem",
-          "votes": 105146
+          "votes": 105685
         },
         {
           "incumbent": true,
           "name": "Michael Guest",
           "party": "GOP",
-          "votes": 146041
+          "votes": 146627
         },
         {
           "incumbent": false,
           "name": "Erik Kiehle",
           "party": "Lib",
-          "votes": 3187
+          "votes": 3205
         }
       ],
       "precincts_reporting": 454,
       "precincts_total": 455,
-      "title": "U.S. House — District 3"
+      "title": "U.S. House \u2014 District 3"
     },
     {
-      "call": "Mike Ezell — AP call",
+      "call": "Mike Ezell \u2014 AP call",
       "candidates": [
         {
           "incumbent": false,
@@ -400,18 +400,18 @@
           "incumbent": true,
           "name": "Mike Ezell",
           "party": "GOP",
-          "votes": 132723
+          "votes": 132725
         },
         {
           "incumbent": false,
           "name": "Jeffrey Hulum III",
           "party": "Dem",
-          "votes": 78236
+          "votes": 78241
         }
       ],
       "precincts_reporting": 312,
       "precincts_total": 312,
-      "title": "U.S. House — District 4 (Gulf Coast)"
+      "title": "U.S. House \u2014 District 4 (Gulf Coast)"
     }
   ],
   "senate_map": [
@@ -802,6 +802,6 @@
     }
   ],
   "source": "Associated Press",
-  "status": "Results reporting — precincts still coming in.",
-  "updated_cst": "Nov 12, 2026, 4:15 PM CST"
+  "status": "Results reporting \u2014 precincts still coming in.",
+  "updated_cst": "Nov 12, 2026, 4:24 PM CST"
 }
