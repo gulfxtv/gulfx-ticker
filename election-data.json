@@ -271,10 +271,10 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 66181898,
-      "gop": 49937199,
-      "other": 1738472,
-      "precincts_reporting": 139783,
+      "dem": 66183376,
+      "gop": 49938490,
+      "other": 1738557,
+      "precincts_reporting": 139884,
       "precincts_total": 172484
     },
     "senate_called": {
@@ -284,33 +284,33 @@
   },
   "races": [
     {
-      "call": "Scott Colom \u2014 AP call",
+      "call": "Scott Colom — AP call",
       "candidates": [
         {
           "incumbent": false,
           "name": "Scott Colom",
           "party": "Dem",
-          "votes": 478576
+          "votes": 479035
         },
         {
           "incumbent": true,
           "name": "Cindy Hyde-Smith",
           "party": "GOP",
-          "votes": 471342
+          "votes": 471466
         },
         {
           "incumbent": false,
           "name": "Ty Pinkins",
           "party": "Ind",
-          "votes": 20402
+          "votes": 20417
         }
       ],
       "precincts_reporting": 1736,
       "precincts_total": 1736,
-      "title": "U.S. Senate \u2014 Mississippi"
+      "title": "U.S. Senate — Mississippi"
     },
     {
-      "call": "Trent Kelly \u2014 AP call",
+      "call": "Trent Kelly — AP call",
       "candidates": [
         {
           "incumbent": false,
@@ -333,36 +333,36 @@
       ],
       "precincts_reporting": 404,
       "precincts_total": 404,
-      "title": "U.S. House \u2014 District 1"
+      "title": "U.S. House — District 1"
     },
     {
-      "call": "Bennie Thompson \u2014 AP call",
+      "call": "Bennie Thompson — AP call",
       "candidates": [
         {
           "incumbent": false,
           "name": "Ron Eller",
           "party": "GOP",
-          "votes": 73800
+          "votes": 73927
         },
         {
           "incumbent": false,
           "name": "Bennie Foster",
           "party": "Ind",
-          "votes": 5990
+          "votes": 6010
         },
         {
           "incumbent": true,
           "name": "Bennie G. Thompson",
           "party": "Dem",
-          "votes": 168393
+          "votes": 168846
         }
       ],
       "precincts_reporting": 568,
       "precincts_total": 568,
-      "title": "U.S. House \u2014 District 2"
+      "title": "U.S. House — District 2"
     },
     {
-      "call": "Michael Guest \u2014 AP call",
+      "call": "Michael Guest — AP call",
       "candidates": [
         {
           "incumbent": false,
@@ -385,10 +385,10 @@
       ],
       "precincts_reporting": 454,
       "precincts_total": 455,
-      "title": "U.S. House \u2014 District 3"
+      "title": "U.S. House — District 3"
     },
     {
-      "call": "Mike Ezell \u2014 AP call",
+      "call": "Mike Ezell — AP call",
       "candidates": [
         {
           "incumbent": false,
@@ -411,7 +411,7 @@
       ],
       "precincts_reporting": 312,
       "precincts_total": 312,
-      "title": "U.S. House \u2014 District 4 (Gulf Coast)"
+      "title": "U.S. House — District 4 (Gulf Coast)"
     }
   ],
   "senate_map": [
@@ -452,7 +452,7 @@
       "call": "Called",
       "holder": "Dem",
       "name": "Colorado",
-      "precincts_reporting": 4162,
+      "precincts_reporting": 4163,
       "precincts_total": 4230,
       "race_id": 7168,
       "seat": "Class II",
@@ -683,7 +683,7 @@
       "call": "Called",
       "holder": "GOP",
       "name": "Ohio",
-      "precincts_reporting": 8639,
+      "precincts_reporting": 8640,
       "precincts_total": 8834,
       "race_id": 84327,
       "seat": "Class III special",
@@ -802,6 +802,6 @@
     }
   ],
   "source": "Associated Press",
-  "status": "Results reporting \u2014 precincts still coming in.",
-  "updated_cst": "Nov 13, 2026, 12:54 PM CST"
+  "status": "Results reporting — precincts still coming in.",
+  "updated_cst": "Nov 13, 2026, 1:08 PM CST"
 }
