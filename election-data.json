@@ -271,9 +271,9 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 66163343,
-      "gop": 49926933,
-      "other": 1734432,
+      "dem": 66163813,
+      "gop": 49928850,
+      "other": 1737715,
       "precincts_reporting": 139992,
       "precincts_total": 172484
     },
@@ -419,7 +419,7 @@
       "call": "Too Early to Call",
       "holder": "GOP",
       "name": "Alaska",
-      "precincts_reporting": 347,
+      "precincts_reporting": 355,
       "precincts_total": 403,
       "race_id": 3079,
       "seat": "Class II",
@@ -803,5 +803,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting — precincts still coming in.",
-  "updated_cst": "Nov 12, 2026, 9:56 PM CST"
+  "updated_cst": "Nov 12, 2026, 10:07 PM CST"
 }
