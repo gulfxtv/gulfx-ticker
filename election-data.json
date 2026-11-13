@@ -271,9 +271,9 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 66247266,
-      "gop": 49953869,
-      "other": 1740186,
+      "dem": 66248605,
+      "gop": 49956556,
+      "other": 1740199,
       "precincts_reporting": 141376,
       "precincts_total": 172484
     },
@@ -316,19 +316,19 @@
           "incumbent": false,
           "name": "Johnny Baucom",
           "party": "Lib",
-          "votes": 3404
+          "votes": 3409
         },
         {
           "incumbent": false,
           "name": "Cliff Johnson",
           "party": "Dem",
-          "votes": 99040
+          "votes": 99120
         },
         {
           "incumbent": true,
           "name": "Trent Kelly",
           "party": "GOP",
-          "votes": 141229
+          "votes": 141348
         }
       ],
       "precincts_reporting": 404,
@@ -803,5 +803,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting \u2014 precincts still coming in.",
-  "updated_cst": "Nov 13, 2026, 3:29 PM CST"
+  "updated_cst": "Nov 13, 2026, 3:38 PM CST"
 }
