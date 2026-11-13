@@ -271,10 +271,10 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 66187466,
-      "gop": 49940708,
-      "other": 1738804,
-      "precincts_reporting": 140371,
+      "dem": 66193643,
+      "gop": 49941922,
+      "other": 1739095,
+      "precincts_reporting": 140421,
       "precincts_total": 172484
     },
     "senate_called": {
@@ -290,13 +290,13 @@
           "incumbent": false,
           "name": "Scott Colom",
           "party": "Dem",
-          "votes": 479035
+          "votes": 479059
         },
         {
           "incumbent": true,
           "name": "Cindy Hyde-Smith",
           "party": "GOP",
-          "votes": 471466
+          "votes": 471484
         },
         {
           "incumbent": false,
@@ -368,13 +368,13 @@
           "incumbent": false,
           "name": "Michael A. Chiaradio",
           "party": "Dem",
-          "votes": 106027
+          "votes": 106050
         },
         {
           "incumbent": true,
           "name": "Michael Guest",
           "party": "GOP",
-          "votes": 146878
+          "votes": 146897
         },
         {
           "incumbent": false,
@@ -452,7 +452,7 @@
       "call": "Called",
       "holder": "Dem",
       "name": "Colorado",
-      "precincts_reporting": 4176,
+      "precincts_reporting": 4180,
       "precincts_total": 4230,
       "race_id": 7168,
       "seat": "Class II",
@@ -683,7 +683,7 @@
       "call": "Called",
       "holder": "GOP",
       "name": "Ohio",
-      "precincts_reporting": 8640,
+      "precincts_reporting": 8641,
       "precincts_total": 8834,
       "race_id": 84327,
       "seat": "Class III special",
@@ -803,5 +803,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting \u2014 precincts still coming in.",
-  "updated_cst": "Nov 13, 2026, 1:53 PM CST"
+  "updated_cst": "Nov 13, 2026, 2:10 PM CST"
 }
