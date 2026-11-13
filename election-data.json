@@ -271,9 +271,9 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 66244025,
-      "gop": 49952434,
-      "other": 1739998,
+      "dem": 66244675,
+      "gop": 49952632,
+      "other": 1740008,
       "precincts_reporting": 141347,
       "precincts_total": 172484
     },
@@ -284,33 +284,33 @@
   },
   "races": [
     {
-      "call": "Scott Colom \u2014 AP call",
+      "call": "Scott Colom — AP call",
       "candidates": [
         {
           "incumbent": false,
           "name": "Scott Colom",
           "party": "Dem",
-          "votes": 478881
+          "votes": 478970
         },
         {
           "incumbent": true,
           "name": "Cindy Hyde-Smith",
           "party": "GOP",
-          "votes": 471403
+          "votes": 471450
         },
         {
           "incumbent": false,
           "name": "Ty Pinkins",
           "party": "Ind",
-          "votes": 20414
+          "votes": 20417
         }
       ],
       "precincts_reporting": 1736,
       "precincts_total": 1736,
-      "title": "U.S. Senate \u2014 Mississippi"
+      "title": "U.S. Senate — Mississippi"
     },
     {
-      "call": "Trent Kelly \u2014 AP call",
+      "call": "Trent Kelly — AP call",
       "candidates": [
         {
           "incumbent": false,
@@ -333,36 +333,36 @@
       ],
       "precincts_reporting": 404,
       "precincts_total": 404,
-      "title": "U.S. House \u2014 District 1"
+      "title": "U.S. House — District 1"
     },
     {
-      "call": "Bennie Thompson \u2014 AP call",
+      "call": "Bennie Thompson — AP call",
       "candidates": [
         {
           "incumbent": false,
           "name": "Ron Eller",
           "party": "GOP",
-          "votes": 73852
+          "votes": 73896
         },
         {
           "incumbent": false,
           "name": "Bennie Foster",
           "party": "Ind",
-          "votes": 6007
+          "votes": 6010
         },
         {
           "incumbent": true,
           "name": "Bennie G. Thompson",
           "party": "Dem",
-          "votes": 168660
+          "votes": 168751
         }
       ],
       "precincts_reporting": 568,
       "precincts_total": 568,
-      "title": "U.S. House \u2014 District 2"
+      "title": "U.S. House — District 2"
     },
     {
-      "call": "Michael Guest \u2014 AP call",
+      "call": "Michael Guest — AP call",
       "candidates": [
         {
           "incumbent": false,
@@ -385,10 +385,10 @@
       ],
       "precincts_reporting": 454,
       "precincts_total": 455,
-      "title": "U.S. House \u2014 District 3"
+      "title": "U.S. House — District 3"
     },
     {
-      "call": "Mike Ezell \u2014 AP call",
+      "call": "Mike Ezell — AP call",
       "candidates": [
         {
           "incumbent": false,
@@ -411,7 +411,7 @@
       ],
       "precincts_reporting": 312,
       "precincts_total": 312,
-      "title": "U.S. House \u2014 District 4 (Gulf Coast)"
+      "title": "U.S. House — District 4 (Gulf Coast)"
     }
   ],
   "senate_map": [
@@ -802,6 +802,6 @@
     }
   ],
   "source": "Associated Press",
-  "status": "Results reporting \u2014 precincts still coming in.",
-  "updated_cst": "Nov 13, 2026, 2:53 PM CST"
+  "status": "Results reporting — precincts still coming in.",
+  "updated_cst": "Nov 13, 2026, 3:08 PM CST"
 }
