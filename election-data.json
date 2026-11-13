@@ -271,9 +271,9 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 66167565,
-      "gop": 49931028,
-      "other": 1737764,
+      "dem": 66167570,
+      "gop": 49931043,
+      "other": 1737765,
       "precincts_reporting": 139992,
       "precincts_total": 172484
     },
@@ -803,5 +803,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting \u2014 precincts still coming in.",
-  "updated_cst": "Nov 13, 2026, 9:08 AM CST"
+  "updated_cst": "Nov 13, 2026, 9:24 AM CST"
 }
