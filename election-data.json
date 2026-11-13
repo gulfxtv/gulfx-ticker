@@ -271,10 +271,10 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 66249399,
-      "gop": 49956941,
-      "other": 1740263,
-      "precincts_reporting": 141931,
+      "dem": 66251029,
+      "gop": 49957492,
+      "other": 1740336,
+      "precincts_reporting": 142484,
       "precincts_total": 172484
     },
     "senate_called": {
@@ -639,7 +639,7 @@
       "call": "Called",
       "holder": "GOP",
       "name": "Nebraska",
-      "precincts_reporting": 1291,
+      "precincts_reporting": 1292,
       "precincts_total": 1322,
       "race_id": 28594,
       "seat": "Class II",
@@ -661,7 +661,7 @@
       "call": "Called",
       "holder": "Dem",
       "name": "New Jersey",
-      "precincts_reporting": 6380,
+      "precincts_reporting": 6385,
       "precincts_total": 6508,
       "race_id": 31296,
       "seat": "Class II",
@@ -803,5 +803,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting \u2014 precincts still coming in.",
-  "updated_cst": "Nov 13, 2026, 4:09 PM CST"
+  "updated_cst": "Nov 13, 2026, 4:23 PM CST"
 }
