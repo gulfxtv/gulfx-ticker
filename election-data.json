@@ -271,10 +271,10 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 66048026,
-      "gop": 49860964,
+      "dem": 66048029,
+      "gop": 49860967,
       "other": 1734357,
-      "precincts_reporting": 139994,
+      "precincts_reporting": 139992,
       "precincts_total": 172484
     },
     "senate_called": {
@@ -529,7 +529,7 @@
       "call": "Called",
       "holder": "GOP",
       "name": "Kansas",
-      "precincts_reporting": 4090,
+      "precincts_reporting": 4088,
       "precincts_total": 4168,
       "race_id": 17585,
       "seat": "Class II",
@@ -803,5 +803,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting \u2014 precincts still coming in.",
-  "updated_cst": "Nov 12, 2026, 6:34 PM CST"
+  "updated_cst": "Nov 12, 2026, 6:41 PM CST"
 }
