@@ -271,10 +271,10 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 66193643,
-      "gop": 49941922,
-      "other": 1739095,
-      "precincts_reporting": 140421,
+      "dem": 66194057,
+      "gop": 49941911,
+      "other": 1739133,
+      "precincts_reporting": 140910,
       "precincts_total": 172484
     },
     "senate_called": {
@@ -394,19 +394,19 @@
           "incumbent": false,
           "name": "Carl Boyanton",
           "party": "Ind",
-          "votes": 6710
+          "votes": 6726
         },
         {
           "incumbent": true,
           "name": "Mike Ezell",
           "party": "GOP",
-          "votes": 133371
+          "votes": 133614
         },
         {
           "incumbent": false,
           "name": "Jeffrey Hulum III",
           "party": "Dem",
-          "votes": 79061
+          "votes": 79366
         }
       ],
       "precincts_reporting": 312,
@@ -452,7 +452,7 @@
       "call": "Called",
       "holder": "Dem",
       "name": "Colorado",
-      "precincts_reporting": 4180,
+      "precincts_reporting": 4187,
       "precincts_total": 4230,
       "race_id": 7168,
       "seat": "Class II",
@@ -803,5 +803,5 @@
   ],
   "source": "Associated Press",
   "status": "Results reporting \u2014 precincts still coming in.",
-  "updated_cst": "Nov 13, 2026, 2:10 PM CST"
+  "updated_cst": "Nov 13, 2026, 2:23 PM CST"
 }
