@@ -271,9 +271,9 @@
       "gop": 165
     },
     "house_votes": {
-      "dem": 66452374,
-      "gop": 50018277,
-      "other": 1753215,
+      "dem": 66452517,
+      "gop": 50018411,
+      "other": 1753202,
       "precincts_reporting": 142966,
       "precincts_total": 172484
     },
@@ -284,111 +284,111 @@
   },
   "races": [
     {
-      "call": "Scott Colom — AP call",
+      "call": "Scott Colom \u2014 AP call",
       "candidates": [
         {
           "incumbent": false,
           "name": "Scott Colom",
           "party": "Dem",
-          "votes": 479247
+          "votes": 479401
         },
         {
           "incumbent": true,
           "name": "Cindy Hyde-Smith",
           "party": "GOP",
-          "votes": 471689
+          "votes": 471815
         },
         {
           "incumbent": false,
           "name": "Ty Pinkins",
           "party": "Ind",
-          "votes": 20433
+          "votes": 20439
         }
       ],
       "precincts_reporting": 1736,
       "precincts_total": 1736,
-      "title": "U.S. Senate — Mississippi"
+      "title": "U.S. Senate \u2014 Mississippi"
     },
     {
-      "call": "Trent Kelly — AP call",
+      "call": "Trent Kelly \u2014 AP call",
       "candidates": [
         {
           "incumbent": false,
           "name": "Johnny Baucom",
           "party": "Lib",
-          "votes": 3409
+          "votes": 3390
         },
         {
           "incumbent": false,
           "name": "Cliff Johnson",
           "party": "Dem",
-          "votes": 99121
+          "votes": 99147
         },
         {
           "incumbent": true,
           "name": "Trent Kelly",
           "party": "GOP",
-          "votes": 141350
+          "votes": 141399
         }
       ],
       "precincts_reporting": 404,
       "precincts_total": 404,
-      "title": "U.S. House — District 1"
+      "title": "U.S. House \u2014 District 1"
     },
     {
-      "call": "Bennie Thompson — AP call",
+      "call": "Bennie Thompson \u2014 AP call",
       "candidates": [
         {
           "incumbent": false,
           "name": "Ron Eller",
           "party": "GOP",
-          "votes": 73897
+          "votes": 73898
         },
         {
           "incumbent": false,
           "name": "Bennie Foster",
           "party": "Ind",
-          "votes": 6010
+          "votes": 6011
         },
         {
           "incumbent": true,
           "name": "Bennie G. Thompson",
           "party": "Dem",
-          "votes": 168757
+          "votes": 168760
         }
       ],
       "precincts_reporting": 568,
       "precincts_total": 568,
-      "title": "U.S. House — District 2"
+      "title": "U.S. House \u2014 District 2"
     },
     {
-      "call": "Michael Guest — AP call",
+      "call": "Michael Guest \u2014 AP call",
       "candidates": [
         {
           "incumbent": false,
           "name": "Michael A. Chiaradio",
           "party": "Dem",
-          "votes": 106092
+          "votes": 106206
         },
         {
           "incumbent": true,
           "name": "Michael Guest",
           "party": "GOP",
-          "votes": 146920
+          "votes": 147004
         },
         {
           "incumbent": false,
           "name": "Erik Kiehle",
           "party": "Lib",
-          "votes": 3213
+          "votes": 3218
         }
       ],
       "precincts_reporting": 454,
       "precincts_total": 455,
-      "title": "U.S. House — District 3"
+      "title": "U.S. House \u2014 District 3"
     },
     {
-      "call": "Mike Ezell — AP call",
+      "call": "Mike Ezell \u2014 AP call",
       "candidates": [
         {
           "incumbent": false,
@@ -411,7 +411,7 @@
       ],
       "precincts_reporting": 312,
       "precincts_total": 312,
-      "title": "U.S. House — District 4 (Gulf Coast)"
+      "title": "U.S. House \u2014 District 4 (Gulf Coast)"
     }
   ],
   "senate_map": [
@@ -802,6 +802,6 @@
     }
   ],
   "source": "Associated Press",
-  "status": "Results reporting — precincts still coming in.",
-  "updated_cst": "Nov 13, 2026, 7:23 PM CST"
+  "status": "Results reporting \u2014 precincts still coming in.",
+  "updated_cst": "Nov 13, 2026, 7:40 PM CST"
 }
